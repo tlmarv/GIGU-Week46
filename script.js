@@ -19,6 +19,7 @@ let correctAnswers = 0;
 let incorrectAnswers = 0;
 let answeredQuestions = JSON.parse(sessionStorage.getItem("answeredQuestions")) || new Array(quizData.length).fill(false);
 let explanationsShown = JSON.parse(sessionStorage.getItem("explanationsShown")) || new Array(quizData.length).fill(false);
+let selectedAnswers = JSON.parse(sessionStorage.getItem("selectedAnswers")) || new Array(quizData.length).fill(null);
 
 // DOM Elements
 const questionText = document.getElementById("question-text");
@@ -59,6 +60,16 @@ function loadQuestion(index) {
         button.textContent = choice;
         button.onclick = () => checkAnswer(i, button);
         button.classList.add("choice-btn");
+        
+        if (selectedAnswers[currentQuestionIndex] !== null) {
+            if (i === selectedAnswers[currentQuestionIndex]) {
+                button.style.backgroundColor = selectedAnswers[currentQuestionIndex] === q.correctAnswer ? "green" : "red";
+            }
+            if (i === q.correctAnswer) {
+                button.style.backgroundColor = "green";
+            }
+        }
+        
         choicesContainer.appendChild(button);
     });
 
@@ -91,12 +102,20 @@ function checkAnswer(selectedIndex, button) {
         button.style.backgroundColor = "red";
         questionBubble.style.backgroundColor = "red";
         incorrectAnswers++;
+        
+        // Highlight correct answer in green
+        const buttons = choicesContainer.getElementsByTagName("button");
+        buttons[q.correctAnswer].style.backgroundColor = "green";
     }
 
     answeredQuestions[currentQuestionIndex] = true; // Mark as answered
     explanationsShown[currentQuestionIndex] = true; // Keep explanation visible
+    selectedAnswers[currentQuestionIndex] = selectedIndex;
+    
     sessionStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions));
     sessionStorage.setItem("explanationsShown", JSON.stringify(explanationsShown));
+    sessionStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
+    
     updateProgress();
 }
 
