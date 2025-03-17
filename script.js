@@ -17,7 +17,8 @@ const quizData = [
 let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
-let answeredQuestions = new Array(quizData.length).fill(false); // Prevents re-answering
+let answeredQuestions = JSON.parse(sessionStorage.getItem("answeredQuestions")) || new Array(quizData.length).fill(false);
+let explanationsShown = JSON.parse(sessionStorage.getItem("explanationsShown")) || new Array(quizData.length).fill(false);
 
 // DOM Elements
 const questionText = document.getElementById("question-text");
@@ -52,9 +53,7 @@ function loadQuestion(index) {
     
     questionText.textContent = q.question;
     choicesContainer.innerHTML = "";
-    explanationBox.classList.add("hidden");
-    explanationBox.textContent = "";
-
+    
     q.choices.forEach((choice, i) => {
         const button = document.createElement("button");
         button.textContent = choice;
@@ -62,6 +61,14 @@ function loadQuestion(index) {
         button.classList.add("choice-btn");
         choicesContainer.appendChild(button);
     });
+
+    if (explanationsShown[currentQuestionIndex]) {
+        explanationBox.textContent = q.explanation;
+        explanationBox.classList.remove("hidden");
+    } else {
+        explanationBox.textContent = "";
+        explanationBox.classList.add("hidden");
+    }
 
     updateProgress();
 }
@@ -87,6 +94,9 @@ function checkAnswer(selectedIndex, button) {
     }
 
     answeredQuestions[currentQuestionIndex] = true; // Mark as answered
+    explanationsShown[currentQuestionIndex] = true; // Keep explanation visible
+    sessionStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions));
+    sessionStorage.setItem("explanationsShown", JSON.stringify(explanationsShown));
     updateProgress();
 }
 
@@ -101,7 +111,6 @@ function updateProgress() {
 function showResults() {
     quizContainer.style.display = "none";
     resultsContainer.style.display = "block";
-
     document.getElementById("final-score").textContent = `You got ${correctAnswers} out of ${quizData.length} correct!`;
 }
 
@@ -109,12 +118,20 @@ function showResults() {
 document.getElementById("next-btn").onclick = () => loadQuestion(currentQuestionIndex + 1);
 document.getElementById("prev-btn").onclick = () => loadQuestion(Math.max(currentQuestionIndex - 1, 0));
 
-// Hotkey Navigation
+// Hotkey Navigation & Answer Selection
 document.addEventListener("keydown", function(event) {
     if (event.code === "Space") {
         loadQuestion(currentQuestionIndex + 1);
     } else if (event.code === "KeyB") {
         loadQuestion(Math.max(currentQuestionIndex - 1, 0));
+    } else if (event.key >= "1" && event.key <= "5") {
+        const answerIndex = parseInt(event.key) - 1;
+        if (answerIndex < quizData[currentQuestionIndex].choices.length) {
+            const buttons = choicesContainer.getElementsByTagName("button");
+            if (buttons[answerIndex]) {
+                buttons[answerIndex].click();
+            }
+        }
     }
 });
 
