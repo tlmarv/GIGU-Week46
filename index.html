@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        
+        <!-- Scrollable Question Navigation -->
+        <nav class="question-nav">
+            <h3>Questions</h3>
+            <ul id="question-list"></ul>
+        </nav>
+
+        <!-- Main Quiz Section -->
+        <div class="quiz-content">
+            <header>
+                <h1>CPHeme Week 30 Quiz</h1>
+                <div class="score-tracker">
+                    <p>Progress: <span id="progress">0/0</span></p>
+                    <p>Correct: <span id="correct">0</span></p>
+                    <p>Incorrect: <span id="incorrect">0</span></p>
+                </div>
+            </header>
+
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <div id="choices-container"></div>
+                <div id="explanation" class="hidden"></div>
+            </div>
+
+            <div class="quiz-controls">
+                <button id="prev-btn">⬅ Previous</button>
+                <button id="next-btn">Next ➡</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
