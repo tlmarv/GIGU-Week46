@@ -17,7 +17,7 @@ const quizData = [
 let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
-let answeredQuestions = new Array(quizData.length).fill(false); // Track answered questions
+let answeredQuestions = new Array(quizData.length).fill(false); // Prevents re-answering
 
 // DOM Elements
 const questionText = document.getElementById("question-text");
@@ -27,6 +27,8 @@ const progressText = document.getElementById("progress");
 const correctText = document.getElementById("correct");
 const incorrectText = document.getElementById("incorrect");
 const questionList = document.getElementById("question-list");
+const quizContainer = document.querySelector(".quiz-content");
+const resultsContainer = document.getElementById("results-container");
 
 // Load Questions into Sidebar
 quizData.forEach((_, index) => {
@@ -40,6 +42,11 @@ quizData.forEach((_, index) => {
 
 // Load Question
 function loadQuestion(index) {
+    if (index >= quizData.length) {
+        showResults();
+        return;
+    }
+
     currentQuestionIndex = index;
     const q = quizData[index];
     
@@ -67,9 +74,8 @@ function checkAnswer(selectedIndex, button) {
     explanationBox.textContent = q.explanation;
     explanationBox.classList.remove("hidden");
 
-    // Change button and sidebar colors
     const questionBubble = document.querySelector(`.question-bubble[data-index="${currentQuestionIndex}"]`);
-    
+
     if (selectedIndex === q.correctAnswer) {
         button.style.backgroundColor = "green";
         questionBubble.style.backgroundColor = "green";
@@ -80,7 +86,7 @@ function checkAnswer(selectedIndex, button) {
         incorrectAnswers++;
     }
 
-    answeredQuestions[currentQuestionIndex] = true; // Mark question as answered
+    answeredQuestions[currentQuestionIndex] = true; // Mark as answered
     updateProgress();
 }
 
@@ -91,14 +97,22 @@ function updateProgress() {
     incorrectText.textContent = incorrectAnswers;
 }
 
+// Show Results Page
+function showResults() {
+    quizContainer.style.display = "none";
+    resultsContainer.style.display = "block";
+
+    document.getElementById("final-score").textContent = `You got ${correctAnswers} out of ${quizData.length} correct!`;
+}
+
 // Navigation Controls
-document.getElementById("next-btn").onclick = () => loadQuestion(Math.min(currentQuestionIndex + 1, quizData.length - 1));
+document.getElementById("next-btn").onclick = () => loadQuestion(currentQuestionIndex + 1);
 document.getElementById("prev-btn").onclick = () => loadQuestion(Math.max(currentQuestionIndex - 1, 0));
 
 // Hotkey Navigation
 document.addEventListener("keydown", function(event) {
     if (event.code === "Space") {
-        loadQuestion(Math.min(currentQuestionIndex + 1, quizData.length - 1));
+        loadQuestion(currentQuestionIndex + 1);
     } else if (event.code === "KeyB") {
         loadQuestion(Math.max(currentQuestionIndex - 1, 0));
     }
