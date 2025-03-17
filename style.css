@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main Quiz Layout */
+.quiz-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+/* Scrollable Question Navigation */
+.question-nav {
+    width: 250px;
+    background: #1f1f1f;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.question-nav h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.question-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.question-nav li {
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.question-nav li:hover, .question-nav li.active {
+    background-color: #0077b6;
+}
+
+/* Main Quiz Content */
+.quiz-content {
+    flex-grow: 1;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score-tracker p {
+    margin: 5px 0;
+}
+
+/* Question & Choices */
+#question-container {
+    margin: 20px 0;
+}
+
+#choices-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#choices-container button:hover {
+    background: #005f8d;
+}
+
+/* Explanation */
+#explanation {
+    margin-top: 10px;
+    padding: 10px;
+    background: #333;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Navigation Buttons */
+.quiz-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.quiz-controls button {
+    padding: 10px 20px;
+    background: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.quiz-controls button:hover {
+    background: #005f8d;
+}
