@@ -17,6 +17,7 @@ const quizData = [
 let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
+let answeredQuestions = new Array(quizData.length).fill(false); // Track answered questions
 
 // DOM Elements
 const questionText = document.getElementById("question-text");
@@ -30,8 +31,10 @@ const questionList = document.getElementById("question-list");
 // Load Questions into Sidebar
 quizData.forEach((_, index) => {
     const listItem = document.createElement("li");
-    listItem.textContent = `Question ${index + 1}`;
+    listItem.textContent = index + 1;
+    listItem.classList.add("question-bubble");
     listItem.onclick = () => loadQuestion(index);
+    listItem.setAttribute("data-index", index);
     questionList.appendChild(listItem);
 });
 
@@ -43,11 +46,13 @@ function loadQuestion(index) {
     questionText.textContent = q.question;
     choicesContainer.innerHTML = "";
     explanationBox.classList.add("hidden");
+    explanationBox.textContent = "";
 
     q.choices.forEach((choice, i) => {
         const button = document.createElement("button");
         button.textContent = choice;
-        button.onclick = () => checkAnswer(i);
+        button.onclick = () => checkAnswer(i, button);
+        button.classList.add("choice-btn");
         choicesContainer.appendChild(button);
     });
 
@@ -55,17 +60,27 @@ function loadQuestion(index) {
 }
 
 // Check Answer
-function checkAnswer(selectedIndex) {
+function checkAnswer(selectedIndex, button) {
+    if (answeredQuestions[currentQuestionIndex]) return; // Prevent multiple answers
+
     const q = quizData[currentQuestionIndex];
     explanationBox.textContent = q.explanation;
     explanationBox.classList.remove("hidden");
 
+    // Change button and sidebar colors
+    const questionBubble = document.querySelector(`.question-bubble[data-index="${currentQuestionIndex}"]`);
+    
     if (selectedIndex === q.correctAnswer) {
+        button.style.backgroundColor = "green";
+        questionBubble.style.backgroundColor = "green";
         correctAnswers++;
     } else {
+        button.style.backgroundColor = "red";
+        questionBubble.style.backgroundColor = "red";
         incorrectAnswers++;
     }
 
+    answeredQuestions[currentQuestionIndex] = true; // Mark question as answered
     updateProgress();
 }
 
