@@ -134,7 +134,13 @@ function showResults() {
 }
 
 // Navigation Controls
-document.getElementById("next-btn").onclick = () => loadQuestion(currentQuestionIndex + 1);
+document.getElementById("next-btn").onclick = () => {
+    if (currentQuestionIndex + 1 >= quizData.length) {
+        showResults();
+    } else {
+        loadQuestion(currentQuestionIndex + 1);
+    }
+};
 document.getElementById("prev-btn").onclick = () => loadQuestion(Math.max(currentQuestionIndex - 1, 0));
 
 // Hotkey Navigation & Answer Selection
