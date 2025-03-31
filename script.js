@@ -34,7 +34,7 @@ const resultsContainer = document.getElementById("results-container");
 
 // Display Hotkey Info Popup
 window.onload = function() {
-    alert("Welcome to the quiz!\n\nHotkeys Available:\n- Space: Next Question\n- B: Previous Question\n- 1-5: Select Answer (if applicable)\n\nGood luck!");
+    alert("Welcome to the quiz!\n\nHotkeys Available:\n- Space: Next Question\n- B: Previous Question\n- 1-5: Select Answer Choices\n Anki remotes should be compatible! \n\nGood luck!");
 };
 
 // Load Questions into Sidebar
@@ -131,17 +131,16 @@ function updateProgress() {
     incorrectText.textContent = incorrectAnswers;
 }
 
-// Show Results Page
-function showResults() {
-    quizContainer.style.display = "none";
-    resultsContainer.style.display = "block";
-    document.getElementById("final-score").textContent = `You got ${correctAnswers} out of ${quizData.length} correct!`;
+// Show Final Results Popup
+function showResultsPopup() {
+    const scorePercentage = ((correctAnswers / quizData.length) * 100).toFixed(2);
+    alert(`Quiz Completed!\n\nYour Score: ${correctAnswers}/${quizData.length} (${scorePercentage}%)\n\nCongratulations on finishing the quiz!`);
 }
 
 // Navigation Controls
 document.getElementById("next-btn").onclick = () => {
     if (currentQuestionIndex + 1 >= quizData.length) {
-        showResults();
+        showResultsPopup();
     } else {
         loadQuestion(currentQuestionIndex + 1);
     }
