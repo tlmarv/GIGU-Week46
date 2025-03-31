@@ -51,16 +51,16 @@ function loadQuestion(index) {
 
     currentQuestionIndex = index;
     const q = quizData[index];
-    
+
     questionText.textContent = q.question;
     choicesContainer.innerHTML = "";
-    
+
     q.choices.forEach((choice, i) => {
         const button = document.createElement("button");
         button.textContent = choice;
         button.onclick = () => checkAnswer(i, button);
         button.classList.add("choice-btn");
-        
+
         if (selectedAnswers[currentQuestionIndex] !== null) {
             if (i === selectedAnswers[currentQuestionIndex]) {
                 button.style.backgroundColor = selectedAnswers[currentQuestionIndex] === q.correctAnswer ? "green" : "red";
@@ -69,7 +69,7 @@ function loadQuestion(index) {
                 button.style.backgroundColor = "green";
             }
         }
-        
+
         choicesContainer.appendChild(button);
     });
 
@@ -86,7 +86,7 @@ function loadQuestion(index) {
 
 // Check Answer
 function checkAnswer(selectedIndex, button) {
-    if (answeredQuestions[currentQuestionIndex]) return; // Prevent multiple answers
+    if (answeredQuestions[currentQuestionIndex]) return;
 
     const q = quizData[currentQuestionIndex];
     explanationBox.textContent = q.explanation;
@@ -102,20 +102,19 @@ function checkAnswer(selectedIndex, button) {
         button.style.backgroundColor = "red";
         questionBubble.style.backgroundColor = "red";
         incorrectAnswers++;
-        
-        // Highlight correct answer in green
+
         const buttons = choicesContainer.getElementsByTagName("button");
         buttons[q.correctAnswer].style.backgroundColor = "green";
     }
 
-    answeredQuestions[currentQuestionIndex] = true; // Mark as answered
-    explanationsShown[currentQuestionIndex] = true; // Keep explanation visible
+    answeredQuestions[currentQuestionIndex] = true;
+    explanationsShown[currentQuestionIndex] = true;
     selectedAnswers[currentQuestionIndex] = selectedIndex;
-    
+
     sessionStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions));
     sessionStorage.setItem("explanationsShown", JSON.stringify(explanationsShown));
     sessionStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
-    
+
     updateProgress();
 }
 
@@ -130,7 +129,7 @@ function updateProgress() {
 function showResults() {
     quizContainer.style.display = "none";
     resultsContainer.style.display = "block";
-    document.getElementById("final-score").textContent = `You got ${correctAnswers} out of ${quizData.length} correct!`;
+    document.getElementById("final-score").textContent = `You got ${correctAnswers} out of ${quizData.length} correct!`; 
 }
 
 // Navigation Controls
@@ -143,22 +142,11 @@ document.getElementById("next-btn").onclick = () => {
 };
 document.getElementById("prev-btn").onclick = () => loadQuestion(Math.max(currentQuestionIndex - 1, 0));
 
-// Hotkey Navigation & Answer Selection
-document.addEventListener("keydown", function(event) {
-    if (event.code === "Space") {
-        loadQuestion(currentQuestionIndex + 1);
-    } else if (event.code === "KeyB") {
-        loadQuestion(Math.max(currentQuestionIndex - 1, 0));
-    } else if (event.key >= "1" && event.key <= "5") {
-        const answerIndex = parseInt(event.key) - 1;
-        if (answerIndex < quizData[currentQuestionIndex].choices.length) {
-            const buttons = choicesContainer.getElementsByTagName("button");
-            if (buttons[answerIndex]) {
-                buttons[answerIndex].click();
-            }
-        }
-    }
-});
+document.getElementById("restart-btn").onclick = () => {
+    resultsContainer.style.display = "none";
+    quizContainer.style.display = "block";
+    loadQuestion(0);
+};
 
 // Load First Question on Start
 loadQuestion(0);
