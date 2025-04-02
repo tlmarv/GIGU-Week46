@@ -1,19 +1,5 @@
 // Quiz Data (Example)
-const quizData = [
-    {
-        question: "What is the primary function of hemoglobin?",
-        choices: ["Carry oxygen", "Produce ATP", "Fight infections", "Regulate blood pressure"],
-        correctAnswer: 0,
-        explanation: "Hemoglobin binds oxygen in the lungs and transports it to tissues."
-    },
-    {
-        question: "Which blood disorder is caused by a deficiency of clotting factors?",
-        choices: ["Leukemia", "Hemophilia", "Sickle cell disease", "Thalassemia"],
-        correctAnswer: 1,
-        explanation: "Hemophilia is a disorder where clotting factors are deficient, leading to excessive bleeding."
-    }
-];
-
+let quizData = [];
 let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
@@ -31,6 +17,17 @@ const incorrectText = document.getElementById("incorrect");
 const questionList = document.getElementById("question-list");
 const quizContainer = document.querySelector(".quiz-content");
 const resultsContainer = document.getElementById("results-container");
+
+fetch('questions.json')
+    .then(response => response.json())
+    .then(data => {
+        // Add an 'answered' property to each question to track whether it's been answered
+        orderedData = data.map(q => ({ ...q, answered: false }));
+       shuffle(orderedData);  // Shuffle the full question list
+        quizData = orderedData.slice(0, orderedData.length);  // Select the first 60 questions
+        loadQuestion();  // Load the first question after fetching and randomizing
+    })
+    .catch(error => console.error('Error loading quiz data:', error));
 
 // Display Hotkey Info Popup
 window.onload = function() {
