@@ -1,5 +1,5 @@
 // Quiz Data
-constant quizData = [
+const quizData = [
   {
     "question": "A 45-year-old woman undergoing chemotherapy for breast cancer is receiving a combination of ondansetron, dexamethasone, and aprepitant for nausea prevention. She develops elevated liver enzymes and dizziness after her second cycle. Her physician considers modifying her antiemetic regimen. Which of the following pharmacologic mechanisms is most likely responsible for her adverse effects?",
     "choices": [
