@@ -85,7 +85,7 @@ const quizData = [
     "explanation": "The chorda tympani nerve (branch of CN VII) carries preganglionic parasympathetic fibers to the submandibular ganglion, where they synapse before reaching the submandibular and sublingual glands. Other choices: Auriculotemporal nerve: Carries postganglionic parasympathetics to the parotid gland. Glossopharyngeal nerve: Supplies preganglionic parasympathetics to the parotid, not submandibular/sublingual glands. Lingual nerve: Conveys general sensation from the anterior tongue and carries postganglionic parasympathetics after joining with the chorda tympani. Vagus nerve: Not involved in salivary gland innervation."
   },
   {
-    "question": "A 32-year-old man presents with difficulty speaking and manipulating food in his mouth. On physical examination, his tongue deviates to the right when protruded, and atrophy is noted on the right side. Which muscle is primarily responsible for this finding?",
+    "question": "A 32-year-old man presents with difficulty speaking and manipulating food in his mouth. On physical examination, his tongue deviates to the right when protruded, and atrophy is noted on the right side. Which muscle is not innervated by the nerve affected by this condition?",
     "choices": [
       "Genioglossus",
       "Styloglossus",
@@ -93,8 +93,8 @@ const quizData = [
       "Palatoglossus",
       "Mylohyoid"
     ],
-    "correctAnswer": 0,
-    "explanation": "The genioglossus is responsible for protruding the tongue. Damage to the hypoglossal nerve (CN XII) on one side causes unopposed action of the contralateral genioglossus, resulting in tongue deviation toward the affected side. Other choices: Styloglossus: Retracts and curls the tongue; not involved in protrusion. Hyoglossus: Depresses the tongue; does not cause protrusion. Palatoglossus: Elevates the posterior tongue and is innervated by CN X. Mylohyoid: Supports the floor of the mouth; not involved in tongue movement."
+    "correctAnswer": 3,
+    "explanation": "This is most likely a hypoglossal nerve lesion.The palatoglossus is the only extrinsic tongue muscle not innervated by hypoglossal nerve (CN XII). Damage to the hypoglossal nerve (CN XII) on one side causes unopposed action of the contralateral genioglossus, resulting in tongue deviation toward the affected side. Styloglossus: Retracts and curls the tongue. Hyoglossus: Depresses the tongue. Palatoglossus: Elevates the posterior tongue and is innervated by CN X. Mylohyoid: Supports the floor of the mouth; not involved in tongue movement."
   },
   {
     "question": "A 6-year-old child undergoes a tonsillectomy and subsequently complains of difficulty swallowing and altered taste in the posterior third of the tongue. Which of the following nerves was most likely injured during the procedure?",
@@ -157,17 +157,17 @@ const quizData = [
     "explanation": "This patient has Barrett esophagus, a condition in which the normal nonkeratinized stratified squamous epithelium of the esophagus undergoes metaplasia to columnar epithelium with goblet cells, typically due to chronic gastroesophageal reflux (GERD).    Other choices: Hyperplasia: Suggests increased cell number but does not involve a change in cell type. Dysplasia: Refers to disordered growth, which can follow metaplasia, but goblet cells point to metaplasia. Invasion of gastric adenocarcinoma: Would involve deeper layers and malignant cells, not normal-looking columnar mucosa. Ulceration: Would show necrosis and inflammation, not intact goblet cells."
   },
   {
-    "question": "A 40-year-old woman presents with symptoms of fatigue and paresthesias. Labs show macrocytic anemia, and further workup reveals low vitamin B12 levels. Gastric biopsy shows a loss of parietal cells and intestinal metaplasia predominantly in the body of the stomach. What additional finding is most likely in this patient?",
-    "choices": [
-      "Increased gastric acid secretion",
-      "Hyperplasia of Brunner's glands",
-      "Antibodies to intrinsic factor",
-      "Increased chief cell number",
-      "Hypertrophy of pyloric glands"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The findings are consistent with autoimmune gastritis, which results in destruction of parietal cells (located in the body/fundus), leading to decreased acid and intrinsic factor production. The absence of intrinsic factor causes vitamin B12 deficiency and pernicious anemia. Anti-intrinsic factor antibodies are commonly detected. Other choices: Increased gastric acid secretion: Opposite of what occurs in autoimmune gastritis. Brunner's glands: Located in the duodenum, unrelated to gastric pathology. Increased chief cells: Chief cells also decline with gastric atrophy. Pyloric gland hypertrophy: Not a feature of autoimmune gastritis; the pylorus is relatively spared."
-  },
+  "question": "A 45-year-old woman undergoes upper endoscopy for evaluation of dyspepsia. Biopsies are taken from the gastric body and antrum. Histological analysis reveals parietal cells, chief cells, and mucous neck cells in one sample, and G cells and mucus-secreting surface epithelial cells in the other. Which of the following best distinguishes the two regions of the stomach from which these biopsies were taken?",
+  "choices": [
+    "Presence of Brunner glands in the submucosa",
+    "Location of gastrin-secreting enteroendocrine cells",
+    "Abundance of stem cells within the base of gastric glands",
+    "Predominance of lymphoid aggregates within the lamina propria",
+    "Arrangement of muscularis externa into oblique, circular, and longitudinal layers"
+  ],
+  "correctAnswer": 1,
+  "explanation": "G cells, which secrete gastrin, are found predominantly in the gastric antrum, not in the body or fundus. The gastric body, on the other hand, contains parietal cells (acid and intrinsic factor secretion) and chief cells (pepsinogen secretion). This histological difference is key to understanding functional zones in the stomach. (A) Brunner glands are found in the duodenum, not the stomach. (C) Stem cells are located in the isthmus of gastric glands in both body and antrum. (D) Lymphoid aggregates may be seen in H. pylori-associated gastritis but are not a normal distinguishing feature. (E) The three-layered muscularis externa is found throughout the stomach and is not region-specific."
+},
   {
     "question": "A 35-year-old man presents with decreased salivary output and dry mouth. A biopsy of a salivary gland shows acini with pyramidal cells containing spherical secretory granules, abundant rough endoplasmic reticulum, and round central nuclei. What is the primary product secreted by these cells?",
     "choices": [
@@ -396,18 +396,20 @@ const quizData = [
     "correctAnswer": 1,
     "explanation": "Eotaxin-3 (CCL26) is a chemokine overexpressed in eosinophilic esophagitis that attracts eosinophils via CCR3 on their surface, facilitating their infiltration and driving chronic esophageal inflammation.Other choices: Fas ligand is not central to EoE pathogenesis. Th2 cells are activated, not suppressed. Neutrophils are not the predominant effector cells in EoE. TGF-β and fibroblast transformation are more related to fibrosis in other chronic conditions like scleroderma."
   },
-  {
-    "question": "A 58-year-old man with progressive dysphagia for solids and liquids undergoes manometry, which reveals elevated resting lower esophageal sphincter pressure and simultaneous, high-amplitude contractions throughout the esophagus. Which of the following best differentiates this condition from achalasia on high-resolution manometry?",
-    "choices": [
-      "Absence of esophageal peristalsis",
-      "Incomplete LES relaxation",
-      "Presence of pan-esophageal pressurization",
-      "Hypercontractile distal esophageal segment (DCI > 8000 mmHg·s·cm)",
-      "Normal integrated relaxation pressure (IRP)"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Pan-esophageal pressurization (simultaneous pressure throughout the esophagus) is a key manometric feature of type II achalasia, whereas a hypercontractile distal esophagus with normal LES relaxation characterizes jackhammer esophagus (also called hypercontractile esophagus), defined by distal contractile integral (DCI) > 8000 mmHg·s·cm.Other choices: Absence of peristalsis and incomplete LES relaxation are shared with achalasia. Hypercontractile segments suggest jackhammer, not achalasia. Normal IRP is not a feature of achalasia."
-  },
+{
+  "question": "A 57-year-old woman presents with a 6-month history of intermittent, severe retrosternal chest pain and dysphagia to both solids and liquids. She reports that the pain often mimics a heart attack, occurring without exertion and sometimes waking her from sleep. Her ECG and troponin levels are unremarkable. Esophageal manometry reveals intermittent high-amplitude, non-peristaltic contractions in the distal esophagus with normal lower esophageal sphincter pressure. A barium swallow shows a 'corkscrew' esophagus. She is started on a calcium channel blocker, with symptomatic improvement. Which of the following best explains the mechanism of action of her prescribed therapy in the context of her underlying condition?",
+  "choices": [
+    "Inhibits excessive excitatory cholinergic signaling in esophageal smooth muscle",
+    "Stimulates nitric oxide release from the myenteric plexus to promote coordinated peristalsis",
+    "Reduces esophageal mucosal inflammation and improves epithelial barrier integrity",
+    "Blocks serotonin-mediated hypercontraction in the upper esophageal sphincter",
+    "Enhances inhibitory vagal outflow to restore normal swallowing coordination"
+  ],
+  "correctAnswer": 0,
+  "explanation": "This patient has Diffuse Esophageal Spasm (DES), characterized by intermittent, high-amplitude, non-peristaltic contractions of the esophagus with normal LES pressure. The underlying defect involves impaired inhibitory innervation (especially nitric oxide pathways) of the esophageal smooth muscle, leading to uncoordinated excitatory cholinergic activity.Calcium channel blockers, such as diltiazem or nifedipine, relieve symptoms by inhibiting calcium-dependent smooth muscle contraction, thereby blunting excessive cholinergic stimulation and reducing contraction amplitude. (A) Calcium channel blockers directly reduce smooth muscle contractility, counteracting unopposed excitatory signals. (B) Nitric oxide levels are deficient in DES, but CCBs do not restore NO; that’s a potential role for nitrates. (C) Mucosal inflammation is more relevant in GERD and eosinophilic esophagitis, not DES. (D) Serotonin and upper esophageal sphincter are not the primary pathophysiologic elements in DES. (E) Vagal modulation plays a role in swallowing, but CCBs do not directly affect vagal tone."
+},
+
+
      {
     "question": "A 65-year-old man presents with a 1-year history of regurgitating undigested food, halitosis, and 60-lb weight loss. He has had recurrent pneumonia and denies heartburn. Imaging shows a dilated esophagus with narrowing at the gastroesophageal junction. Which of the following best explains the underlying pathophysiology of this condition?",
     "choices": [
@@ -433,7 +435,7 @@ const quizData = [
     "explanation": "The lecture identifies inappropriate transient LES relaxation as a key mechanism of GERD. These relaxations occur independently of esophageal pH or meal state and are a major contributor to reflux, particularly in the setting of obesity and lifestyle triggers.Other choices: Gastrin increases LES tone, not decreases it. UES control is not the primary issue in GERD. Cricopharyngeus dysfunction affects swallowing, not reflux. PPI rebound typically presents after cessation, not during use."
   },
   {
-    "question": "A 3-month-old infant presents with persistent diarrhea, flatulence, and abdominal distention following a recent norovirus infection. Lab evaluation reveals acidic stools and elevated breath hydrogen. Which of the following best explains the pathophysiology of this condition?",
+    "question": "A 3-month-old infant presents with persistent diarrhea, flatulence, and abdominal distention following a recent norovirus infection. Lab evaluation reveals acidic stools and elevated breath hydrogen. Which of the following best explains the MOST LIKELY pathophysiology of this condition?",
     "choices": [
       "Congenital lactase deficiency due to mutation in LCT gene",
       "Loss of sucrase-isomaltase activity due to enterocyte apoptosis",
@@ -442,7 +444,7 @@ const quizData = [
       "Delayed colonic transit time increasing bacterial fermentation"
     ],
     "correctAnswer": 2,
-    "explanation": "This infant has secondary lactose intolerance due to damage to intestinal brush border enzymes (particularly lactase, the last to recover) after viral gastroenteritis (e.g., norovirus). Unabsorbed lactose leads to osmotic diarrhea and fermentation by colonic bacteria, resulting in acidic stools and elevated breath hydrogen.Other choices:Congenital lactase deficiency is rare and presents from birth.Sucrase-isomaltase deficiency causes sucrose intolerance, not lactose.Autoimmune enteropathy is more severe and includes systemic features.Delayed colonic transit usually leads to constipation, not diarrhea."
+    "explanation": "This infant has secondary lactose intolerance due to damage to intestinal brush border enzymes (particularly lactase, the last to recover) after viral gastroenteritis (e.g., norovirus). Unabsorbed lactose leads to osmotic diarrhea and fermentation by colonic bacteria, resulting in acidic stools and elevated breath hydrogen. Other choices: Congenital lactase is possible but the deficiency is very rare and presents from birth. Sucrase-isomaltase deficiency causes sucrose intolerance, not lactose. Autoimmune enteropathy is more severe and includes systemic features. Delayed colonic transit usually leads to constipation, not diarrhea."
   },
   {
     "question": "A 4-year-old child with steatorrhea, failure to thrive, and vitamin E deficiency is diagnosed with abetalipoproteinemia. Which of the following molecular abnormalities most directly accounts for the pathophysiology in this disorder?",
@@ -589,18 +591,6 @@ const quizData = [
   "explanation": "Octreotide  is a somatostatin analog  that reduces bleeding from esophageal varices by inhibiting splanchnic vasodilatory hormones, leading to  decreased portal venous pressure. This helps control acute variceal hemorrhage.  (A) Incorrect: Octreotide reduces  splanchnic blood flow, not dilates it. (B) Incorrect: It may inhibit gastrin, but it does not block H2 receptors. (D) Incorrect: 5-HT3 antagonists like ondansetron are used for nausea, not bleeding control. (E) Incorrect: It does not act via α1 receptor agonism."
 },
 {
-  "question": "A hospital implements a new policy requiring mandatory overtime for nurses to improve clinical throughput in the emergency department. While short-term metrics show improved patient processing times, within 6 months, there is an increase in nurse burnout, medication errors, and turnover. Which of the following best explains the error in the system-level decision-making process?",
-  "choices": [
-    "Failure to conduct a cost-benefit analysis",
-    "Overreliance on artificial intelligence for staffing",
-    "Neglecting to assess downstream feedback loops",
-    "Inadequate statistical power in outcome measurement",
-    "Improper application of Lean Six Sigma principles"
-  ],
-  "correctAnswer": 2,
-  "explanation": "The scenario reflects a  failure in systems thinking , specifically the neglect of  feedback loops and unintended consequences  over time. While the initial throughput improved, the long-term effects (burnout, errors, turnover) reflect the absence of evaluating the system dynamics over extended space and time dimensions.   (A) Cost-benefit analysis is financial but doesn't capture dynamic systemic interactions.  (B) There's no mention of AI use.  (D) Statistical power is relevant to research design, not system implementation.  (E) Lean Six Sigma is not mentioned and focuses more on waste reduction than systemic insight."
-},
-{
   "question": "A public health team designs a program to reduce obesity in a metropolitan area. They pilot a city-wide nutrition education campaign, which leads to minimal change in BMI after 2 years. Meanwhile, another district implements zoning changes to reduce food deserts, showing greater improvements. According to systems thinking principles, the second intervention is more effective primarily because it represents:",
   "choices": [
     "A low-cost intervention with higher population coverage",
@@ -611,18 +601,6 @@ const quizData = [
   ],
   "correctAnswer": 3,
   "explanation": "The zoning change that addresses  food access represents a high-leverage intervention, as defined in the video—one that changes the system's underlying structure and  reduces unintended consequences  while producing meaningful change. Nutrition education alone is often low-leverage due to limited systemic impact. (A) Cost and coverage aren't the defining features of leverage. (B) Feedback suppression is not relevant here. (C) 'Tweak' implies small change, not systemic reform. (E) Equilibrium strategies refer to homeostatic mechanisms, not reform."
-},
-{
-  "question": "A multidisciplinary healthcare team disagrees about the root cause of high hospital readmission rates for heart failure. A systems-thinking consultant is brought in to help. According to the video, which of the following strategies would best guide the team to develop a shared, testable understanding of the problem?",
-  "choices": [
-    "Create a large simulation model with complex dynamic variables",
-    "Review randomized controlled trials comparing discharge protocols",
-    "Develop a stock-and-flow map with unified visual assumptions",
-    "Rely on individual expertise to predict system performance",
-    "Simplify the model until all team members agree with it, regardless of detail"
-  ],
-  "correctAnswer": 2,
-  "explanation": "The video emphasizes the value of  shared visual models, like stock-and-flow diagrams, to unify assumptions and support scientific testing of mental models. These tools help build common understanding without over-reliance on complex simulation. (A) Large simulations are resource-intensive and not always helpful early on. (B) RCTs may inform, but they don't provide system-wide context. (D) Individual expertise can introduce bias. (E) Oversimplification can remove critical complexity and mislead understanding."
 },
 {
   "question": "According to the systems thinking model presented in the CDC video, which of the following best defines a high-leverage intervention?",
