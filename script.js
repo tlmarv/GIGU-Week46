@@ -625,6 +625,42 @@ const quizData = [
   ],
   "correctAnswer": 1,
   "explanation": "The video repeatedly emphasizes that systems thinking is about  improving our assumptions and mental models  so we can become  'less and less wrong' —a scientific, iterative approach to understanding complex systems.  (A) Tools are useful but secondary to mindset. (C) Reductionism may miss key systemic interactions. (D) Complexity should be understood, not ignored. (E) Intuition should be tested against data, not replace it."
+},
+{
+  "question": "A 48-year-old man presents with chronic epigastric pain that improves with meals but worsens at night. Endoscopy reveals a duodenal ulcer. Biopsy from the antrum shows spiral-shaped organisms adherent to the mucosal surface. Which of the following best explains the mechanism by which this organism contributes to increased acid secretion and ulcer formation?",
+  "choices": [
+    "Stimulates parietal cells directly through cytotoxin A",
+    "Inhibits D cells leading to reduced somatostatin release",
+    "Upregulates ECL cell mass causing increased histamine release",
+    "Directly invades gastric glands causing mucosal necrosis",
+    "Triggers T-cell–mediated mucosal erosion and vasculitis"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Helicobacter pylori, especially when colonizing the gastric antrum, leads to inhibition of D cells, which decreases somatostatin levels. Somatostatin normally inhibits gastrin secretion; its absence leads to hypergastrinemia, which stimulates parietal cells and results in excess acid production, predisposing to duodenal ulcer. (A) Cytotoxin A/B from H. pylori damages epithelium but does not directly stimulate parietal cells. (C)  ECL cell hyperplasia occurs in Zollinger-Ellison syndrome, not primary H. pylori. (D) H. pylori does not invade mucosa; it remains surface-adherent. (E)  While chronic inflammation occurs, T-cell vasculitis is not the mechanism for acid hypersecretion."
+},
+{
+  "question": "A 65-year-old man is being treated for peptic ulcer disease with omeprazole. He also takes warfarin for atrial fibrillation and phenytoin for a seizure disorder. Which of the following changes in drug metabolism is most likely due to the use of omeprazole?",
+  "choices": [
+    "Reduced anticoagulant effect due to P-glycoprotein activation",
+    "Decreased plasma levels of phenytoin due to increased hepatic clearance",
+    "Increased plasma warfarin levels due to cytochrome P450 inhibition",
+    "Enhanced renal clearance of warfarin through tubular secretion",
+    "Decreased omeprazole efficacy due to competitive inhibition by phenytoin"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Proton pump inhibitors (PPIs) such as omeprazole inhibit CYP2C19 and CYP3A4, leading to reduced metabolism of drugs like warfarin, phenytoin, and diazepam. This results in increased plasma levels and potentially toxic effects. (A) P-glycoprotein is not the primary transporter affected by PPIs. (B) Omeprazole decreases, not increases, phenytoin clearance. (C) Correct — Omeprazole increases warfarin and phenytoin levels. (D) Warfarin is eliminated hepatically, not primarily via kidneys. (E) Phenytoin does not competitively inhibit omeprazole at the pump or enzyme level."
+},
+{
+  "question": "A 70-year-old man presents with hematemesis and melena. His blood pressure is 88/54 mmHg and heart rate is 112/min. He takes daily NSAIDs for osteoarthritis. Upper endoscopy shows a bleeding ulcer with an actively spurting visible vessel. Which of the following best predicts this patient's risk of recurrent GI bleeding if left untreated?",
+  "choices": [
+    "Visible clot adherent to the ulcer base",
+    "Ulcer with clean base and no active bleeding",
+    "Black spot in ulcer base with no visible vessel",
+    "Arterial spurting from the ulcer base",
+    "Ulcer located on the posterior duodenal wall"
+  ],
+  "correctAnswer": 3,
+  "explanation": According to the Forrest classification, the highest risk of recurrent bleeding is associated with Forrest IA ulcers, which present with arterial spurting hemorrhage, with 100% risk of rebleeding if left untreated. (A) A visible clot (Forrest IIB) has lower risk (~25%). (B) Clean base ulcers (Forrest III) have very low risk (~5%). (C) Black spots (Forrest IIC) have ~10% risk. (D) Correct — Forrest IA (spurting) carries the highest rebleed risk. (E) Location matters for complications (e.g., posterior duodenum and pancreas), but rebleeding risk is graded by appearance."
 }
 ];
 let currentQuestionIndex = 0;
