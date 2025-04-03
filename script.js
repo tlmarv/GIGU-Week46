@@ -406,10 +406,8 @@ const quizData = [
     "Enhances inhibitory vagal outflow to restore normal swallowing coordination"
   ],
   "correctAnswer": 0,
-  "explanation": "This patient has Diffuse Esophageal Spasm (DES), characterized by intermittent, high-amplitude, non-peristaltic contractions of the esophagus with normal LES pressure. The underlying defect involves impaired inhibitory innervation (especially nitric oxide pathways) of the esophageal smooth muscle, leading to uncoordinated excitatory cholinergic activity.Calcium channel blockers, such as diltiazem or nifedipine, relieve symptoms by inhibiting calcium-dependent smooth muscle contraction, thereby blunting excessive cholinergic stimulation and reducing contraction amplitude. (A) Calcium channel blockers directly reduce smooth muscle contractility, counteracting unopposed excitatory signals. (B) Nitric oxide levels are deficient in DES, but CCBs do not restore NO; that’s a potential role for nitrates. (C) Mucosal inflammation is more relevant in GERD and eosinophilic esophagitis, not DES. (D) Serotonin and upper esophageal sphincter are not the primary pathophysiologic elements in DES. (E) Vagal modulation plays a role in swallowing, but CCBs do not directly affect vagal tone."
+  "explanation": "This patient has Diffuse Esophageal Spasm (DES), characterized by intermittent, high-amplitude, non-peristaltic contractions of the esophagus with normal LES pressure. The underlying defect involves impaired inhibitory innervation (especially nitric oxide pathways) of the esophageal smooth muscle, leading to uncoordinated excitatory cholinergic activity. Calcium channel blockers, such as diltiazem or nifedipine, relieve symptoms by inhibiting calcium-dependent smooth muscle contraction, thereby blunting excessive cholinergic stimulation and reducing contraction amplitude. (A) Calcium channel blockers directly reduce smooth muscle contractility, counteracting unopposed excitatory signals. (B) Nitric oxide levels are deficient in DES, but CCBs do not restore NO; that’s a potential role for nitrates. (C) Mucosal inflammation is more relevant in GERD and eosinophilic esophagitis, not DES. (D) Serotonin and upper esophageal sphincter are not the primary pathophysiologic elements in DES. (E) Vagal modulation plays a role in swallowing, but CCBs do not directly affect vagal tone."
 },
-
-
      {
     "question": "A 65-year-old man presents with a 1-year history of regurgitating undigested food, halitosis, and 60-lb weight loss. He has had recurrent pneumonia and denies heartburn. Imaging shows a dilated esophagus with narrowing at the gastroesophageal junction. Which of the following best explains the underlying pathophysiology of this condition?",
     "choices": [
@@ -528,7 +526,7 @@ const quizData = [
     "Loss of function in microsomal triglyceride transfer protein"
   ],
   "correctAnswer": 1,
-  "explanation": "Sitosterolemia is caused by mutations in  ABCG5 or ABCG8 , which are responsible for pumping  plant sterols (phytosterols)  out of enterocytes and hepatocytes. Loss of function leads to  increased intestinal absorption and reduced biliary excretion  of phytosterols like sitosterol, leading to xanthomas and premature atherosclerosis.  (A) Impaired chylomicron remnant uptake is seen in type III hyperlipoproteinemia. (C) ApoB-100 defects affect LDL synthesis (abetalipoproteinemia). (D) HMG-CoA reductase deficiency affects endogenous cholesterol synthesis (e.g., in statin use). (E) MTP defects result in abetalipoproteinemia with fat-soluble vitamin deficiencies."
+  "explanation": "Sitosterolemia is caused by mutations in  ABCG5 or ABCG8, which are responsible for pumping  plant sterols (phytosterols)  out of enterocytes and hepatocytes. Loss of function leads to  increased intestinal absorption and reduced biliary excretion  of phytosterols like sitosterol, leading to xanthomas and premature atherosclerosis.  (A) Impaired chylomicron remnant uptake is seen in type III hyperlipoproteinemia. (C) ApoB-100 defects affect LDL synthesis (abetalipoproteinemia). (D) HMG-CoA reductase deficiency affects endogenous cholesterol synthesis (e.g., in statin use). (E) MTP defects result in abetalipoproteinemia with fat-soluble vitamin deficiencies."
 },
 {
   "question": "A 42-year-old woman begins a cholesterol-lowering diet that includes daily consumption of plant sterol–enriched margarine. After 6 weeks, her LDL cholesterol decreases by 12%. Which of the following best describes how dietary phytosterols lower plasma cholesterol levels?",
@@ -552,7 +550,7 @@ const quizData = [
     "Translocation of cholesterol into enterocytes via the NPC1L1 transporter"
   ],
   "correctAnswer": 0,
-  "explanation": " Abetalipoproteinemia  is caused by  mutations in the microsomal triglyceride transfer protein (MTTP)  gene. MTP is essential for the co-translational lipidation of nascent apolipoprotein B  (ApoB-48 in enterocytes, ApoB-100 in hepatocytes) within the  rough endoplasmic reticulum , enabling the formation of nascent chylomicrons. Without MTP, lipids accumulate in enterocytes and are not secreted into lymphatics.  (B) ACAT esterifies cholesterol but is not involved in chylomicron assembly. (C) Pancreatic lipase acts upstream to hydrolyze dietary triglycerides into monoglycerides and free fatty acids. (D) Bile acids aid in micelle formation, but this occurs in the intestinal lumen, not intracellularly. (E) NPC1L1 mediates cholesterol uptake into enterocytes, which is intact in this disorder."
+  "explanation": "Abetalipoproteinemia  is caused by  mutations in the microsomal triglyceride transfer protein (MTTP)  gene. MTP is essential for the co-translational lipidation of nascent apolipoprotein B  (ApoB-48 in enterocytes, ApoB-100 in hepatocytes) within the  rough endoplasmic reticulum , enabling the formation of nascent chylomicrons. Without MTP, lipids accumulate in enterocytes and are not secreted into lymphatics.  (B) ACAT esterifies cholesterol but is not involved in chylomicron assembly. (C) Pancreatic lipase acts upstream to hydrolyze dietary triglycerides into monoglycerides and free fatty acids. (D) Bile acids aid in micelle formation, but this occurs in the intestinal lumen, not intracellularly. (E) NPC1L1 mediates cholesterol uptake into enterocytes, which is intact in this disorder."
 },
 {
   "question": "A 58-year-old man is admitted to the ICU following trauma. He is intubated and mechanically ventilated for >48 hours. The team initiates stress ulcer prophylaxis. Compared to histamine-2 receptor antagonists, which of the following is a key disadvantage of proton pump inhibitors in this setting?",
@@ -564,7 +562,7 @@ const quizData = [
     "Inhibition of gastric H2 receptors leading to rebound acid secretion"
   ],
   "correctAnswer": 1,
-  "explanation": " Proton pump inhibitors (PPIs) are associated with an  increased risk of C. difficile infection , particularly in critically ill patients. This risk is greater than with H2 receptor antagonists (H2RAs), making it a relevant clinical consideration in stress ulcer prophylaxis.  (A) Incorrect   PPIs are  more effective  than H2RAs in reducing acid secretion. (C) Incorrect: While PPIs may take longer to reach full effect, this is not their major disadvantage in the ICU. (D) Incorrect: PPIs are primarily hepatically metabolized  (e.g., CYP2C19), not renally cleared. (E) Incorrect: PPIs act on the H+/K+ ATPase pump, not H2 receptors; rebound acid secretion is more a concern with H2RAs."
+  "explanation": " Proton pump inhibitors (PPIs) are associated with an  increased risk of C. difficile infection, particularly in critically ill patients. This risk is greater than with H2 receptor antagonists (H2RAs), making it a relevant clinical consideration in stress ulcer prophylaxis.  (A) Incorrect   PPIs are  more effective  than H2RAs in reducing acid secretion. (C) Incorrect: While PPIs may take longer to reach full effect, this is not their major disadvantage in the ICU. (D) Incorrect: PPIs are primarily hepatically metabolized  (e.g., CYP2C19), not renally cleared. (E) Incorrect: PPIs act on the H+/K+ ATPase pump, not H2 receptors; rebound acid secretion is more a concern with H2RAs."
 },
 {
   "question": "A 55-year-old woman is receiving chemotherapy for breast cancer. She is prescribed a combination anti-emetic regimen that includes aprepitant, ondansetron, and dexamethasone. What is the primary site of action of aprepitant, and what pathway does it inhibit?",
@@ -612,7 +610,7 @@ const quizData = [
     "An approach that solves a single isolated problem efficiently"
   ],
   "correctAnswer": 1,
-  "explanation": " High leverage is defined in the video as the ability to produce meaningful, systemic improvement  while simultaneously  reducing unintended consequences. These interventions target root causes rather than symptoms. (A) Speed of change does not guarantee leverage. (C) Financial incentives can work but aren't necessarily high leverage. (D) Stakeholder engagement is important in systems thinking. (E) Isolated problem-solving can create new issues elsewhere in the system."
+  "explanation": "High leverage is defined in the video as the ability to produce meaningful, systemic improvement  while simultaneously  reducing unintended consequences. These interventions target root causes rather than symptoms. (A) Speed of change does not guarantee leverage. (C) Financial incentives can work but aren't necessarily high leverage. (D) Stakeholder engagement is important in systems thinking. (E) Isolated problem-solving can create new issues elsewhere in the system."
 },
 {
   "question": "The video emphasizes that a key goal of systems thinking is not to find 'the truth,' but instead to:",
@@ -660,9 +658,9 @@ const quizData = [
     "Ulcer located on the posterior duodenal wall"
   ],
   "correctAnswer": 3,
-  "explanation": According to the Forrest classification, the highest risk of recurrent bleeding is associated with Forrest IA ulcers, which present with arterial spurting hemorrhage, with 100% risk of rebleeding if left untreated. (A) A visible clot (Forrest IIB) has lower risk (~25%). (B) Clean base ulcers (Forrest III) have very low risk (~5%). (C) Black spots (Forrest IIC) have ~10% risk. (D) Correct — Forrest IA (spurting) carries the highest rebleed risk. (E) Location matters for complications (e.g., posterior duodenum and pancreas), but rebleeding risk is graded by appearance."
+  "explanation": "According to the Forrest classification, the highest risk of recurrent bleeding is associated with Forrest IA ulcers, which present with arterial spurting hemorrhage, with 100% risk of rebleeding if left untreated. (A) A visible clot (Forrest IIB) has lower risk (~25%). (B) Clean base ulcers (Forrest III) have very low risk (~5%). (C) Black spots (Forrest IIC) have ~10% risk. (D) Correct — Forrest IA (spurting) carries the highest rebleed risk. (E) Location matters for complications (e.g., posterior duodenum and pancreas), but rebleeding risk is graded by appearance."
 }
-];
+  ];
 let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
