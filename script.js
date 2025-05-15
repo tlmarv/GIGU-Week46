@@ -253,30 +253,6 @@ const quizData = [
     "explanation": "This patient has asymptomatic bacteriuria (ASB), which does not require treatment in the absence of urinary symptoms, except in pregnancy or before urologic procedures. Malodorous or cloudy urine is not diagnostic of infection. Starting antibiotics contributes to resistance and adverse effects. Urine cultures in ASB do not alter management."
   },
   {
-    "question": "A 25-year-old sexually active woman presents with dysuria and frequency. UA reveals leukocyte esterase and pyuria, but nitrites are negative. Urine culture shows 10^3 CFU of gram-positive cocci. Which of the following is the most likely pathogen?",
-    "choices": [
-      "Escherichia coli",
-      "Enterococcus faecalis",
-      "Staphylococcus saprophyticus",
-      "Klebsiella pneumoniae",
-      "Proteus mirabilis"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Staphylococcus saprophyticus is a common cause of cystitis in young women. It often produces lower colony counts and does not reduce nitrates to nitrites. E. coli is the most common cause overall but typically produces nitrites. Enterococcus and Proteus are more often seen in complicated or nosocomial infections."
-  },
-  {
-    "question": "A 70-year-old man with a long-term indwelling catheter is admitted with fever and rigors. Blood cultures grow Staphylococcus aureus. Which of the following is the most appropriate next step?",
-    "choices": [
-      "Treat as asymptomatic bacteriuria",
-      "Repeat urine culture in 3 days",
-      "Remove catheter and monitor",
-      "Order imaging to evaluate for perinephric abscess",
-      "Begin single-dose gentamicin"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Staphylococcus aureus in urine is often associated with hematogenous spread. Bloodstream involvement warrants imaging to assess for deeper infections like a perinephric abscess, particularly in high-risk settings such as catheter use. Simply removing the catheter or using a single antibiotic dose is inadequate."
-  },
-  {
     "question": "Which of the following best describes the role of the Tamm-Horsfall protein in preventing urinary tract infections?",
     "choices": [
       "Increases bladder acidity",
@@ -289,100 +265,124 @@ const quizData = [
     "explanation": "Tamm-Horsfall protein (uromodulin) binds bacterial adhesins and prevents uropathogen attachment to urothelial cells, particularly in the ascending limb. It is a key part of innate defense in the urinary tract. It does not significantly influence immune cell activation or pH."
   },
   {
-    "question": "A 60-year-old woman is treated for cystitis with oral cephalexin. Three days later, her symptoms improve, but she calls reporting new-onset rash and diarrhea. Which of the following is the most appropriate next step?",
+    "question": "A 29-year-old primigravida is undergoing evaluation for vaginal delivery. Pelvimetry reveals that the obstetric conjugate is 10.5 cm. Which of the following structures determines the posterior limit of the obstetric conjugate?",
     "choices": [
-      "Switch to fosfomycin for 1 dose",
-      "Complete the current cephalexin course",
-      "Switch to ciprofloxacin for 3 days",
-      "Discontinue antibiotics and observe",
-      "Order stool test for C. difficile toxin"
-    ],
-    "correctAnswer": 4,
-    "explanation": "Diarrhea after antibiotic use raises concern for C. difficile infection, especially with beta-lactam antibiotics. Cephalexin can precipitate this. Testing for C. difficile toxin is warranted before switching antibiotics or discontinuing empiric therapy blindly. Observing alone without ruling out C. diff may delay care."
-  },
-  {
-    "question": "A 23-year-old man is lost at sea and drinks 1 liter of seawater (osmolarity ~2400 mOsm/L). His kidney’s maximum urinary concentrating ability is 1200 mOsm/L. What is the net water balance effect after excreting the solutes from this seawater?",
-    "choices": [
-      "Gain of 0.5 L water",
-      "Loss of 0.5 L water",
-      "Gain of 1.0 L water",
-      "Loss of 1.0 L water",
-      "No net change in body water"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Seawater has a very high osmolarity (~2400 mOsm/L). If 1 L is ingested, 2400 mOsm of solute enters the body. With a maximal urine concentration of 1200 mOsm/L, excreting 2400 mOsm requires at least 2 L of urine. Thus, there's a net loss of 1 L water (2 L excreted - 1 L consumed). Other choices either miscalculate the osmotic burden or the kidney’s concentrating capacity."
-  },
-  {
-    "question": "A man is undergoing a dehydration test for evaluation of polyuria. He shows no significant increase in urine osmolarity despite high plasma osmolarity. Which of the following best explains his inability to concentrate urine?",
-    "choices": [
-      "Deficient aldosterone production",
-      "Defect in thick ascending limb sodium transport",
-      "Impaired ADH synthesis",
-      "Overactive mineralocorticoid receptor",
-      "Excessive sodium intake"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The thick ascending limb is crucial for generating the medullary concentration gradient via active Na/K/2Cl transport, necessary for water reabsorption in the collecting duct under ADH influence. Without this gradient, even with normal ADH, urine cannot be concentrated. ADH deficiency (choice 3) would impair water reabsorption but wouldn't explain failure if ADH levels are confirmed to rise. Aldosterone acts primarily on sodium reabsorption, not water concentration."
-  },
-  {
-    "question": "A 47-year-old patient has chronic volume overload due to heart failure. He has high ANP levels. Which of the following renal responses is most consistent with the effects of ANP?",
-    "choices": [
-      "Increased sodium reabsorption in the proximal tubule",
-      "Stimulation of renin secretion",
-      "Inhibition of aldosterone synthesis",
-      "Constriction of afferent arteriole",
-      "Enhanced aquaporin-2 insertion in collecting duct"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Atrial natriuretic peptide (ANP) lowers blood pressure and volume by increasing GFR and inhibiting renin and aldosterone secretion. It dilates afferent arterioles and constricts efferent arterioles, enhancing GFR. ANP also decreases sodium reabsorption and opposes the RAAS. Choice 5 is incorrect—ANP decreases, not enhances, ADH effect and aquaporin insertion."
-  },
-  {
-    "question": "Which of the following best describes the role of urea in the kidney’s ability to concentrate urine?",
-    "choices": [
-      "It is passively reabsorbed in the proximal tubule only",
-      "It is secreted actively throughout the nephron",
-      "It helps maintain the medullary osmotic gradient in the inner medulla",
-      "It is completely excreted without reabsorption",
-      "It reduces the countercurrent exchange efficiency"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Urea is passively reabsorbed in the medullary collecting duct under the influence of ADH, contributing to the hyperosmolarity of the inner medulla and facilitating water reabsorption. Choice 1 is too limited. Choice 4 is incorrect as ~50% of filtered urea is reabsorbed. Choice 5 is incorrect; urea enhances the countercurrent system by maintaining medullary tonicity."
-  },
-  {
-    "question": "Which of the following best distinguishes the function of the countercurrent multiplier from that of the countercurrent exchanger in the kidney?",
-    "choices": [
-      "Multiplier preserves medullary osmolarity; exchanger generates it",
-      "Multiplier uses passive transport only; exchanger uses active transport",
-      "Multiplier creates gradient; exchanger maintains it",
-      "Both operate at the proximal tubule",
-      "Exchanger functions only in presence of aldosterone"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The countercurrent multiplier (loop of Henle) creates the osmotic gradient via active ion transport in the ascending limb. The countercurrent exchanger (vasa recta) passively maintains the gradient by preventing washout. Choices 1 and 2 confuse their roles. Choice 4 is incorrect; these structures are distal to the proximal tubule. Aldosterone is irrelevant to the exchanger."
-  },
-  {
-    "question": "A patient with bilateral renal artery stenosis shows elevated renin and aldosterone levels. Which of the following hemodynamic mechanisms contributes most to sodium retention in this condition?",
-    "choices": [
-      "Increased afferent arteriolar resistance",
-      "Decreased proximal sodium reabsorption",
-      "Reduced sympathetic tone",
-      "Enhanced sodium-hydrogen exchange in proximal tubule",
-      "Decreased angiotensin II levels"
-    ],
-    "correctAnswer": 3,
-    "explanation": "In renal hypoperfusion, angiotensin II stimulates sodium reabsorption by enhancing Na+/H+ exchange in the proximal tubule. Choices 1 and 2 are incorrect because afferent constriction reduces GFR, not reabsorption. Choice 3 is incorrect; sympathetic tone increases. Choice 5 is incorrect as angiotensin II is increased, not decreased."
-  },
-  {
-    "question": "A 29-year-old woman has high blood pressure and hypokalemia. Lab evaluation shows elevated aldosterone and low renin. Which of the following mechanisms best explains aldosterone’s contribution to her findings?",
-    "choices": [
-      "Upregulation of ENaC in the proximal tubule",
-      "Stimulation of sodium-potassium ATPase in the collecting duct",
-      "Increased water permeability in the ascending limb",
-      "Inhibition of ADH release",
-      "Downregulation of mineralocorticoid receptors"
+      "Pubic symphysis",
+      "Sacral promontory",
+      "Ischial spines",
+      "Coccyx",
+      "Arcuate line"
     ],
     "correctAnswer": 1,
-    "explanation": "Aldosterone acts on the principal cells of the late distal and collecting tubules, increasing ENaC channels and Na+/K+ ATPase activity, promoting sodium reabsorption and potassium excretion. Choice 1 is incorrect in location—ENaC is not in the proximal tubule. Choice 3 misplaces aldosterone's action. Choice 4 is incorrect—aldosterone does not inhibit ADH. Choice 5 is incorrect—aldosterone upregulates, not downregulates, its receptors."
+    "explanation": "The obstetric conjugate is the anteroposterior diameter of the pelvic inlet that extends from the sacral promontory to the posterior surface of the pubic symphysis. It is the narrowest fixed distance through which the fetal head must pass during delivery, making the sacral promontory the posterior limit."
+  },
+  {
+    "question": "A 34-year-old woman is in active labor and requests regional anesthesia. The obstetrician performs a pudendal nerve block. Which of the following bony landmarks is used to guide the needle for this procedure?",
+    "choices": [
+      "Iliac crest",
+      "Ischial tuberosity",
+      "Pubic symphysis",
+      "Ischial spine",
+      "Sacral promontory"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The ischial spine is the anatomical landmark used to locate the pudendal nerve for regional anesthesia. The pudendal nerve exits the greater sciatic foramen, wraps around the ischial spine, and enters the perineum through the lesser sciatic foramen, making this site optimal for nerve block access."
+  },
+  {
+    "question": "A 48-year-old man undergoes resection of a rectal carcinoma. Postoperatively, he reports erectile dysfunction. Injury to which of the following nerve structures is most likely responsible?",
+    "choices": [
+      "Ilioinguinal nerve",
+      "Pelvic splanchnic nerves",
+      "Pudendal nerve",
+      "Genitofemoral nerve",
+      "Inferior hypogastric plexus"
+    ],
+    "correctAnswer": 4,
+    "explanation": "The inferior hypogastric plexus contains autonomic fibers including pelvic splanchnic nerves (S2–S4) responsible for parasympathetic innervation of pelvic organs, including erection. Surgical disruption of this plexus during rectal surgery can result in erectile dysfunction."
+  },
+  {
+    "question": "A 38-year-old woman presents with urinary incontinence and pelvic organ prolapse 6 months after giving birth. Her delivery was prolonged and required forceps assistance. Injury to which of the following muscles most likely contributed to her symptoms?",
+    "choices": [
+      "Piriformis",
+      "Coccygeus",
+      "Obturator internus",
+      "Levator ani",
+      "Gluteus maximus"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The levator ani muscle, particularly its components pubococcygeus and puborectalis, supports pelvic organs and maintains continence. Injury during childbirth weakens this support, leading to prolapse and incontinence."
+  },
+  {
+    "question": "A 45-year-old woman presents with left lower quadrant pain. Imaging reveals an ovarian cyst involving the left ovary, which lies below the pelvic pain line. Pain from this structure is most likely transmitted via which of the following pathways?",
+    "choices": [
+      "T10-L1 via lumbar splanchnics",
+      "T12-L2 via hypogastric nerves",
+      "S2-S4 via pelvic splanchnics",
+      "T5-T9 via greater splanchnics",
+      "L4-S1 via lumbosacral plexus"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Visceral afferents from pelvic organs located below the pelvic pain line (such as the ovary, cervix, and bladder neck) follow the parasympathetic pelvic splanchnic nerves (S2–S4) back to the spinal cord."
+  },
+  {
+    "question": "A 27-year-old man is being evaluated for infertility. Semen analysis shows low volume and absent fructose. Obstruction of which of the following structures is the most likely cause?",
+    "choices": [
+      "Epididymis",
+      "Prostate gland",
+      "Ductus deferens",
+      "Seminal vesicle",
+      "Ejaculatory duct"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Seminal vesicles produce a majority of the ejaculate volume and secrete fructose. Obstruction of the seminal vesicle leads to low-volume, fructose-negative semen, often seen in congenital bilateral absence of the vas deferens or CFTR-related disorders."
+  },
+  {
+    "question": "A 52-year-old man presents with painless rectal bleeding. Colonoscopy reveals dilated veins proximal to the pectinate line. Which venous system is most likely involved?",
+    "choices": [
+      "Inferior rectal veins",
+      "External iliac veins",
+      "Superior rectal veins",
+      "Internal pudendal veins",
+      "Inferior mesenteric veins"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Internal hemorrhoids arise from the superior rectal veins, which are part of the portal venous system. These are located above the pectinate line and are typically painless due to visceral innervation."
+  },
+  {
+    "question": "A 70-year-old man is diagnosed with prostate cancer. Imaging shows metastatic spread to lymph nodes along the internal iliac vessels. These lymph nodes most likely receive direct lymphatic drainage from which of the following structures?",
+    "choices": [
+      "Testes",
+      "Penile shaft",
+      "Glans penis",
+      "Prostate",
+      "Scrotum"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The prostate drains primarily into the internal iliac lymph nodes. This pattern is clinically relevant for tracking prostate cancer spread. In contrast, the testes drain to para-aortic nodes and superficial perineal structures drain to inguinal nodes."
+  },
+  {
+    "question": "A 35-year-old woman presents with severe lower abdominal pain and fever three days after undergoing pelvic surgery. A pelvic ultrasound reveals an anechoic fluid collection in the rectouterine pouch. Which of the following best explains why fluid accumulates in this anatomical location?",
+    "choices": [
+      "It is the most vascularized area of the peritoneal cavity",
+      "It is the highest point in the supine position",
+      "It lacks peritoneal covering",
+      "It is the most dependent portion of the female peritoneal cavity",
+      "It contains the suspensory ligament of the ovary"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The rectouterine pouch (pouch of Douglas) is the most dependent (lowest) portion of the female peritoneal cavity in upright or supine positions. This makes it a common site for pathological fluid accumulation such as pus or blood following pelvic surgery or infection. It is lined by peritoneum and is not the most vascularized area, nor does it contain the suspensory ligament of the ovary."
+  },
+  {
+    "question": "A 60-year-old man presents with abdominal discomfort and signs of peritonitis. A CT scan shows free air and fluid accumulating in the rectovesical pouch. What is the clinical relevance of this finding?",
+    "choices": [
+      "It indicates a contained perforation limited to the sigmoid colon",
+      "It confirms retroperitoneal hemorrhage",
+      "It suggests intraperitoneal rupture of a hollow organ",
+      "It implies abscess formation in the perineum",
+      "It confirms bladder rupture from external trauma"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The rectovesical pouch is the most dependent peritoneal recess in males. Accumulation of air and fluid here typically indicates intraperitoneal rupture of a hollow organ, such as a perforated viscus. Retroperitoneal hemorrhage and perineal abscesses occur in extraperitoneal spaces. While bladder rupture can cause pelvic fluid, isolated rectovesical accumulation more strongly supports visceral perforation."
   },
   {
     "question": "A 36-year-old woman presents to the emergency department with sudden-onset lower abdominal pain and shoulder tip discomfort. She has missed her last menstrual period. Pelvic ultrasound reveals free fluid in the rectouterine pouch. Which of the following is the most likely explanation for this finding?",
@@ -481,7 +481,7 @@ const quizData = [
     "explanation": "Patients with SLE benefit from support groups and psychosocial support, which improve coping and reduce disease-related fatigue and depression. Validating emotional concerns and referring for resources such as social support groups and psychotherapy is crucial. Emotional stress is clinically relevant in SLE; dismissal can worsen outcomes."
   },
   {
-    "question": "A 30-year-old woman newly diagnosed with systemic lupus erythematosus expresses concern about how long it took to receive a diagnosis despite years of symptoms. She appears withdrawn and says, I knew something was wrong, but no one believed me. Which of the following responses best reflects effective clinical communication?",
+    "question": "A 30-year-old woman newly diagnosed with systemic lupus erythematosus expresses concern about how long it took to receive a diagnosis despite years of symptoms. She appears withdrawn and says, 'I knew something was wrong, but no one believed me.' Which of the following responses best reflects effective clinical communication?",
     "choices": [
       "You’re right, lupus can be hard to catch. Let’s move forward with treatment.",
       "Don’t worry, now that we know what it is, we can handle it.",
