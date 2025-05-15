@@ -408,7 +408,6 @@ const quizData = [
     "correctAnswer": 2,
     "explanation": "The rectovesical pouch is the lowest part of the peritoneal cavity in males when upright or supine. It collects fluid from peritoneal inflammation, bleeding, or perforation. It does not directly involve the prostate, lymphatics, or continence. Recognizing this dependent space is critical for imaging and surgical drainage."
   },
-[
   {
     "question": "A 79-year-old nursing home resident with dementia is evaluated for altered mental status. She is afebrile, has stable vital signs, and denies dysuria. Urinalysis shows pyuria and bacteriuria. What is the most appropriate next step in management?",
     "choices": [
@@ -482,7 +481,7 @@ const quizData = [
     "explanation": "Patients with SLE benefit from support groups and psychosocial support, which improve coping and reduce disease-related fatigue and depression. Validating emotional concerns and referring for resources such as social support groups and psychotherapy is crucial. Emotional stress is clinically relevant in SLE; dismissal can worsen outcomes."
   },
   {
-    "question": "A 30-year-old woman newly diagnosed with systemic lupus erythematosus expresses concern about how long it took to receive a diagnosis despite years of symptoms. She appears withdrawn and says, 'I knew something was wrong, but no one believed me.' Which of the following responses best reflects effective clinical communication?",
+    "question": "A 30-year-old woman newly diagnosed with systemic lupus erythematosus expresses concern about how long it took to receive a diagnosis despite years of symptoms. She appears withdrawn and says, I knew something was wrong, but no one believed me. Which of the following responses best reflects effective clinical communication?",
     "choices": [
       "You’re right, lupus can be hard to catch. Let’s move forward with treatment.",
       "Don’t worry, now that we know what it is, we can handle it.",
