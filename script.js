@@ -1,496 +1,376 @@
 // Quiz Data
 const quizData = [
   {
-    "question": "A 28-year-old man falls straddling a metal bar and presents with blood at the urethral meatus and swelling of the scrotum and perineum. Imaging confirms a rupture of the spongy urethra. Which fascial layer limits the spread of extravasated urine into the thighs?",
+    "question": "A newborn with ambiguous genitalia is found to have both ovarian and testicular tissue upon exploratory surgery. Karyotype shows 46,XX. Which of the following best describes the underlying condition?",
     "choices": [
-      "Dartos fascia",
-      "Buck's fascia",
-      "Colles’ fascia",
-      "Scarpa’s fascia",
-      "Fascia lata"
-    ],
-    "correctAnswer": 4,
-    "explanation": "Urine from a ruptured spongy urethra collects in the superficial perineal pouch, bounded by Colles’ fascia (in the perineum), Dartos fascia (in the scrotum), and Scarpa’s fascia (in the lower abdomen). Scarpa’s fascia fuses with the fascia lata of the thigh, preventing extravasation into the thighs. Buck’s fascia confines urine deep to it unless ruptured."
-  },
-  {
-    "question": "A 68-year-old woman with diabetes develops a horseshoe-shaped abscess involving both ischioanal fossae. Which of the following anatomical structures allows this infection to spread bilaterally?",
-    "choices": [
-      "Anococcygeal ligament",
-      "Coccygeus muscle",
-      "Levator ani",
-      "Pudendal canal",
-      "Sacrotuberous ligament"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The anococcygeal ligament lies between the two ischioanal fossae and allows infections to cross the midline posteriorly, creating a horseshoe-shaped abscess. The levator ani separates the fossae from pelvic structures but does not facilitate communication. The pudendal canal contains neurovascular elements and is lateral to the abscess."
-  },
-  {
-    "question": "During a mediolateral episiotomy, care must be taken to avoid damage to the perineal body. Which of the following best describes the importance of this structure?",
-    "choices": [
-      "It anchors the urethra to the pubic symphysis",
-      "It supports pelvic viscera by anchoring several perineal muscles",
-      "It forms the inferior boundary of the deep perineal pouch",
-      "It houses the external urethral sphincter",
-      "It conveys sympathetic innervation to the clitoris and penis"
+      "Androgen insensitivity syndrome",
+      "Ovotesticular disorder of sex development (DSD)",
+      "Congenital adrenal hyperplasia",
+      "Klinefelter syndrome",
+      "Turner syndrome"
     ],
     "correctAnswer": 1,
-    "explanation": "The perineal body is a central fibromuscular node anchoring key muscles such as the bulbospongiosus, superficial transverse perineal, and external anal sphincter. It provides structural support to pelvic floor integrity. It is not involved in nerve transmission or sphincter housing directly."
+    "explanation": "Ovotesticular DSD is characterized by the presence of both ovarian and testicular tissue. It typically presents with ambiguous genitalia, often with some degree of masculinization, and most commonly occurs in individuals with a 46,XX karyotype. This distinguishes it from androgen insensitivity (which is 46,XY), CAH (which lacks testicular tissue), and chromosomal disorders like Klinefelter (47,XXY) or Turner (45,X)."
   },
   {
-    "question": "A 60-year-old man is diagnosed with erectile dysfunction due to diabetic autonomic neuropathy. Which of the following nerves provides the parasympathetic innervation responsible for penile erection?",
+    "question": "A 2-week-old male infant presents with a scrotal mass that transilluminates on physical exam. Ultrasound confirms a fluid-filled sac around the testis. Which of the following embryological processes most likely failed to occur?",
     "choices": [
-      "Ilioinguinal nerve",
-      "Pudendal nerve",
-      "Pelvic splanchnic nerves",
-      "Inferior hypogastric plexus",
-      "Genitofemoral nerve"
+      "Formation of the processus vaginalis",
+      "Canalization of the vaginal plate",
+      "Closure of the processus vaginalis",
+      "Regression of the paramesonephric ducts",
+      "Differentiation of the mesonephric duct into the epididymis"
     ],
     "correctAnswer": 2,
-    "explanation": "Parasympathetic fibers from the pelvic splanchnic nerves (S2–S4) via the cavernous nerves initiate erection by causing vasodilation of the helicine arteries. While the pudendal nerve provides sensory and motor innervation to the perineum, it does not carry parasympathetics. The hypogastric plexus carries sympathetic fibers."
+    "explanation": "A hydrocele is caused by the failure of the processus vaginalis to close, allowing peritoneal fluid to accumulate in the tunica vaginalis around the testis. Formation and regression of genital ducts and canalization of the vaginal plate are unrelated to this condition."
   },
   {
-    "question": "A 43-year-old woman is undergoing a pudendal nerve block for labor analgesia. Which landmark is most important for locating the nerve transvaginally?",
+    "question": "A 3-year-old boy is evaluated for an undescended testis. Imaging confirms it is located within the inguinal canal. Which of the following embryological structures is most directly responsible for guiding testicular descent?",
     "choices": [
-      "Ischial spine",
-      "Sacrotuberous ligament",
-      "Obturator internus muscle",
-      "Pubic tubercle",
-      "Urogenital diaphragm"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The pudendal nerve passes near the ischial spine and sacrospinous ligament, making the ischial spine the key landmark for a transvaginal pudendal nerve block. The sacrotuberous ligament is adjacent but less precise. The obturator internus is more lateral. The pubic tubercle and urogenital diaphragm are not involved in locating the nerve."
-  },
-  {
-    "question": "A 45-year-old man presents with a 4.2 cm mass in the right kidney found incidentally on imaging. Grossly, it is tan-brown with a central stellate scar. Histologically, it contains eosinophilic cells filled with mitochondria. Genetic testing shows loss of chromosome 1 and Y. Which of the following is the most likely diagnosis?",
-    "choices": [
-      "Papillary renal cell carcinoma",
-      "Angiomyolipoma",
-      "Chromophobe renal cell carcinoma",
-      "Clear cell renal cell carcinoma",
-      "Oncocytoma"
-    ],
-    "correctAnswer": 4,
-    "explanation": "This is a classic description of renal oncocytoma, a benign tumor arising from intercalated cells of the collecting duct. It presents as a tan, mahogany-colored mass with a central stellate scar and abundant mitochondria on EM. Loss of chromosome 1 and Y supports this diagnosis. Clear cell RCC would be yellow and lipid-rich. Chromophobe RCC shares histologic overlap but lacks the central scar and has distinct chromosomal losses. Angiomyolipoma contains fat and smooth muscle. Papillary RCC lacks these features."
-  },
-  {
-    "question": "A 34-year-old man with a history of von Hippel-Lindau disease presents with hematuria. Imaging reveals multiple bilateral renal masses. Biopsy of one mass shows clear cytoplasm with a rich capillary network. Which chromosomal abnormality is most likely responsible for his condition?",
-    "choices": [
-      "Trisomy of chromosomes 7 and 17",
-      "Loss of chromosome 22q11 (SMARCB1)",
-      "Deletion of chromosome 3p25",
-      "Translocation involving TFE3 (Xp11)",
-      "Mutation in WT1 on 11p13"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Clear cell RCC is strongly associated with deletion of chromosome 3p25, which harbors the VHL gene. Inactivation of VHL leads to HIF accumulation and increased VEGF expression. Bilateral, multiple tumors and younger age further support VHL-associated clear cell RCC. Trisomy 7 and 17 suggest papillary RCC. SMARCB1 loss is linked to renal medullary carcinoma. TFE3 translocations define a distinct translocation RCC. WT1 mutations are involved in Wilms tumor."
-  },
-  {
-    "question": "A 3-year-old child presents with a large abdominal mass and hematuria. Imaging reveals a solid renal mass. Histology shows blastemal cells, tubules, and spindle cells. Genetic testing reveals deletion of WT1 on chromosome 11p13. Which syndrome is most likely associated with this condition?",
-    "choices": [
-      "Beckwith-Wiedemann syndrome",
-      "Denys-Drash syndrome",
-      "WAGR syndrome",
-      "Tuberous sclerosis complex",
-      "Birt-Hogg-Dubé syndrome"
-    ],
-    "correctAnswer": 2,
-    "explanation": "WAGR syndrome (Wilms tumor, Aniridia, Genitourinary anomalies, and mental Retardation) is linked to deletion of the WT1 gene on 11p13. The patient likely has Wilms tumor, a nephroblastoma with characteristic triphasic histology. Denys-Drash and Beckwith-Wiedemann also predispose to Wilms but have distinct features like gonadal dysgenesis or organomegaly. Tuberous sclerosis is associated with angiomyolipoma. Birt-Hogg-Dubé is linked to oncocytomas and chromophobe RCC."
-  },
-  {
-    "question": "A renal mass is resected from a 29-year-old man with sickle cell trait. The tumor is centered in the renal medulla and shows pleomorphic high-grade nuclei with neutrophilic infiltration. Nearly all cases present with metastatic disease. What is the most likely diagnosis?",
-    "choices": [
-      "Chromophobe renal cell carcinoma",
-      "Papillary renal cell carcinoma",
-      "Renal medullary carcinoma (SMARCB1-deficient)",
-      "Xp11 translocation RCC",
-      "Clear cell renal cell carcinoma"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Renal medullary carcinoma is an aggressive neoplasm almost exclusively seen in young individuals with sickle cell trait or disease. It arises in the medulla, is SMARCB1-deficient, and nearly always presents with metastasis. It has a poor prognosis. Chromophobe RCC and papillary RCC are less aggressive. Xp11 RCC presents in younger individuals but has TFE3 fusions, not SMARCB1 loss. Clear cell RCC is more common but arises in the cortex."
-  },
-  {
-    "question": "A 14-year-old girl presents with a renal mass. Biopsy shows papillary architecture with abundant psammoma bodies. Genetic analysis reveals a translocation involving TFE3 at Xp11. Which of the following best describes the typical prognosis of this tumor compared to clear cell RCC?",
-    "choices": [
-      "Better prognosis than clear cell RCC",
-      "Similar prognosis to clear cell RCC",
-      "Significantly worse prognosis than clear cell RCC",
-      "Cure is likely with surgery alone",
-      "Indolent course with no risk of metastasis"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Xp11 translocation RCC is more common in pediatric patients and presents with papillary features, clear cells, and psammoma bodies. It involves overexpression of TFE3. Prognosis is similar to clear cell RCC. It may behave aggressively despite early age. It is not indolent, and cure is not guaranteed by surgery alone. Psammoma bodies help distinguish it histologically."
-  },
-  {
-    "question": "A newborn presents with ambiguous genitalia, hypotension, and vomiting. Lab results show hyponatremia, hyperkalemia, and low cortisol. Serum 17-hydroxyprogesterone is markedly elevated. Which of the following enzymes is most likely deficient?",
-    "choices": [
-      "11β-hydroxylase",
-      "3β-hydroxysteroid dehydrogenase",
-      "17α-hydroxylase",
-      "21α-hydroxylase",
-      "StAR protein"
+      "Processus vaginalis",
+      "Mesonephric duct",
+      "Paramesonephric duct",
+      "Gubernaculum",
+      "Tunica albuginea"
     ],
     "correctAnswer": 3,
-    "explanation": "21α-hydroxylase deficiency is the most common cause of congenital adrenal hyperplasia. It blocks the production of both cortisol and aldosterone, leading to salt-wasting, hypotension, and elevated ACTH. The pathway is shunted to androgen synthesis, causing virilization. Elevated 17-hydroxyprogesterone is a diagnostic marker. 11β-hydroxylase deficiency causes hypertension. 17α-hydroxylase deficiency leads to sexual infantilism and hypertension. StAR deficiency impairs all steroidogenesis and is more severe."
+    "explanation": "The gubernaculum is a fibrous cord that connects the testis to the scrotum and plays a key role in guiding testicular descent. Its failure can result in cryptorchidism. The processus vaginalis forms the inguinal canal, while the tunica albuginea forms a capsule around the testis but is not involved in descent."
   },
   {
-    "question": "A 16-year-old boy presents with early-onset hypertension and delayed puberty. He has low cortisol and androgen levels but elevated corticosterone. Serum ACTH is elevated. What enzyme deficiency best explains this clinical picture?",
+    "question": "A 22-year-old man presents with infertility. Lab results show low testosterone, elevated luteinizing hormone (LH), and normal follicle-stimulating hormone (FSH). Testicular biopsy shows decreased Leydig cell activity but intact Sertoli cells. Which of the following best explains the hormonal abnormality observed?",
     "choices": [
-      "11β-hydroxylase",
-      "17α-hydroxylase",
-      "21α-hydroxylase",
-      "3β-hydroxysteroid dehydrogenase",
-      "17β-hydroxysteroid dehydrogenase"
-    ],
-    "correctAnswer": 1,
-    "explanation": "17α-hydroxylase deficiency impairs both cortisol and sex steroid synthesis while allowing mineralocorticoid precursors (like corticosterone) to accumulate. This results in hypertension and sexual underdevelopment. 11β-hydroxylase deficiency also causes hypertension but increases androgens. 3β-HSD deficiency leads to salt-wasting and ambiguous genitalia. 17β-HSD is involved in testosterone production, not cortisol or aldosterone synthesis."
-  },
-  {
-    "question": "Which of the following is the rate-limiting step in the biosynthesis of all steroid hormones?",
-    "choices": [
-      "Conversion of pregnenolone to progesterone by 3β-HSD",
-      "Hydroxylation of 17α-hydroxyprogesterone",
-      "Transport of cholesterol into mitochondria by StAR protein",
-      "Aromatization of testosterone into estradiol",
-      "Hydroxylation of corticosterone by CYP11B2"
+      "Sertoli cell failure to produce androgen-binding protein",
+      "Aromatase deficiency in peripheral tissues",
+      "Leydig cell insensitivity to LH",
+      "Pituitary adenoma producing excess FSH",
+      "Testosterone overproduction by adrenal glands"
     ],
     "correctAnswer": 2,
-    "explanation": "The rate-limiting step in steroidogenesis is the transport of cholesterol into the mitochondria, where it is converted to pregnenolone by CYP11A1. This step requires the StAR (Steroidogenic Acute Regulatory) protein. Other listed reactions are important but occur downstream in specific pathways (e.g., 3β-HSD, aromatase, CYP11B2)."
+    "explanation": "LH stimulates Leydig cells to produce testosterone. In this case, low testosterone with elevated LH indicates a failure of Leydig cells to respond to LH—suggesting Leydig cell insensitivity. Sertoli cell function (mediated by FSH) appears intact, as FSH is normal. Aromatase deficiency or adrenal testosterone overproduction would not cause low serum testosterone and elevated LH."
   },
   {
-    "question": "A 3-week-old male infant has persistent vomiting and dehydration. Laboratory studies reveal low cortisol, low aldosterone, and elevated DHEA. Which of the following findings is most likely on physical examination?",
+    "question": "A 34-year-old man presents with dysuria and increased urinary frequency. Digital rectal exam reveals a diffusely enlarged, non-tender prostate. PSA is mildly elevated. Which of the following histologic changes is most likely present in the prostate?",
     "choices": [
-      "Undervirilized genitalia",
-      "Hypertension and facial acne",
-      "Normal male genitalia with scrotal hyperpigmentation",
-      "Ambiguous genitalia with testicular enlargement",
-      "Hypospadias and macroorchidism"
+      "Loss of basal cell layer in acini",
+      "Infiltration of neutrophils into glandular stroma",
+      "Hyperplasia of periurethral (transition zone) glands",
+      "Necrosis of the central zone",
+      "Malignant proliferation of the peripheral zone"
     ],
     "correctAnswer": 2,
-    "explanation": "In 21-hydroxylase deficiency, low cortisol and aldosterone result in salt-wasting. ACTH overproduction causes adrenal hyperplasia and excess androgen production, leading to virilization and DHEA elevation. Males typically have normal genitalia, but hyperpigmentation may be seen due to increased ACTH-derived MSH. Ambiguous genitalia and undervirilization are seen in other enzyme defects (e.g., 17α-hydroxylase, 3β-HSD)."
+    "explanation": "Benign prostatic hyperplasia (BPH) involves hyperplasia of glandular and stromal tissue, especially in the transition zone surrounding the urethra. This can compress the urethra and lead to urinary symptoms. Loss of basal layer and peripheral zone involvement are typical of prostate cancer, not BPH. Neutrophilic infiltration and necrosis suggest acute prostatitis."
   },
   {
-    "question": "A woman presents with hirsutism, irregular menses, central obesity, and high ACTH levels. Which of the following is the most likely diagnosis?",
+    "question": "A 19-year-old male presents with a painless testicular mass. Ultrasound confirms a solid intratesticular lesion. Biopsy reveals large cells with clear cytoplasm and central nuclei arranged in sheets. The tumor is highly responsive to chemotherapy. What is the most likely site of lymphatic spread for this lesion?",
     "choices": [
-      "Cushing’s syndrome from adrenal tumor",
-      "Cushing’s disease from pituitary ACTH overproduction",
-      "Ectopic ACTH production from small cell lung cancer",
-      "Congenital adrenal hyperplasia due to 21-hydroxylase deficiency",
-      "Exogenous glucocorticoid use"
+      "Inguinal lymph nodes",
+      "External iliac lymph nodes",
+      "Internal iliac lymph nodes",
+      "Para-aortic lymph nodes",
+      "Common iliac lymph nodes"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Testicular cancers such as seminomas commonly metastasize to the para-aortic (lumbar) lymph nodes due to the retroperitoneal embryologic origin of the testes. Inguinal and iliac lymph nodes are involved in scrotal pathology, not intratesticular masses. This distinction is critical for staging and management."
+  },
+  {
+    "question": "A 27-year-old man presents with a painful genital ulcer and tender inguinal lymphadenopathy. He is sexually active with multiple partners and does not use protection consistently. Examination reveals a 1.5 cm deep ulcer with a purulent base and ragged margins. There is also unilateral, tender inguinal lymphadenopathy with fluctuance. Which of the following is the most appropriate empiric treatment?",
+    "choices": [
+      "Benzathine penicillin 2.4 million units IM x 1 dose",
+      "Azithromycin 1g orally x 1 dose",
+      "Doxycycline 100 mg orally BID x 3 weeks",
+      "Acyclovir 400 mg orally TID x 7 days",
+      "Azithromycin 1g orally weekly x 4–6 weeks"
     ],
     "correctAnswer": 1,
-    "explanation": "Cushing’s disease refers specifically to pituitary ACTH overproduction, leading to bilateral adrenal hyperplasia and excess cortisol and androgens. Hirsutism, obesity, and menstrual irregularities are classic features. Adrenal tumors suppress ACTH. Ectopic ACTH often causes more dramatic features and hypokalemia. Exogenous steroids suppress ACTH. CAH would have presented earlier with different electrolyte disturbances."
+    "explanation": "This patient's presentation of painful genital ulcer and tender suppurative lymphadenopathy is most consistent with chancroid caused by Haemophilus ducreyi. The preferred empiric treatment is a single dose of azithromycin 1g orally. Benzathine penicillin is used for syphilis, which causes painless ulcers. Doxycycline 3 weeks is used for lymphogranuloma venereum (LGV), and acyclovir is used for herpes simplex virus, which often presents with grouped vesicles."
   },
   {
-    "question": "A 67-year-old man presents with gross hematuria. Cystoscopy reveals a papillary lesion in the bladder. Biopsy shows a tumor with over 7 cell layers, mild nuclear atypia, and rare mitoses. Which of the following features most accurately distinguishes this tumor from a high-grade papillary urothelial carcinoma?",
+    "question": "A 32-year-old woman presents with a thin, malodorous, gray vaginal discharge. She reports no itching or pain. Speculum exam reveals a homogenous discharge coating the vaginal walls. A wet mount shows clue cells, and the vaginal pH is 5.5. The whiff test is positive. Which of the following is the most appropriate first-line treatment?",
     "choices": [
-      "Presence of fibrovascular cores in papillary structures",
-      "Abundance of mitotic figures and severe nuclear pleomorphism",
-      "Origin from transitional epithelium",
-      "Recurrence after transurethral resection",
-      "Expression of urothelial markers on immunohistochemistry"
+      "Metronidazole 500 mg orally BID for 7 days",
+      "Fluconazole 150 mg orally x 1 dose",
+      "Azithromycin 1g orally x 1 dose",
+      "Clindamycin 900 mg IV every 8 hours",
+      "Tinidazole 2g orally x 1 dose"
+    ],
+    "correctAnswer": 0,
+    "explanation": "This patient meets 4/4 Amsel criteria (homogenous discharge, clue cells, pH > 4.5, positive whiff test), diagnostic for bacterial vaginosis. First-line treatment is metronidazole 500 mg orally BID for 7 days. Fluconazole is used for Candida, azithromycin for chlamydia, clindamycin IV for PID, and tinidazole is an alternative for BV but not first-line."
+  },
+  {
+    "question": "A 25-year-old male presents to the clinic with a one-week history of dysuria and purulent urethral discharge. He denies fever or systemic symptoms. Gram stain of urethral exudate shows gram-negative diplococci within polymorphonuclear leukocytes. What is the most appropriate antibiotic regimen?",
+    "choices": [
+      "Ceftriaxone 500 mg IM x 1 dose",
+      "Penicillin G benzathine 2.4 million units IM weekly x 3 weeks",
+      "Metronidazole 500 mg orally BID x 7 days",
+      "Azithromycin 1g orally weekly for 4 weeks",
+      "Cefixime 800 mg orally BID for 3 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The presence of gram-negative intracellular diplococci in a symptomatic male is diagnostic for Neisseria gonorrhoeae. The CDC-recommended treatment is ceftriaxone 500 mg IM x 1 dose. Benzathine penicillin is used for syphilis. Metronidazole treats trichomoniasis or BV. Azithromycin weekly is not a correct regimen here, and cefixime is an oral option but less preferred due to lower efficacy."
+  },
+  {
+    "question": "A 29-year-old man is diagnosed with secondary syphilis and receives a single intramuscular dose of benzathine penicillin G. Six hours later, he develops fever, chills, headache, and myalgias. On physical exam, he is febrile with a temperature of 38.8°C (101.8°F) and appears mildly ill but stable. Which of the following best explains this patient’s new symptoms?",
+    "choices": [
+      "Anaphylactic hypersensitivity to penicillin",
+      "Toxin-mediated release of IL-1 by Streptococcus pyogenes",
+      "Tumor lysis syndrome due to rapid bacterial turnover",
+      "Immune complex deposition in tissues",
+      "Cytokine release due to rapid spirochete lysis"
+    ],
+    "correctAnswer": 4,
+    "explanation": "This patient is experiencing a Jarisch-Herxheimer reaction, a transient systemic inflammatory response that occurs within hours of antibiotic treatment of spirochetal infections (especially syphilis). It is caused by the rapid lysis of Treponema pallidum, which releases lipoproteins and other components that trigger cytokine release, including IL-6, IL-8, and TNF-α. It is self-limited and managed with supportive care. It is not a true allergy or immune complex-mediated reaction."
+  },
+  {
+    "question": "A 28-year-old woman has a regular 28-day menstrual cycle. On day 14, ovulation occurs, and a structure remains in the ovary and begins producing progesterone. Which of the following best describes the primary histologic component responsible for progesterone secretion during this phase?",
+    "choices": [
+      "Primordial follicular cells",
+      "Theca externa cells",
+      "Granulosa lutein cells",
+      "Theca lutein cells",
+      "Cumulus oophorus cells"
+    ],
+    "correctAnswer": 2,
+    "explanation": "After ovulation, granulosa cells of the ruptured follicle transform into granulosa lutein cells, which are the primary producers of progesterone during the luteal phase. Theca lutein cells also contribute, but granulosa lutein cells are more prominent and secretory. Theca externa is fibrous and non-secretory; primordial and cumulus cells are not involved in steroid production."
+  },
+  {
+    "question": "A 35-year-old woman is undergoing evaluation for infertility. Her physician orders basal body temperature tracking. An increase in temperature is noted mid-cycle. What is the best explanation for the temperature rise?",
+    "choices": [
+      "Increased estradiol secretion by granulosa cells",
+      "LH surge inducing ovulation",
+      "Estrogen-induced ciliary motion in the oviduct",
+      "Progesterone secretion by the corpus luteum",
+      "Increased vascularization of the endometrium"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The rise in basal body temperature during the luteal phase is caused by progesterone, which is thermogenic. This hormone is secreted by granulosa lutein cells in the corpus luteum after ovulation. Estradiol rises before ovulation. The LH surge induces ovulation but doesn’t cause the temperature rise. Estrogen affects the oviduct, not thermoregulation."
+  },
+  {
+    "question": "A Pap smear from a 40-year-old woman reveals high-grade cervical intraepithelial neoplasia (CIN 3). Which of the following locations most likely harbored the initial site of HPV-mediated transformation?",
+    "choices": [
+      "Simple columnar epithelium of the endocervix",
+      "Stratified squamous epithelium of the ectocervix",
+      "Transformation zone at the squamocolumnar junction",
+      "Endometrial lining of the uterine fundus",
+      "Basal layer of the vaginal mucosa"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The transformation zone of the cervix is where the simple columnar epithelium of the endocervix transitions to stratified squamous epithelium. This area is most susceptible to HPV infection and is the most common site of cervical dysplasia and carcinoma. The ectocervix and endocervix alone are not the main risk sites unless at the transformation zone."
+  },
+  {
+    "question": "A 32-year-old postpartum woman presents for evaluation of breast fullness and mild tenderness. Histologic examination of her breast tissue shows alveolar structures lined by epithelial cells with apical blebbing, bulbous projections, and prominent vacuoles. Which of the following best describes the secretion mechanism responsible for her milk production?",
+    "choices": [
+      "Merocrine secretion of lipids and proteins",
+      "Apocrine secretion of lipids, merocrine secretion of proteins",
+      "Apocrine secretion of both lipids and proteins",
+      "Holocrine secretion of immunoglobulins",
+      "Endocytosis of hormones and passive diffusion of water"
     ],
     "correctAnswer": 1,
-    "explanation": "Low-grade papillary urothelial carcinomas show mild atypia and few mitoses. In contrast, high-grade tumors demonstrate pronounced pleomorphism and increased mitotic activity. Fibrovascular cores are present in both. Both arise from transitional epithelium and may recur. Immunohistochemical markers do not differentiate grade but help identify origin."
+    "explanation": "Mammary glands utilize dual secretory mechanisms. Lipids are secreted via apocrine secretion (involving pinching off of the apical cytoplasm), while proteins are secreted via merocrine (exocytotic) pathways. Holocrine secretion is seen in sebaceous glands, not breast tissue. Endocytosis/passive diffusion are not relevant here."
   },
   {
-    "question": "A 58-year-old man with a history of paraplegia and chronic indwelling catheter develops dysuria and hematuria. Biopsy of a bladder mass reveals invasive squamous cell carcinoma. Which of the following best explains the pathogenesis of his cancer?",
+    "question": "A 58-year-old postmenopausal woman is diagnosed with ER+ breast cancer. She is started on an aromatase inhibitor. Which of the following tissues is the primary source of estrogen in this patient?",
     "choices": [
-      "Transformation of umbrella cells due to FGFR3 mutation",
-      "Metaplasia of urothelium due to chronic irritation",
-      "Direct viral oncogenesis by BK virus",
-      "Activation of TFE3 fusion gene",
-      "Progression from flat carcinoma in situ"
+      "Granulosa cells of the ovary",
+      "Theca interna cells of the ovary",
+      "Granulosa lutein cells of the corpus luteum",
+      "Adipocytes in adipose tissue",
+      "Zona reticularis of the adrenal cortex"
     ],
-    "correctAnswer": 1,
-    "explanation": "Chronic irritation (from catheters or schistosomiasis) can lead to squamous metaplasia of the urothelium, a precursor to squamous cell carcinoma. This pathogenesis differs from papillary urothelial carcinoma, which may involve FGFR3. TFE3 fusions are linked to rare renal tumors. BK virus is associated with polyomavirus nephropathy."
+    "correctAnswer": 3,
+    "explanation": "In postmenopausal women, peripheral conversion of androgens to estrogens occurs in adipose tissue via aromatase. Ovarian follicles (granulosa/theca cells) and corpus luteum no longer contribute significantly after menopause. The zona reticularis produces weak androgens, not estrogens."
   },
   {
-    "question": "A 70-year-old man undergoes prostate biopsy due to elevated PSA. Histology shows small glands lacking basal cells, with prominent nucleoli. Immunohistochemistry confirms absence of basal cell markers. Which of the following is the most likely diagnosis?",
+    "question": "A 44-year-old woman presents with a firm, immobile breast mass. Biopsy reveals malignant ductal cells expressing high levels of estrogen receptor (ER). Which of the following treatment mechanisms best describes how tamoxifen acts in this patient?",
     "choices": [
-      "Benign prostatic hyperplasia",
-      "High-grade prostatic intraepithelial neoplasia",
+      "Blocks androgen receptor signaling in breast cells",
+      "Binds and degrades estrogen receptors via proteasomal pathway",
+      "Inhibits aromatase conversion of androgens to estrogens",
+      "Competitively binds estrogen receptors to prevent estrogen-induced transcription",
+      "Induces apoptosis through direct DNA damage"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tamoxifen is a selective estrogen receptor modulator (SERM) that competitively inhibits estrogen from binding to the ER in breast tissue, thus blocking estrogen-driven transcription and proliferation. SERDs (e.g., fulvestrant) degrade ER. Aromatase inhibitors block estrogen synthesis, not receptor binding."
+  },
+  {
+    "question": "A 30-year-old man presents with a painless testicular mass. Serum tumor markers show markedly elevated beta-hCG, but normal AFP. Histology reveals large pleomorphic cells arranged in sheets with cytotrophoblasts and syncytiotrophoblasts. Which of the following is the most likely diagnosis?",
+    "choices": [
+      "Classic seminoma",
+      "Embryonal carcinoma",
+      "Choriocarcinoma",
+      "Yolk sac tumor",
+      "Teratoma"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Choriocarcinoma is a highly malignant germ cell tumor that presents with elevated beta-hCG due to the presence of syncytiotrophoblasts. It often metastasizes hematogenously and may cause gynecomastia or thyrotoxicosis. AFP is typically not elevated unless there's a yolk sac component. Seminomas rarely elevate beta-hCG and lack trophoblastic elements."
+  },
+  {
+    "question": "A 65-year-old uncircumcised man presents with a painless ulcerated mass on the glans penis. Biopsy reveals invasive squamous cell carcinoma. Which of the following risk factors is most directly associated with the pathogenesis of this condition?",
+    "choices": [
+      "High dietary fat intake",
       "Chronic prostatitis",
-      "Prostate adenocarcinoma",
-      "Urothelial carcinoma involving prostate"
+      "Human papillomavirus type 16 infection",
+      "Estrogen therapy",
+      "Prostate-specific antigen elevation"
     ],
-    "correctAnswer": 3,
-    "explanation": "Loss of the basal cell layer and presence of nucleoli are classic for prostate adenocarcinoma. BPH has intact basal layers. HGPIN shows atypical cells but retains basal cells. Chronic prostatitis may show inflammation but not architectural distortion. Urothelial carcinoma may involve prostate but arises from different cells and histology."
+    "correctAnswer": 2,
+    "explanation": "Penile squamous cell carcinoma is closely associated with high-risk HPV types, especially 16 and 18. HPV infection leads to E6 and E7 oncogene expression, inactivating p53 and Rb, which promotes carcinogenesis. Poor hygiene and lack of circumcision increase susceptibility. PSA and estrogen therapy are unrelated."
   },
   {
-    "question": "A 64-year-old man is diagnosed with prostate adenocarcinoma. His Gleason score is 4+3=7. Which of the following best characterizes the histological pattern that contributes to the higher score?",
+    "question": "A 3-year-old boy presents with a painless scrotal mass. Imaging confirms a solid testicular tumor. Serum alpha-fetoprotein is markedly elevated. Histology reveals Schiller-Duval bodies. What is the most likely diagnosis?",
     "choices": [
-      "Fused glands with poorly defined lumens",
-      "Well-formed individual glands with regular spacing",
-      "Sheets of undifferentiated cells without glandular structure",
-      "Nests of cells with neuroendocrine features",
-      "Central glandular necrosis and psammoma bodies"
+      "Classic seminoma",
+      "Yolk sac tumor",
+      "Teratoma",
+      "Choriocarcinoma",
+      "Embryonal carcinoma"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Yolk sac tumor (endodermal sinus tumor) is the most common testicular tumor in young children. It is characterized by elevated AFP and pathognomonic Schiller-Duval bodies. It generally has a good prognosis in children. Seminomas and embryonal carcinomas occur in older age groups, and teratomas in prepubertal boys are benign and AFP-negative."
+  },
+  {
+    "question": "A 76-year-old woman presents with a pruritic, erythematous lesion of the vulva. Biopsy shows large epithelial cells with abundant pale cytoplasm and prominent nucleoli dispersed within the squamous epithelium. The lesion stains positive for PAS, mucin, and cytokeratin but is negative for S100. Which of the following is the most likely diagnosis?",
+    "choices": [
+      "Melanoma",
+      "Extramammary Paget disease",
+      "Differentiated VIN",
+      "Lichen sclerosus",
+      "High-grade squamous intraepithelial lesion (HSIL)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Extramammary Paget disease presents in elderly women as a red, pruritic lesion of the vulva and is characterized by large Paget cells within the squamous epithelium. These cells are PAS+, mucin+, keratin+, and CEA+, but unlike melanoma, they are S100 negative. Melanoma would show S100 positivity and be negative for mucin and keratin."
+  },
+  {
+    "question": "A 42-year-old woman has an abnormal Pap smear showing high-grade squamous intraepithelial lesion (HSIL). Colposcopic biopsy confirms the diagnosis. Which of the following features would most likely be seen on histologic examination?",
+    "choices": [
+      "Koilocytosis confined to superficial layers",
+      "Basal cell atypia confined to lower third of epithelium",
+      "Full-thickness proliferation of immature, hyperchromatic cells with loss of maturation",
+      "Columnar metaplasia with goblet cells",
+      "Nuclear pseudostratification with cigar-shaped nuclei and mitotic figures at the surface"
+    ],
+    "correctAnswer": 2,
+    "explanation": "HSIL, including CIN3 (carcinoma in situ), is defined by full-thickness proliferation of atypical basal-like cells with high nuclear-to-cytoplasmic ratios, hyperchromasia, and mitoses at all levels. This contrasts with LSIL, where atypia is limited to the lower third and superficial koilocytosis predominates. Goblet cells and pseudostratified nuclei are features of adenocarcinoma."
+  },
+  {
+    "question": "A 3-year-old girl is brought in by her parents after they noticed a grape-like mass protruding from her vagina. Biopsy of the lesion shows malignant cells with rhabdomyoblastic differentiation and a cambium layer beneath the epithelium. Which of the following is the most likely diagnosis?",
+    "choices": [
+      "Yolk sac tumor",
+      "Embryonal rhabdomyosarcoma",
+      "Clear cell adenocarcinoma",
+      "Sarcoma botryoides",
+      "Endodermal sinus tumor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Embryonal rhabdomyosarcoma, also known as sarcoma botryoides, is a malignant tumor of immature skeletal muscle affecting young girls. It presents as a grape-like polypoid mass and shows a characteristic cambium layer histologically. Yolk sac tumor (endodermal sinus tumor) also affects children but is testicular/ovarian and marked by elevated AFP and Schiller-Duval bodies."
+  },
+  {
+    "question": "A 23-year-old woman has regular 28-day menstrual cycles. On cycle day 12, her serum estradiol rises significantly, triggering a sharp increase in LH levels. Which of the following best explains this physiological phenomenon?",
+    "choices": [
+      "Estrogen promotes LH release by inhibiting GnRH",
+      "Estradiol exerts positive feedback on the hypothalamus and anterior pituitary",
+      "Progesterone-induced LH surge causes ovulation",
+      "FSH directly induces the LH surge by stimulating LH receptors",
+      "Estradiol inhibits kisspeptin neurons in the hypothalamus"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Around mid-cycle, elevated estradiol from the dominant follicle exerts a positive feedback effect on the hypothalamus and anterior pituitary, resulting in an LH surge. This triggers ovulation. In contrast, low to moderate estradiol levels exert negative feedback. Progesterone levels rise after the LH surge. Kisspeptin is stimulated—not inhibited—by high estradiol in this context."
+  },
+  {
+    "question": "A 29-year-old woman presents with infertility and hirsutism. Laboratory studies show elevated LH:FSH ratio, increased free testosterone, and low sex hormone-binding globulin (SHBG). Ultrasound shows multiple peripheral follicles in both ovaries. Which of the following mechanisms most directly contributes to her anovulation?",
+    "choices": [
+      "Increased estradiol production by granulosa cells",
+      "Excessive progesterone secretion by corpus luteum",
+      "Hyperandrogenemia leading to follicular atresia",
+      "Decreased GnRH pulse frequency suppressing LH",
+      "Elevated inhibin A suppressing FSH"
+    ],
+    "correctAnswer": 2,
+    "explanation": "This patient has classic findings of polycystic ovary syndrome (PCOS), characterized by hyperandrogenemia, elevated LH:FSH ratio, and anovulation. Androgen excess leads to follicular atresia, preventing dominant follicle selection. SHBG is decreased, increasing free testosterone. Progesterone rises post-ovulation, which is absent in PCOS. Inhibin A is more active in the luteal phase."
+  },
+  {
+    "question": "A 16-year-old girl presents with primary amenorrhea. She has normal breast development, absent axillary and pubic hair, and a blind vaginal pouch. Pelvic ultrasound shows no uterus or upper vagina. Karyotyping reveals 46,XY. Which of the following is the most likely cause of her phenotype?",
+    "choices": [
+      "Complete androgen insensitivity syndrome",
+      "Müllerian agenesis (MRKH syndrome)",
+      "Turner syndrome",
+      "5-alpha reductase deficiency",
+      "Kallmann syndrome"
     ],
     "correctAnswer": 0,
-    "explanation": "Gleason pattern 4 includes fused glands and poorly formed lumens, indicating moderate differentiation. The higher number in the Gleason score (4+3) reflects a worse prognosis than 3+4. Pattern 3 is well-formed glands. Pattern 5 would be sheets or solid nests. Neuroendocrine features are seen in small cell carcinoma. Psammoma bodies are rare in prostate cancer."
+    "explanation": "Complete androgen insensitivity syndrome (CAIS) presents in 46,XY individuals as phenotypic females with normal breast development (due to aromatization of testosterone to estrogen), absent uterus, and scant pubic/axillary hair due to androgen resistance. Müllerian agenesis is 46,XX and has normal pubic hair. Turner syndrome is 45,X and lacks breast development. Kallmann and 5-alpha reductase deficiency do not explain this full constellation."
   },
   {
-    "question": "A 72-year-old man with metastatic prostate cancer develops new bone pain. Imaging shows multiple sclerotic bone lesions. Which of the following best explains this radiologic finding?",
+    "question": "A 26-year-old man presents for infertility evaluation. Semen analysis reveals azoospermia with a volume of 2.5 mL. Physical examination reveals small, firm testes. Labs show: Testosterone 600 ng/dL (normal: 300–1000), FSH 18 mIU/mL (normal: 1–9), LH 7 mIU/mL (normal: 2–9). Which of the following best explains the elevated FSH despite normal testosterone?",
     "choices": [
-      "Lytic bone destruction due to osteoclast activation",
-      "Reactive osteoblastic activity stimulated by tumor cells",
-      "Metastatic deposits of squamous cell carcinoma",
-      "Amyloid deposition within the bone marrow",
-      "Renal osteodystrophy with secondary hyperparathyroidism"
+      "Androgen insensitivity syndrome",
+      "Sertoli cell-only syndrome (germ cell aplasia)",
+      "Leydig cell hyperplasia",
+      "Primary hypothalamic dysfunction",
+      "Androgen-producing adrenal tumor"
     ],
     "correctAnswer": 1,
-    "explanation": "Prostate cancer commonly metastasizes to bone in an osteoblastic pattern, leading to sclerotic lesions. Lytic lesions are typical of other cancers like renal or lung. Squamous cell carcinoma of the bladder rarely metastasizes to bone. Amyloidosis does not produce these changes. Renal osteodystrophy results in metabolic bone disease, not focal sclerosis."
+    "explanation": "This patient has isolated spermatogenic failure, as indicated by azoospermia with elevated FSH and normal testosterone. Sertoli cells secrete inhibin B, which negatively regulates FSH. In Sertoli cell-only syndrome, germ cells are absent and inhibin B is reduced, leading to compensatory FSH elevation. LH remains normal due to intact Leydig cell function and normal testosterone levels."
   },
   {
-    "question": "A 76-year-old woman in a nursing home is found to have cloudy, malodorous urine. She is afebrile, alert, and denies dysuria or urinary frequency. Urinalysis shows leukocyte esterase and nitrites. What is the most appropriate next step?",
+    "question": "A 68-year-old man is diagnosed with benign prostatic hyperplasia (BPH). He is started on finasteride. Which of the following best describes the mechanism of action of this medication?",
     "choices": [
-      "Begin empiric antibiotics for UTI",
-      "Obtain a urine culture and treat if positive",
-      "Start nitrofurantoin for 5 days",
-      "No treatment is needed",
-      "Order renal ultrasound"
-    ],
-    "correctAnswer": 3,
-    "explanation": "This patient has asymptomatic bacteriuria (ASB), which does not require treatment in the absence of urinary symptoms, except in pregnancy or before urologic procedures. Malodorous or cloudy urine is not diagnostic of infection. Starting antibiotics contributes to resistance and adverse effects. Urine cultures in ASB do not alter management."
-  },
-  {
-    "question": "Which of the following best describes the role of the Tamm-Horsfall protein in preventing urinary tract infections?",
-    "choices": [
-      "Increases bladder acidity",
-      "Enhances neutrophil activity in the kidney",
-      "Prevents bacterial adhesion to epithelial cells",
-      "Stimulates IgA production in urine",
-      "Activates macrophages in renal tubules"
+      "Blocks androgen receptor to reduce testosterone activity",
+      "Inhibits aromatase and decreases estradiol conversion",
+      "Inhibits 5α-reductase to decrease dihydrotestosterone",
+      "Stimulates SHBG synthesis to reduce free testosterone",
+      "Suppresses GnRH secretion via negative feedback"
     ],
     "correctAnswer": 2,
-    "explanation": "Tamm-Horsfall protein (uromodulin) binds bacterial adhesins and prevents uropathogen attachment to urothelial cells, particularly in the ascending limb. It is a key part of innate defense in the urinary tract. It does not significantly influence immune cell activation or pH."
+    "explanation": "Finasteride is a 5α-reductase inhibitor that reduces the conversion of testosterone to dihydrotestosterone (DHT). DHT is the primary androgen responsible for prostatic growth. This therapy reduces prostate volume over time. It does not block androgen receptors or affect aromatase. SHBG and GnRH are not directly altered by finasteride."
   },
   {
-    "question": "A 29-year-old primigravida is undergoing evaluation for vaginal delivery. Pelvimetry reveals that the obstetric conjugate is 10.5 cm. Which of the following structures determines the posterior limit of the obstetric conjugate?",
+    "question": "A 17-year-old male presents with delayed puberty and anosmia. Physical exam shows Tanner stage I genitalia and small testes. Labs reveal low FSH, low LH, and low testosterone. MRI shows no pituitary lesion. Which of the following is the most likely diagnosis?",
     "choices": [
-      "Pubic symphysis",
-      "Sacral promontory",
-      "Ischial spines",
-      "Coccyx",
-      "Arcuate line"
+      "Klinefelter syndrome",
+      "Constitutional growth delay",
+      "Complete androgen insensitivity syndrome",
+      "Kallmann syndrome",
+      "Sertoli-cell-only syndrome"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kallmann syndrome is a form of idiopathic hypogonadotropic hypogonadism associated with anosmia due to failed migration of GnRH-producing neurons and olfactory bulbs. Labs show low gonadotropins and testosterone. Klinefelter is 47,XXY and shows high FSH/LH. CAIS has high testosterone and female phenotype. Sertoli-cell-only syndrome shows elevated FSH and normal T. Constitutional delay lacks anosmia and resolves with time."
+  },
+  {
+    "question": "A 17-year-old girl presents with primary amenorrhea and no breast development. Her serum FSH is 0.8 mIU/mL (normal 3–10), LH is 0.5 mIU/mL, and estradiol is low. MRI of the brain shows no pituitary mass. Which of the following is the most likely cause of her condition?",
+    "choices": [
+      "Turner syndrome (45,X)",
+      "Idiopathic hypogonadotropic hypogonadism",
+      "Complete androgen insensitivity syndrome",
+      "Müllerian agenesis",
+      "Premature ovarian insufficiency"
     ],
     "correctAnswer": 1,
-    "explanation": "The obstetric conjugate is the anteroposterior diameter of the pelvic inlet that extends from the sacral promontory to the posterior surface of the pubic symphysis. It is the narrowest fixed distance through which the fetal head must pass during delivery, making the sacral promontory the posterior limit."
+    "explanation": "This patient has delayed puberty with low FSH, LH, and estradiol—indicating hypogonadotropic hypogonadism. The most likely diagnosis is idiopathic hypogonadotropic hypogonadism (IHH), especially since MRI shows no mass. Turner syndrome would show high FSH/LH. CAIS and MRKH present with breast development due to estrogen. POI shows elevated FSH/LH with low estrogen."
   },
   {
-    "question": "A 34-year-old woman is in active labor and requests regional anesthesia. The obstetrician performs a pudendal nerve block. Which of the following bony landmarks is used to guide the needle for this procedure?",
+    "question": "A 2-year-old boy presents with early pubic hair, penile enlargement, and accelerated growth. His LH and FSH levels are undetectable, but his serum testosterone is markedly elevated. Which of the following is the most likely etiology of his condition?",
     "choices": [
-      "Iliac crest",
-      "Ischial tuberosity",
-      "Pubic symphysis",
-      "Ischial spine",
-      "Sacral promontory"
+      "Constitutional delay of puberty",
+      "Central precocious puberty",
+      "McCune-Albright syndrome",
+      "Peripheral precocious puberty",
+      "Kallmann syndrome"
     ],
     "correctAnswer": 3,
-    "explanation": "The ischial spine is the anatomical landmark used to locate the pudendal nerve for regional anesthesia. The pudendal nerve exits the greater sciatic foramen, wraps around the ischial spine, and enters the perineum through the lesser sciatic foramen, making this site optimal for nerve block access."
+    "explanation": "This child has peripheral (gonadotropin-independent) precocious puberty, supported by high testosterone with suppressed LH and FSH. Causes may include adrenal tumors or testicular hCG-producing tumors. Central precocious puberty would show elevated or responsive LH. McCune-Albright involves café-au-lait spots and bone abnormalities. Kallmann syndrome presents with delayed, not early, puberty."
   },
   {
-    "question": "A 48-year-old man undergoes resection of a rectal carcinoma. Postoperatively, he reports erectile dysfunction. Injury to which of the following nerve structures is most likely responsible?",
+    "question": "A 13-year-old boy has not yet entered puberty. Physical exam reveals small testes (<4 mL) and no pubic hair. His labs show FSH 38 mIU/mL, LH 24 mIU/mL, and testosterone <50 ng/dL. Which of the following karyotypes is most likely responsible for his condition?",
     "choices": [
-      "Ilioinguinal nerve",
-      "Pelvic splanchnic nerves",
-      "Pudendal nerve",
-      "Genitofemoral nerve",
-      "Inferior hypogastric plexus"
-    ],
-    "correctAnswer": 4,
-    "explanation": "The inferior hypogastric plexus contains autonomic fibers including pelvic splanchnic nerves (S2–S4) responsible for parasympathetic innervation of pelvic organs, including erection. Surgical disruption of this plexus during rectal surgery can result in erectile dysfunction."
-  },
-  {
-    "question": "A 38-year-old woman presents with urinary incontinence and pelvic organ prolapse 6 months after giving birth. Her delivery was prolonged and required forceps assistance. Injury to which of the following muscles most likely contributed to her symptoms?",
-    "choices": [
-      "Piriformis",
-      "Coccygeus",
-      "Obturator internus",
-      "Levator ani",
-      "Gluteus maximus"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The levator ani muscle, particularly its components pubococcygeus and puborectalis, supports pelvic organs and maintains continence. Injury during childbirth weakens this support, leading to prolapse and incontinence."
-  },
-  {
-    "question": "A 45-year-old woman presents with left lower quadrant pain. Imaging reveals an ovarian cyst involving the left ovary, which lies below the pelvic pain line. Pain from this structure is most likely transmitted via which of the following pathways?",
-    "choices": [
-      "T10-L1 via lumbar splanchnics",
-      "T12-L2 via hypogastric nerves",
-      "S2-S4 via pelvic splanchnics",
-      "T5-T9 via greater splanchnics",
-      "L4-S1 via lumbosacral plexus"
+      "46,XX",
+      "46,XY",
+      "47,XXY",
+      "45,X",
+      "46,XY with SRY deletion"
     ],
     "correctAnswer": 2,
-    "explanation": "Visceral afferents from pelvic organs located below the pelvic pain line (such as the ovary, cervix, and bladder neck) follow the parasympathetic pelvic splanchnic nerves (S2–S4) back to the spinal cord."
-  },
-  {
-    "question": "A 27-year-old man is being evaluated for infertility. Semen analysis shows low volume and absent fructose. Obstruction of which of the following structures is the most likely cause?",
-    "choices": [
-      "Epididymis",
-      "Prostate gland",
-      "Ductus deferens",
-      "Seminal vesicle",
-      "Ejaculatory duct"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Seminal vesicles produce a majority of the ejaculate volume and secrete fructose. Obstruction of the seminal vesicle leads to low-volume, fructose-negative semen, often seen in congenital bilateral absence of the vas deferens or CFTR-related disorders."
-  },
-  {
-    "question": "A 52-year-old man presents with painless rectal bleeding. Colonoscopy reveals dilated veins proximal to the pectinate line. Which venous system is most likely involved?",
-    "choices": [
-      "Inferior rectal veins",
-      "External iliac veins",
-      "Superior rectal veins",
-      "Internal pudendal veins",
-      "Inferior mesenteric veins"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Internal hemorrhoids arise from the superior rectal veins, which are part of the portal venous system. These are located above the pectinate line and are typically painless due to visceral innervation."
-  },
-  {
-    "question": "A 70-year-old man is diagnosed with prostate cancer. Imaging shows metastatic spread to lymph nodes along the internal iliac vessels. These lymph nodes most likely receive direct lymphatic drainage from which of the following structures?",
-    "choices": [
-      "Testes",
-      "Penile shaft",
-      "Glans penis",
-      "Prostate",
-      "Scrotum"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The prostate drains primarily into the internal iliac lymph nodes. This pattern is clinically relevant for tracking prostate cancer spread. In contrast, the testes drain to para-aortic nodes and superficial perineal structures drain to inguinal nodes."
-  },
-  {
-    "question": "A 35-year-old woman presents with severe lower abdominal pain and fever three days after undergoing pelvic surgery. A pelvic ultrasound reveals an anechoic fluid collection in the rectouterine pouch. Which of the following best explains why fluid accumulates in this anatomical location?",
-    "choices": [
-      "It is the most vascularized area of the peritoneal cavity",
-      "It is the highest point in the supine position",
-      "It lacks peritoneal covering",
-      "It is the most dependent portion of the female peritoneal cavity",
-      "It contains the suspensory ligament of the ovary"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The rectouterine pouch (pouch of Douglas) is the most dependent (lowest) portion of the female peritoneal cavity in upright or supine positions. This makes it a common site for pathological fluid accumulation such as pus or blood following pelvic surgery or infection. It is lined by peritoneum and is not the most vascularized area, nor does it contain the suspensory ligament of the ovary."
-  },
-  {
-    "question": "A 60-year-old man presents with abdominal discomfort and signs of peritonitis. A CT scan shows free air and fluid accumulating in the rectovesical pouch. What is the clinical relevance of this finding?",
-    "choices": [
-      "It indicates a contained perforation limited to the sigmoid colon",
-      "It confirms retroperitoneal hemorrhage",
-      "It suggests intraperitoneal rupture of a hollow organ",
-      "It implies abscess formation in the perineum",
-      "It confirms bladder rupture from external trauma"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The rectovesical pouch is the most dependent peritoneal recess in males. Accumulation of air and fluid here typically indicates intraperitoneal rupture of a hollow organ, such as a perforated viscus. Retroperitoneal hemorrhage and perineal abscesses occur in extraperitoneal spaces. While bladder rupture can cause pelvic fluid, isolated rectovesical accumulation more strongly supports visceral perforation."
-  },
-  {
-    "question": "A 36-year-old woman presents to the emergency department with sudden-onset lower abdominal pain and shoulder tip discomfort. She has missed her last menstrual period. Pelvic ultrasound reveals free fluid in the rectouterine pouch. Which of the following is the most likely explanation for this finding?",
-    "choices": [
-      "Ovarian torsion causing lymphatic rupture",
-      "Pelvic inflammatory disease with tubo-ovarian abscess",
-      "Ruptured ectopic pregnancy with hemoperitoneum",
-      "Endometriosis with peritoneal implants",
-      "Rupture of a corpus luteum cyst with serous fluid release"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The rectouterine pouch (pouch of Douglas) is the most dependent portion of the female peritoneal cavity, making it the first site where intraperitoneal blood accumulates in conditions like ruptured ectopic pregnancy. This presentation with acute pain, amenorrhea, and free fluid is classic. While other options can cause pelvic fluid, they are less acute or have different clinical courses."
-  },
-  {
-    "question": "A 68-year-old man is undergoing evaluation for abdominal sepsis following bowel perforation. Imaging shows fluid collection in the rectovesical pouch. Which of the following best explains the significance of this anatomic site?",
-    "choices": [
-      "It is the most common site of prostate cancer invasion",
-      "It provides a route of lymphatic drainage from the sigmoid colon",
-      "It is the first site of dependent fluid accumulation in the male peritoneal cavity",
-      "It allows direct communication between bladder and rectum",
-      "It houses the vesicorectal ligament critical for continence"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The rectovesical pouch is the lowest part of the peritoneal cavity in males when upright or supine. It collects fluid from peritoneal inflammation, bleeding, or perforation. It does not directly involve the prostate, lymphatics, or continence. Recognizing this dependent space is critical for imaging and surgical drainage."
-  },
-  {
-    "question": "A 79-year-old nursing home resident with dementia is evaluated for altered mental status. She is afebrile, has stable vital signs, and denies dysuria. Urinalysis shows pyuria and bacteriuria. What is the most appropriate next step in management?",
-    "choices": [
-      "Start empiric antibiotics for UTI",
-      "Obtain urine culture and start treatment if positive",
-      "Perform brain imaging to evaluate for intracranial pathology",
-      "Observe without antibiotics",
-      "Administer a single dose of fosfomycin"
-    ],
-    "correctAnswer": 3,
-    "explanation": "This patient likely has asymptomatic bacteriuria (ASB), which is common in institutionalized elderly individuals and not an indication for antibiotic treatment unless specific symptoms are present. There is no reliable evidence correlating ASB with altered mental status without systemic signs. Empiric antibiotics in this setting contribute to resistance and are discouraged."
-  },
-  {
-    "question": "A 28-year-old woman presents with dysuria and frequency for three days. She is afebrile and has no flank pain. Urinalysis reveals leukocyte esterase positivity and pyuria, but no nitrites. Urine culture grows 10^3 CFU of coagulase-negative Gram-positive cocci. Which organism is most likely responsible?",
-    "choices": [
-      "Escherichia coli",
-      "Staphylococcus saprophyticus",
-      "Enterococcus faecalis",
-      "Proteus mirabilis",
-      "Streptococcus agalactiae"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Staphylococcus saprophyticus is a common cause of uncomplicated cystitis in young sexually active women. It often presents with low colony counts and negative nitrites because it does not reduce nitrate to nitrite. E. coli is most common overall but typically shows nitrite positivity. Enterococcus and Streptococcus are less common in this demographic."
-  },
-  {
-    "question": "A 64-year-old man with a Foley catheter develops fever and leukocytosis. Urinalysis shows pyuria. Blood cultures grow Staphylococcus aureus. What is the most appropriate next step in management?",
-    "choices": [
-      "Treat with oral TMP-SMX for 5 days",
-      "Start empiric therapy with nitrofurantoin",
-      "Order abdominal and pelvic imaging for occult source",
-      "Switch Foley catheter to a suprapubic catheter",
-      "Repeat urine culture in 72 hours"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Staphylococcus aureus bacteriuria in catheterized patients suggests possible hematogenous seeding or deep tissue infection (e.g., perinephric abscess). Bloodstream infection from S. aureus warrants imaging to identify possible metastatic foci. TMP-SMX and nitrofurantoin are insufficient for systemic infections. Changing catheters or repeating cultures does not address the systemic concern."
-  },
-  {
-    "question": "Which of the following patients with asymptomatic bacteriuria requires antibiotic treatment?",
-    "choices": [
-      "An 80-year-old woman with Alzheimer’s disease and positive urine culture",
-      "A 65-year-old man with an indwelling urinary catheter for chronic retention",
-      "A 27-year-old pregnant woman at 12 weeks gestation with E. coli bacteriuria",
-      "A 58-year-old woman with diabetes and chronic bacteriuria",
-      "A 70-year-old man admitted to ICU without urinary symptoms"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The only clear indications for treating asymptomatic bacteriuria (ASB) are pregnancy and before invasive urological procedures. Pregnant women are treated to prevent pyelonephritis and preterm birth. Elderly, diabetic, or catheterized patients with ASB do not require treatment unless symptomatic or undergoing intervention."
-  },
-  {
-    "question": "A 27-year-old woman presents with fatigue, joint pain, and a facial rash. She reports seeing multiple physicians over the past 3 years and being told that her symptoms were likely due to anxiety or depression. She expresses frustration and says she feels dismissed and unheard. Which of the following is the most appropriate approach during this visit?",
-    "choices": [
-      "Review her past lab tests and focus the visit on treatment planning",
-      "Explain that systemic lupus erythematosus is difficult to diagnose and often missed",
-      "Validate her experience, listen attentively, and ask about her support system",
-      "Reassure her that she now has a diagnosis and symptoms will improve",
-      "Immediately refer her to psychiatry for stress management"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Validating the patient's lived experience and listening empathetically are key to trauma-informed, patient-centered care, especially in chronic and often-misunderstood illnesses like lupus. This builds trust and helps repair the damage caused by diagnostic delays. Simply reviewing labs or referring to psychiatry risks perpetuating the dismissal she already experienced."
-  },
-  {
-    "question": "A 34-year-old woman with systemic lupus erythematosus reports chronic fatigue, difficulty maintaining relationships, and feeling misunderstood by her family. She is hesitant to start immunosuppressive therapy due to a lack of support and emotional stress. What is the most appropriate next step in care?",
-    "choices": [
-      "Encourage her to increase physical activity to improve fatigue",
-      "Refer her to a social support group and assess psychological distress",
-      "Reassure her that emotional stress is not clinically relevant",
-      "Order additional rheumatologic panels to confirm diagnosis",
-      "Prescribe an SSRI without further evaluation"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Patients with SLE benefit from support groups and psychosocial support, which improve coping and reduce disease-related fatigue and depression. Validating emotional concerns and referring for resources such as social support groups and psychotherapy is crucial. Emotional stress is clinically relevant in SLE; dismissal can worsen outcomes."
-  },
-  {
-    "question": "A 30-year-old woman newly diagnosed with systemic lupus erythematosus expresses concern about how long it took to receive a diagnosis despite years of symptoms. She appears withdrawn and says, 'I knew something was wrong, but no one believed me.' Which of the following responses best reflects effective clinical communication?",
-    "choices": [
-      "You’re right, lupus can be hard to catch. Let’s move forward with treatment.",
-      "Don’t worry, now that we know what it is, we can handle it.",
-      "That sounds incredibly difficult. I’m really glad you shared this with me.",
-      "You may be overthinking how providers treated you before.",
-      "Lupus labs can be unreliable, so your providers were being cautious."
-    ],
-    "correctAnswer": 2,
-    "explanation": "Responding with validation and empathy models the '3-step clinician framework' for supporting patients with complex chronic illnesses like SLE. Acknowledging difficulty and expressing gratitude for the patient's openness promotes trust. Minimizing or explaining away past dismissal, even well-intentioned, can perpetuate feelings of invalidation."
+    "explanation": "This presentation—delayed puberty, small testes, low testosterone, and elevated FSH/LH—is classic for hypergonadotropic hypogonadism. The most common chromosomal cause in males is Klinefelter syndrome (47,XXY), which leads to seminiferous tubule degeneration and impaired Leydig function. 45,X and SRY deletions typically affect females or result in gonadal dysgenesis."
   }
 ];
 
