@@ -13,6 +13,18 @@ const quizData = [
     "explanation": "Ovotesticular DSD is characterized by the presence of both ovarian and testicular tissue. It typically presents with ambiguous genitalia, often with some degree of masculinization, and most commonly occurs in individuals with a 46,XX karyotype. This distinguishes it from androgen insensitivity (which is 46,XY), CAH (which lacks testicular tissue), and chromosomal disorders like Klinefelter (47,XXY) or Turner (45,X)."
   },
   {
+    "question": "In bluey, he was upset because someone mistook his dragon for an egg. His mom was worried that he lost his confidence and would not draw the dragon. In an attempt to make bluey feel better she has him shoot a memory spell at his dads butt. What did the dad love to draw until some dickhead said that the drawing was not good?",
+    "choices": [
+      "Horses",
+      "Cars",
+      "Dragons",
+      "Eggs",
+      "The ovarian cycle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Some asshole 7 year old told Bluey’s dad that he could not draw a car. That brought down the dads confidence and he never tried to draw a car again. Be like Bluey’s mom, not the dick that did Bluey’s dad dirty."
+  },
+  {
     "question": "A 2-week-old male infant presents with a scrotal mass that transilluminates on physical exam. Ultrasound confirms a fluid-filled sac around the testis. Which of the following embryological processes most likely failed to occur?",
     "choices": [
       "Formation of the processus vaginalis",
@@ -258,7 +270,7 @@ const quizData = [
       "Yolk sac tumor",
       "Embryonal rhabdomyosarcoma",
       "Clear cell adenocarcinoma",
-      "Sarcoma botryoides",
+      "Seminoma",
       "Endodermal sinus tumor"
     ],
     "correctAnswer": 1,
@@ -371,6 +383,30 @@ const quizData = [
     ],
     "correctAnswer": 2,
     "explanation": "This presentation—delayed puberty, small testes, low testosterone, and elevated FSH/LH—is classic for hypergonadotropic hypogonadism. The most common chromosomal cause in males is Klinefelter syndrome (47,XXY), which leads to seminiferous tubule degeneration and impaired Leydig function. 45,X and SRY deletions typically affect females or result in gonadal dysgenesis."
+  },
+  {
+    "question": "A 16-year-old transgender boy (assigned female at birth) comes to your clinic with his mother to discuss options for gender-affirming care. The patient expresses a strong desire to begin hormone therapy. His mother is concerned and hesitant. The patient appears anxious but well-informed and articulate. What is the most appropriate next step in this clinical encounter?",
+    "choices": [
+      "Inform the patient that parental consent is required and defer the conversation",
+      "Refer the patient for psychiatric evaluation to assess for underlying mental illness",
+      "Acknowledge the patient’s gender identity and discuss the benefits of multidisciplinary support, including psychological and medical evaluation",
+      "Tell the patient that hormone therapy should only be started after age 18",
+      "Prescribe testosterone to the patient as requested"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The most appropriate next step is to affirm the patient’s identity and engage in a **multidisciplinary, patient-centered approach** that includes mental health professionals and pediatric endocrinologists experienced in gender-affirming care. This supports informed decision-making and addresses the needs of both the adolescent and their guardian. Immediate prescribing without evaluation or dismissing the patient’s concerns violates ethical and professional standards."
+  },
+  {
+    "question": "A 29-year-old transgender woman (assigned male at birth) comes to the clinic for a new patient visit. She has not seen a doctor in over 5 years due to prior negative experiences. During the visit, she expresses concern about discrimination in healthcare and asks whether her identity will be respected. What is the most appropriate response by the physician?",
+    "choices": [
+      "Reassure her that you will refer her to an LGBTQ-specific clinic for her care",
+      "Explain that clinical decisions are based on biological sex, not gender identity",
+      "State your commitment to providing inclusive care, ask for her preferred name and pronouns, and ensure her identity is respected throughout the visit",
+      "Avoid focusing on gender issues and proceed directly with the medical interview",
+      "Ask her to sign a waiver acknowledging that her medical records will still reflect her legal sex"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Affirming the patient’s identity by asking for **preferred name and pronouns** and stating a commitment to inclusive care builds trust and aligns with trauma-informed and patient-centered care models. Avoiding or minimizing her concerns, misgendering, or unnecessarily referring out may reinforce distrust and is inappropriate. Respectful communication is essential in reducing healthcare disparities in transgender populations."
   }
 ];
 
