@@ -1,414 +1,366 @@
 // Quiz Data
 const quizData = [
   {
-    "question": "A newborn with ambiguous genitalia is found to have both ovarian and testicular tissue upon exploratory surgery. Karyotype shows 46,XX. Which of the following best describes the underlying condition?",
+    "question": "A 28-year-old woman at 34 weeks of gestation presents with mild dependent peripheral edema and reports shortness of breath when lying flat. She has no history of cardiovascular disease. Examination reveals a loud third heart sound and a systolic ejection murmur. What is the most likely physiologic explanation for these findings?",
     "choices": [
-      "Androgen insensitivity syndrome",
-      "Ovotesticular disorder of sex development (DSD)",
-      "Congenital adrenal hyperplasia",
-      "Klinefelter syndrome",
-      "Turner syndrome"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Ovotesticular DSD is characterized by the presence of both ovarian and testicular tissue. It typically presents with ambiguous genitalia, often with some degree of masculinization, and most commonly occurs in individuals with a 46,XX karyotype. This distinguishes it from androgen insensitivity (which is 46,XY), CAH (which lacks testicular tissue), and chromosomal disorders like Klinefelter (47,XXY) or Turner (45,X)."
-  },
-  {
-    "question": "In bluey, he was upset because someone mistook his dragon for an egg. His mom was worried that he lost his confidence and would not draw the dragon. In an attempt to make bluey feel better she has him shoot a memory spell at his dads butt. What did the dad love to draw until some dickhead said that the drawing was not good?",
-    "choices": [
-      "Horses",
-      "Cars",
-      "Dragons",
-      "Eggs",
-      "The ovarian cycle"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Some asshole 7 year old told Bluey’s dad that he could not draw a car. That brought down the dads confidence and he never tried to draw a car again. Be like Bluey’s mom, not the dick that did Bluey’s dad dirty."
-  },
-  {
-    "question": "A 2-week-old male infant presents with a scrotal mass that transilluminates on physical exam. Ultrasound confirms a fluid-filled sac around the testis. Which of the following embryological processes most likely failed to occur?",
-    "choices": [
-      "Formation of the processus vaginalis",
-      "Canalization of the vaginal plate",
-      "Closure of the processus vaginalis",
-      "Regression of the paramesonephric ducts",
-      "Differentiation of the mesonephric duct into the epididymis"
-    ],
-    "correctAnswer": 2,
-    "explanation": "A hydrocele is caused by the failure of the processus vaginalis to close, allowing peritoneal fluid to accumulate in the tunica vaginalis around the testis. Formation and regression of genital ducts and canalization of the vaginal plate are unrelated to this condition."
-  },
-  {
-    "question": "A 3-year-old boy is evaluated for an undescended testis. Imaging confirms it is located within the inguinal canal. Which of the following embryological structures is most directly responsible for guiding testicular descent?",
-    "choices": [
-      "Processus vaginalis",
-      "Mesonephric duct",
-      "Paramesonephric duct",
-      "Gubernaculum",
-      "Tunica albuginea"
+      "Pathological valvular heart disease",
+      "Decreased cardiac output",
+      "Increased systemic vascular resistance",
+      "Normal cardiovascular adaptations in pregnancy",
+      "Early stages of heart failure"
     ],
     "correctAnswer": 3,
-    "explanation": "The gubernaculum is a fibrous cord that connects the testis to the scrotum and plays a key role in guiding testicular descent. Its failure can result in cryptorchidism. The processus vaginalis forms the inguinal canal, while the tunica albuginea forms a capsule around the testis but is not involved in descent."
+    "explanation": "Cardiovascular changes during pregnancy include increased cardiac output, an increased resting pulse rate (~10 bpm), and displacement and rotation of the heart due to an elevated diaphragm. A loud third heart sound and a systolic ejection murmur occur commonly in pregnancy (up to 90% of cases) due to increased blood flow and stroke volume, not necessarily indicating pathology."
   },
   {
-    "question": "A 22-year-old man presents with infertility. Lab results show low testosterone, elevated luteinizing hormone (LH), and normal follicle-stimulating hormone (FSH). Testicular biopsy shows decreased Leydig cell activity but intact Sertoli cells. Which of the following best explains the hormonal abnormality observed?",
+    "question": "A 24-year-old primigravid woman at 26 weeks gestation presents with increased frequency of urination and mild lower back discomfort. Ultrasonography reveals hydronephrosis and hydroureter, predominantly on the right side. Serum creatinine is 0.5 mg/dL. What is the next best step in management?",
     "choices": [
-      "Sertoli cell failure to produce androgen-binding protein",
-      "Aromatase deficiency in peripheral tissues",
-      "Leydig cell insensitivity to LH",
-      "Pituitary adenoma producing excess FSH",
-      "Testosterone overproduction by adrenal glands"
+      "Initiate antibiotics for urinary tract infection",
+      "Obtain nephrology consult immediately",
+      "Reassure and educate on normal pregnancy findings",
+      "Schedule elective cesarean section at 36 weeks",
+      "Order renal biopsy for further evaluation"
     ],
     "correctAnswer": 2,
-    "explanation": "LH stimulates Leydig cells to produce testosterone. In this case, low testosterone with elevated LH indicates a failure of Leydig cells to respond to LH—suggesting Leydig cell insensitivity. Sertoli cell function (mediated by FSH) appears intact, as FSH is normal. Aromatase deficiency or adrenal testosterone overproduction would not cause low serum testosterone and elevated LH."
+    "explanation": "Hydroureteronephrosis is a common and normal finding during pregnancy due to progesterone-induced smooth muscle relaxation and compression from the gravid uterus, particularly on the right side. A serum creatinine around 0.5 mg/dL is typical due to increased glomerular filtration rate in pregnancy. No immediate intervention is required; reassurance and patient education are sufficient."
   },
   {
-    "question": "A 34-year-old man presents with dysuria and increased urinary frequency. Digital rectal exam reveals a diffusely enlarged, non-tender prostate. PSA is mildly elevated. Which of the following histologic changes is most likely present in the prostate?",
+    "question": "A pregnant woman at 38 weeks gestation is in active labor. Her cervix is completely dilated, and the fetal head is visible at the vaginal opening. Which cardinal movement of labor best describes the next event?",
     "choices": [
-      "Loss of basal cell layer in acini",
-      "Infiltration of neutrophils into glandular stroma",
-      "Hyperplasia of periurethral (transition zone) glands",
-      "Necrosis of the central zone",
-      "Malignant proliferation of the peripheral zone"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Benign prostatic hyperplasia (BPH) involves hyperplasia of glandular and stromal tissue, especially in the transition zone surrounding the urethra. This can compress the urethra and lead to urinary symptoms. Loss of basal layer and peripheral zone involvement are typical of prostate cancer, not BPH. Neutrophilic infiltration and necrosis suggest acute prostatitis."
-  },
-  {
-    "question": "A 19-year-old male presents with a painless testicular mass. Ultrasound confirms a solid intratesticular lesion. Biopsy reveals large cells with clear cytoplasm and central nuclei arranged in sheets. The tumor is highly responsive to chemotherapy. What is the most likely site of lymphatic spread for this lesion?",
-    "choices": [
-      "Inguinal lymph nodes",
-      "External iliac lymph nodes",
-      "Internal iliac lymph nodes",
-      "Para-aortic lymph nodes",
-      "Common iliac lymph nodes"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Testicular cancers such as seminomas commonly metastasize to the para-aortic (lumbar) lymph nodes due to the retroperitoneal embryologic origin of the testes. Inguinal and iliac lymph nodes are involved in scrotal pathology, not intratesticular masses. This distinction is critical for staging and management."
-  },
-  {
-    "question": "A 27-year-old man presents with a painful genital ulcer and tender inguinal lymphadenopathy. He is sexually active with multiple partners and does not use protection consistently. Examination reveals a 1.5 cm deep ulcer with a purulent base and ragged margins. There is also unilateral, tender inguinal lymphadenopathy with fluctuance. Which of the following is the most appropriate empiric treatment?",
-    "choices": [
-      "Benzathine penicillin 2.4 million units IM x 1 dose",
-      "Azithromycin 1g orally x 1 dose",
-      "Doxycycline 100 mg orally BID x 3 weeks",
-      "Acyclovir 400 mg orally TID x 7 days",
-      "Azithromycin 1g orally weekly x 4–6 weeks"
-    ],
-    "correctAnswer": 1,
-    "explanation": "This patient's presentation of painful genital ulcer and tender suppurative lymphadenopathy is most consistent with chancroid caused by Haemophilus ducreyi. The preferred empiric treatment is a single dose of azithromycin 1g orally. Benzathine penicillin is used for syphilis, which causes painless ulcers. Doxycycline 3 weeks is used for lymphogranuloma venereum (LGV), and acyclovir is used for herpes simplex virus, which often presents with grouped vesicles."
-  },
-  {
-    "question": "A 32-year-old woman presents with a thin, malodorous, gray vaginal discharge. She reports no itching or pain. Speculum exam reveals a homogenous discharge coating the vaginal walls. A wet mount shows clue cells, and the vaginal pH is 5.5. The whiff test is positive. Which of the following is the most appropriate first-line treatment?",
-    "choices": [
-      "Metronidazole 500 mg orally BID for 7 days",
-      "Fluconazole 150 mg orally x 1 dose",
-      "Azithromycin 1g orally x 1 dose",
-      "Clindamycin 900 mg IV every 8 hours",
-      "Tinidazole 2g orally x 1 dose"
-    ],
-    "correctAnswer": 0,
-    "explanation": "This patient meets 4/4 Amsel criteria (homogenous discharge, clue cells, pH > 4.5, positive whiff test), diagnostic for bacterial vaginosis. First-line treatment is metronidazole 500 mg orally BID for 7 days. Fluconazole is used for Candida, azithromycin for chlamydia, clindamycin IV for PID, and tinidazole is an alternative for BV but not first-line."
-  },
-  {
-    "question": "A 25-year-old male presents to the clinic with a one-week history of dysuria and purulent urethral discharge. He denies fever or systemic symptoms. Gram stain of urethral exudate shows gram-negative diplococci within polymorphonuclear leukocytes. What is the most appropriate antibiotic regimen?",
-    "choices": [
-      "Ceftriaxone 500 mg IM x 1 dose",
-      "Penicillin G benzathine 2.4 million units IM weekly x 3 weeks",
-      "Metronidazole 500 mg orally BID x 7 days",
-      "Azithromycin 1g orally weekly for 4 weeks",
-      "Cefixime 800 mg orally BID for 3 days"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The presence of gram-negative intracellular diplococci in a symptomatic male is diagnostic for Neisseria gonorrhoeae. The CDC-recommended treatment is ceftriaxone 500 mg IM x 1 dose. Benzathine penicillin is used for syphilis. Metronidazole treats trichomoniasis or BV. Azithromycin weekly is not a correct regimen here, and cefixime is an oral option but less preferred due to lower efficacy."
-  },
-  {
-    "question": "A 29-year-old man is diagnosed with secondary syphilis and receives a single intramuscular dose of benzathine penicillin G. Six hours later, he develops fever, chills, headache, and myalgias. On physical exam, he is febrile with a temperature of 38.8°C (101.8°F) and appears mildly ill but stable. Which of the following best explains this patient’s new symptoms?",
-    "choices": [
-      "Anaphylactic hypersensitivity to penicillin",
-      "Toxin-mediated release of IL-1 by Streptococcus pyogenes",
-      "Tumor lysis syndrome due to rapid bacterial turnover",
-      "Immune complex deposition in tissues",
-      "Cytokine release due to rapid spirochete lysis"
+      "Engagement",
+      "Internal rotation",
+      "Descent",
+      "Flexion",
+      "Extension"
     ],
     "correctAnswer": 4,
-    "explanation": "This patient is experiencing a Jarisch-Herxheimer reaction, a transient systemic inflammatory response that occurs within hours of antibiotic treatment of spirochetal infections (especially syphilis). It is caused by the rapid lysis of Treponema pallidum, which releases lipoproteins and other components that trigger cytokine release, including IL-6, IL-8, and TNF-α. It is self-limited and managed with supportive care. It is not a true allergy or immune complex-mediated reaction."
+    "explanation": "After the fetal head descends and internally rotates to align with the maternal pelvic anatomy, the next cardinal movement is extension. During extension, the fetal head extends as it passes through the vaginal opening, delivering the head. This step immediately precedes external rotation (restitution) and expulsion."
   },
   {
-    "question": "A 28-year-old woman has a regular 28-day menstrual cycle. On day 14, ovulation occurs, and a structure remains in the ovary and begins producing progesterone. Which of the following best describes the primary histologic component responsible for progesterone secretion during this phase?",
+    "question": "A 32-year-old woman at 30 weeks gestation presents for routine prenatal care. Laboratory findings reveal hemoglobin of 11.8 g/dL (non-pregnant normal range: 13.5-17.5 g/dL). Which physiological adaptation best explains this laboratory finding?",
     "choices": [
-      "Primordial follicular cells",
-      "Theca externa cells",
-      "Granulosa lutein cells",
-      "Theca lutein cells",
-      "Cumulus oophorus cells"
-    ],
-    "correctAnswer": 2,
-    "explanation": "After ovulation, granulosa cells of the ruptured follicle transform into granulosa lutein cells, which are the primary producers of progesterone during the luteal phase. Theca lutein cells also contribute, but granulosa lutein cells are more prominent and secretory. Theca externa is fibrous and non-secretory; primordial and cumulus cells are not involved in steroid production."
-  },
-  {
-    "question": "A 35-year-old woman is undergoing evaluation for infertility. Her physician orders basal body temperature tracking. An increase in temperature is noted mid-cycle. What is the best explanation for the temperature rise?",
-    "choices": [
-      "Increased estradiol secretion by granulosa cells",
-      "LH surge inducing ovulation",
-      "Estrogen-induced ciliary motion in the oviduct",
-      "Progesterone secretion by the corpus luteum",
-      "Increased vascularization of the endometrium"
+      "Decreased erythropoiesis",
+      "Increased erythrocyte destruction",
+      "Iron deficiency anemia",
+      "Pregnancy-induced hypervolemia",
+      "Coagulation factor consumption"
     ],
     "correctAnswer": 3,
-    "explanation": "The rise in basal body temperature during the luteal phase is caused by progesterone, which is thermogenic. This hormone is secreted by granulosa lutein cells in the corpus luteum after ovulation. Estradiol rises before ovulation. The LH surge induces ovulation but doesn’t cause the temperature rise. Estrogen affects the oviduct, not thermoregulation."
+    "explanation": "During pregnancy, maternal blood volume increases significantly (about 40-45%) to support the growing fetus and uterus. Although erythropoiesis is augmented, plasma volume expansion outpaces red cell mass increase, causing dilutional anemia, reflected as a decreased hemoglobin concentration (physiologic anemia of pregnancy). This adaptation protects the mother from hemorrhage during delivery."
   },
   {
-    "question": "A Pap smear from a 40-year-old woman reveals high-grade cervical intraepithelial neoplasia (CIN 3). Which of the following locations most likely harbored the initial site of HPV-mediated transformation?",
+    "question": "A 31-year-old woman, gravida 2 para 1, at 9 weeks gestation presents with vaginal bleeding and mild uterine cramping. Pelvic ultrasound reveals an intrauterine pregnancy without cardiac activity, which previously had cardiac activity confirmed two weeks prior. Her blood type is O-negative. Which of the following is the most appropriate next step in management?",
     "choices": [
-      "Simple columnar epithelium of the endocervix",
-      "Stratified squamous epithelium of the ectocervix",
-      "Transformation zone at the squamocolumnar junction",
-      "Endometrial lining of the uterine fundus",
-      "Basal layer of the vaginal mucosa"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The transformation zone of the cervix is where the simple columnar epithelium of the endocervix transitions to stratified squamous epithelium. This area is most susceptible to HPV infection and is the most common site of cervical dysplasia and carcinoma. The ectocervix and endocervix alone are not the main risk sites unless at the transformation zone."
-  },
-  {
-    "question": "A 32-year-old postpartum woman presents for evaluation of breast fullness and mild tenderness. Histologic examination of her breast tissue shows alveolar structures lined by epithelial cells with apical blebbing, bulbous projections, and prominent vacuoles. Which of the following best describes the secretion mechanism responsible for her milk production?",
-    "choices": [
-      "Merocrine secretion of lipids and proteins",
-      "Apocrine secretion of lipids, merocrine secretion of proteins",
-      "Apocrine secretion of both lipids and proteins",
-      "Holocrine secretion of immunoglobulins",
-      "Endocytosis of hormones and passive diffusion of water"
+      "Reassurance and expectant management only",
+      "Administration of RhD immune globulin (RhoGAM)",
+      "Immediate surgical evacuation",
+      "Administration of progesterone supplementation",
+      "Follow-up beta-hCG measurements only"
     ],
     "correctAnswer": 1,
-    "explanation": "Mammary glands utilize dual secretory mechanisms. Lipids are secreted via apocrine secretion (involving pinching off of the apical cytoplasm), while proteins are secreted via merocrine (exocytotic) pathways. Holocrine secretion is seen in sebaceous glands, not breast tissue. Endocytosis/passive diffusion are not relevant here."
+    "explanation": "Administration of RhD immune globulin (RhoGAM) is indicated for all Rh-negative women experiencing spontaneous abortion, regardless of gestational age, to prevent alloimmunization. Surgical evacuation is not immediately necessary unless medically indicated or chosen by the patient. Expectant management alone without RhoGAM would be incorrect, given her Rh-negative status. Progesterone supplementation is ineffective after confirmed fetal demise, and beta-hCG measurements alone would not adequately manage Rh alloimmunization risk."
   },
   {
-    "question": "A 58-year-old postmenopausal woman is diagnosed with ER+ breast cancer. She is started on an aromatase inhibitor. Which of the following tissues is the primary source of estrogen in this patient?",
+    "question": "A 28-year-old woman at 25 weeks gestation presents for routine prenatal screening. Her 1-hour glucose challenge test shows elevated glucose levels. A follow-up diagnostic test confirms gestational diabetes mellitus. Which of the following is the most appropriate initial management strategy?",
     "choices": [
-      "Granulosa cells of the ovary",
-      "Theca interna cells of the ovary",
-      "Granulosa lutein cells of the corpus luteum",
-      "Adipocytes in adipose tissue",
-      "Zona reticularis of the adrenal cortex"
+      "Immediate initiation of insulin therapy",
+      "Administration of metformin",
+      "Dietary modification and increased physical activity",
+      "Initiation of glyburide therapy",
+      "Cesarean section planning"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dietary modification and increased physical activity are recommended as the initial intervention for gestational diabetes mellitus (GDM). Pharmacologic therapy with insulin (gold standard) or oral medications like metformin and glyburide is initiated only if lifestyle modifications fail to maintain glycemic control. Immediate pharmacologic therapy is not the initial step, and cesarean section planning is based on fetal macrosomia or other obstetric indications later in pregnancy."
+  },
+  {
+    "question": "A 33-year-old woman at 32 weeks gestation presents to the emergency department after experiencing a sudden gush of clear vaginal fluid without contractions. Examination reveals pooling of fluid in the vaginal vault and positive nitrazine paper test. Which of the following treatments is most appropriate at this time?",
+    "choices": [
+      "Immediate induction of labor",
+      "Administration of corticosteroids and antibiotic prophylaxis",
+      "Bed rest without pharmacologic intervention",
+      "Routine cervical cerclage",
+      "Administration of oxytocin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Premature prelabor rupture of membranes (PPROM) at less than 34 weeks gestation is managed expectantly with corticosteroids for fetal lung maturity and antibiotic prophylaxis to prolong latency and reduce infection risk. Immediate induction is reserved for signs of infection, placental abruption, or fetal distress. Bed rest alone is insufficient; cervical cerclage is contraindicated after membranes have ruptured, and oxytocin administration would prematurely induce labor without indication."
+  },
+  {
+    "question": "A previously healthy 29-year-old woman at 36 weeks gestation presents with blood pressure readings consistently around 150/95 mmHg over two visits. Urine protein is negative, and there are no signs of end-organ damage. Which of the following best describes her condition?",
+    "choices": [
+      "Chronic hypertension",
+      "Gestational hypertension",
+      "Preeclampsia without severe features",
+      "Preeclampsia with severe features",
+      "HELLP syndrome"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gestational hypertension is defined as new-onset hypertension (≥140/90 mmHg) at ≥20 weeks gestation without proteinuria or end-organ damage. This patient's blood pressure elevation without other severe symptoms or lab abnormalities aligns with gestational hypertension. Chronic hypertension occurs prior to 20 weeks gestation or persists postpartum. Preeclampsia requires proteinuria or end-organ dysfunction. HELLP syndrome would demonstrate hemolysis, elevated liver enzymes, and low platelets."
+  },
+  {
+    "question": "A 45-year-old woman presents with heavy menstrual bleeding lasting 10 days per cycle over the past six months. Previously, her periods lasted 4-5 days. She denies sexual activity outside her monogamous relationship, and recent Pap smears have been normal. Physical examination shows an enlarged, non-tender uterus. Pregnancy test is negative. What is the most likely cause of her symptoms?",
+    "choices": [
+      "Endometrial carcinoma",
+      "Adenomyosis",
+      "Leiomyoma",
+      "Coagulation disorder",
+      "Hypothyroidism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Leiomyomas (fibroids) are the most common pelvic tumors in premenopausal women and typically present with progressively heavier menstrual bleeding and an enlarged uterus on physical examination. Endometrial carcinoma is less common at this age without additional risk factors (e.g., obesity, diabetes, chronic anovulation). Adenomyosis often causes dysmenorrhea with diffusely enlarged, tender uterus. Coagulation disorders typically present at menarche. Hypothyroidism usually causes irregular periods rather than heavy, prolonged bleeding and is not associated with an enlarged uterus."
+  },
+  {
+    "question": "A 62-year-old woman presents with episodes of vaginal bleeding occurring over the past few months. She underwent menopause at age 55 and has never taken hormone replacement therapy. Her Pap smears have been normal, the last performed 6 months ago. BMI is 32 kg/m². What is the most appropriate next step in her evaluation?",
+    "choices": [
+      "Repeat Pap smear",
+      "Coagulation studies",
+      "Endometrial biopsy",
+      "Pelvic ultrasound only",
+      "Follicle-stimulating hormone (FSH) test"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Postmenopausal bleeding mandates evaluation for endometrial pathology. Endometrial biopsy is the appropriate next step to exclude endometrial hyperplasia or cancer. Pap smear evaluates cervical pathology, which is unlikely given recent normal results. Coagulation studies are typically unnecessary in isolated postmenopausal bleeding unless bleeding is unusually severe or persistent. Pelvic ultrasound alone might be appropriate if endometrial stripe <4 mm, but biopsy is definitive and necessary in the presented scenario. FSH testing is not indicated as menopause is clinically established."
+  },
+  {
+    "question": "A 15-year-old girl presents with prolonged heavy menstrual bleeding since menarche two months ago. Each menstrual period lasts approximately 10 days, and she reports significant fatigue and occasional dizziness. She has easy bruising from sports activities, and her paternal aunt experiences similarly heavy menstrual cycles. Pelvic examination is deferred due to age. What is the most appropriate initial diagnostic test?",
+    "choices": [
+      "Pelvic ultrasound",
+      "Endometrial biopsy",
+      "Thyroid-stimulating hormone (TSH) and prolactin levels",
+      "Coagulation studies",
+      "Gonorrhea and chlamydia testing"
     ],
     "correctAnswer": 3,
-    "explanation": "In postmenopausal women, peripheral conversion of androgens to estrogens occurs in adipose tissue via aromatase. Ovarian follicles (granulosa/theca cells) and corpus luteum no longer contribute significantly after menopause. The zona reticularis produces weak androgens, not estrogens."
+    "explanation": "In adolescents presenting with menorrhagia at menarche and signs suggestive of a bleeding disorder (family history, easy bruising), coagulation studies (including evaluation for von Willebrand disease) are essential. Pelvic ultrasound is typically normal in adolescents without anatomical anomalies or pregnancy. Endometrial biopsy is invasive and not indicated at this age. Thyroid and prolactin levels may be relevant if irregular cycles persist but are less likely in the initial presentation described. Gonorrhea/chlamydia testing is crucial if sexually active, but there is no indication of sexual activity here."
   },
   {
-    "question": "A 44-year-old woman presents with a firm, immobile breast mass. Biopsy reveals malignant ductal cells expressing high levels of estrogen receptor (ER). Which of the following treatment mechanisms best describes how tamoxifen acts in this patient?",
+    "question": "A 28-year-old woman presents to the emergency department with severe, unilateral pelvic pain for the past 4 hours. She reports nausea and one episode of vomiting. She has a history of ovarian cysts. Pelvic ultrasound demonstrates an enlarged right ovary without clear blood flow. What is the most appropriate next step in management?",
     "choices": [
-      "Blocks androgen receptor signaling in breast cells",
-      "Binds and degrades estrogen receptors via proteasomal pathway",
-      "Inhibits aromatase conversion of androgens to estrogens",
-      "Competitively binds estrogen receptors to prevent estrogen-induced transcription",
-      "Induces apoptosis through direct DNA damage"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Tamoxifen is a selective estrogen receptor modulator (SERM) that competitively inhibits estrogen from binding to the ER in breast tissue, thus blocking estrogen-driven transcription and proliferation. SERDs (e.g., fulvestrant) degrade ER. Aromatase inhibitors block estrogen synthesis, not receptor binding."
-  },
-  {
-    "question": "A 30-year-old man presents with a painless testicular mass. Serum tumor markers show markedly elevated beta-hCG, but normal AFP. Histology reveals large pleomorphic cells arranged in sheets with cytotrophoblasts and syncytiotrophoblasts. Which of the following is the most likely diagnosis?",
-    "choices": [
-      "Classic seminoma",
-      "Embryonal carcinoma",
-      "Choriocarcinoma",
-      "Yolk sac tumor",
-      "Teratoma"
+      "Observation and repeat ultrasound in 24 hours",
+      "Administration of methotrexate",
+      "Immediate laparoscopic surgery",
+      "Oral antibiotics for presumed pelvic inflammatory disease",
+      "Administration of NSAIDs and reassurance"
     ],
     "correctAnswer": 2,
-    "explanation": "Choriocarcinoma is a highly malignant germ cell tumor that presents with elevated beta-hCG due to the presence of syncytiotrophoblasts. It often metastasizes hematogenously and may cause gynecomastia or thyrotoxicosis. AFP is typically not elevated unless there's a yolk sac component. Seminomas rarely elevate beta-hCG and lack trophoblastic elements."
+    "explanation": "The patient's presentation with acute unilateral pelvic pain, nausea, and an enlarged ovary without clear blood flow strongly suggests ovarian torsion, which is a surgical emergency. Immediate laparoscopic surgery is required to untwist the ovary and preserve ovarian function if possible. Observation risks ovarian necrosis and loss of ovarian function. Methotrexate is for ectopic pregnancy, not ovarian torsion. Antibiotics are indicated for PID, which typically presents with bilateral tenderness and purulent cervical discharge. NSAIDs alone are inadequate treatment for ovarian torsion."
   },
   {
-    "question": "A 65-year-old uncircumcised man presents with a painless ulcerated mass on the glans penis. Biopsy reveals invasive squamous cell carcinoma. Which of the following risk factors is most directly associated with the pathogenesis of this condition?",
+    "question": "A 32-year-old pregnant woman at 35 weeks gestation presents with sudden onset of severe abdominal pain, vaginal bleeding, and uterine tenderness. She has a history of chronic hypertension and cocaine use. Fetal heart monitoring shows significant decelerations. What is the most likely diagnosis?",
     "choices": [
-      "High dietary fat intake",
-      "Chronic prostatitis",
-      "Human papillomavirus type 16 infection",
-      "Estrogen therapy",
-      "Prostate-specific antigen elevation"
+      "Uterine rupture",
+      "Placental abruption",
+      "Pubic symphysis diastasis",
+      "Braxton-Hicks contractions",
+      "Round ligament pain"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Placental abruption presents as sudden, painful vaginal bleeding and uterine tenderness, often accompanied by fetal distress. Risk factors include hypertension, cocaine use, smoking, prior abruption, and uterine anomalies. Uterine rupture is associated with previous uterine surgery (e.g., cesarean sections), which this patient lacks. Pubic symphysis diastasis causes pelvic girdle pain but not vaginal bleeding or significant fetal distress. Braxton-Hicks contractions are irregular, painless contractions without fetal distress or bleeding. Round ligament pain presents as sharp, positional pain without bleeding or fetal distress."
+  },
+  {
+    "question": "A 25-year-old woman presents with chronic pelvic pain that worsens during menstruation and sexual intercourse. She has regular menstrual cycles but frequently requires NSAIDs to control severe dysmenorrhea. Physical examination reveals nodularity in the posterior cul-de-sac. What is the most likely diagnosis?",
+    "choices": [
+      "Interstitial cystitis",
+      "Pelvic inflammatory disease",
+      "Endometriosis",
+      "Mittelschmerz",
+      "Adenomyosis"
     ],
     "correctAnswer": 2,
-    "explanation": "Penile squamous cell carcinoma is closely associated with high-risk HPV types, especially 16 and 18. HPV infection leads to E6 and E7 oncogene expression, inactivating p53 and Rb, which promotes carcinogenesis. Poor hygiene and lack of circumcision increase susceptibility. PSA and estrogen therapy are unrelated."
+    "explanation": "Endometriosis is characterized by cyclic pelvic pain, severe dysmenorrhea, dyspareunia, and may present with nodularity in the posterior cul-de-sac on physical examination due to endometrial implants. Interstitial cystitis typically presents with bladder pain, urgency, frequency, without cyclic worsening or cul-de-sac nodularity. PID is associated with acute pain, fever, discharge, and cervical motion tenderness. Mittelschmerz refers to brief mid-cycle ovulatory pain, not chronic cyclic dysmenorrhea. Adenomyosis often presents similarly to endometriosis but usually involves a diffusely enlarged, tender uterus rather than nodularity in the cul-de-sac."
   },
   {
-    "question": "A 3-year-old boy presents with a painless scrotal mass. Imaging confirms a solid testicular tumor. Serum alpha-fetoprotein is markedly elevated. Histology reveals Schiller-Duval bodies. What is the most likely diagnosis?",
+    "question": "A 32-year-old woman at 41 weeks of gestation is admitted for induction of labor due to post-term pregnancy. Oxytocin is administered intravenously to stimulate uterine contractions. Which of the following mechanisms best describes the action of oxytocin in inducing labor?",
     "choices": [
-      "Classic seminoma",
-      "Yolk sac tumor",
-      "Teratoma",
-      "Choriocarcinoma",
-      "Embryonal carcinoma"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Yolk sac tumor (endodermal sinus tumor) is the most common testicular tumor in young children. It is characterized by elevated AFP and pathognomonic Schiller-Duval bodies. It generally has a good prognosis in children. Seminomas and embryonal carcinomas occur in older age groups, and teratomas in prepubertal boys are benign and AFP-negative."
-  },
-  {
-    "question": "A 76-year-old woman presents with a pruritic, erythematous lesion of the vulva. Biopsy shows large epithelial cells with abundant pale cytoplasm and prominent nucleoli dispersed within the squamous epithelium. The lesion stains positive for PAS, mucin, and cytokeratin but is negative for S100. Which of the following is the most likely diagnosis?",
-    "choices": [
-      "Melanoma",
-      "Extramammary Paget disease",
-      "Differentiated VIN",
-      "Lichen sclerosus",
-      "High-grade squamous intraepithelial lesion (HSIL)"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Extramammary Paget disease presents in elderly women as a red, pruritic lesion of the vulva and is characterized by large Paget cells within the squamous epithelium. These cells are PAS+, mucin+, keratin+, and CEA+, but unlike melanoma, they are S100 negative. Melanoma would show S100 positivity and be negative for mucin and keratin."
-  },
-  {
-    "question": "A 42-year-old woman has an abnormal Pap smear showing high-grade squamous intraepithelial lesion (HSIL). Colposcopic biopsy confirms the diagnosis. Which of the following features would most likely be seen on histologic examination?",
-    "choices": [
-      "Koilocytosis confined to superficial layers",
-      "Basal cell atypia confined to lower third of epithelium",
-      "Full-thickness proliferation of immature, hyperchromatic cells with loss of maturation",
-      "Columnar metaplasia with goblet cells",
-      "Nuclear pseudostratification with cigar-shaped nuclei and mitotic figures at the surface"
-    ],
-    "correctAnswer": 2,
-    "explanation": "HSIL, including CIN3 (carcinoma in situ), is defined by full-thickness proliferation of atypical basal-like cells with high nuclear-to-cytoplasmic ratios, hyperchromasia, and mitoses at all levels. This contrasts with LSIL, where atypia is limited to the lower third and superficial koilocytosis predominates. Goblet cells and pseudostratified nuclei are features of adenocarcinoma."
-  },
-  {
-    "question": "A 3-year-old girl is brought in by her parents after they noticed a grape-like mass protruding from her vagina. Biopsy of the lesion shows malignant cells with rhabdomyoblastic differentiation and a cambium layer beneath the epithelium. Which of the following is the most likely diagnosis?",
-    "choices": [
-      "Yolk sac tumor",
-      "Embryonal rhabdomyosarcoma",
-      "Clear cell adenocarcinoma",
-      "Seminoma",
-      "Endodermal sinus tumor"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Embryonal rhabdomyosarcoma, also known as sarcoma botryoides, is a malignant tumor of immature skeletal muscle affecting young girls. It presents as a grape-like polypoid mass and shows a characteristic cambium layer histologically. Yolk sac tumor (endodermal sinus tumor) also affects children but is testicular/ovarian and marked by elevated AFP and Schiller-Duval bodies."
-  },
-  {
-    "question": "A 23-year-old woman has regular 28-day menstrual cycles. On cycle day 12, her serum estradiol rises significantly, triggering a sharp increase in LH levels. Which of the following best explains this physiological phenomenon?",
-    "choices": [
-      "Estrogen promotes LH release by inhibiting GnRH",
-      "Estradiol exerts positive feedback on the hypothalamus and anterior pituitary",
-      "Progesterone-induced LH surge causes ovulation",
-      "FSH directly induces the LH surge by stimulating LH receptors",
-      "Estradiol inhibits kisspeptin neurons in the hypothalamus"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Around mid-cycle, elevated estradiol from the dominant follicle exerts a positive feedback effect on the hypothalamus and anterior pituitary, resulting in an LH surge. This triggers ovulation. In contrast, low to moderate estradiol levels exert negative feedback. Progesterone levels rise after the LH surge. Kisspeptin is stimulated—not inhibited—by high estradiol in this context."
-  },
-  {
-    "question": "A 29-year-old woman presents with infertility and hirsutism. Laboratory studies show elevated LH:FSH ratio, increased free testosterone, and low sex hormone-binding globulin (SHBG). Ultrasound shows multiple peripheral follicles in both ovaries. Which of the following mechanisms most directly contributes to her anovulation?",
-    "choices": [
-      "Increased estradiol production by granulosa cells",
-      "Excessive progesterone secretion by corpus luteum",
-      "Hyperandrogenemia leading to follicular atresia",
-      "Decreased GnRH pulse frequency suppressing LH",
-      "Elevated inhibin A suppressing FSH"
-    ],
-    "correctAnswer": 2,
-    "explanation": "This patient has classic findings of polycystic ovary syndrome (PCOS), characterized by hyperandrogenemia, elevated LH:FSH ratio, and anovulation. Androgen excess leads to follicular atresia, preventing dominant follicle selection. SHBG is decreased, increasing free testosterone. Progesterone rises post-ovulation, which is absent in PCOS. Inhibin A is more active in the luteal phase."
-  },
-  {
-    "question": "A 16-year-old girl presents with primary amenorrhea. She has normal breast development, absent axillary and pubic hair, and a blind vaginal pouch. Pelvic ultrasound shows no uterus or upper vagina. Karyotyping reveals 46,XY. Which of the following is the most likely cause of her phenotype?",
-    "choices": [
-      "Complete androgen insensitivity syndrome",
-      "Müllerian agenesis (MRKH syndrome)",
-      "Turner syndrome",
-      "5-alpha reductase deficiency",
-      "Kallmann syndrome"
+      "Activation of G protein-coupled receptors and increased intracellular calcium",
+      "Inhibition of prostaglandin synthesis",
+      "Competitive antagonism of progesterone receptors",
+      "Stimulation of beta-2 adrenergic receptors",
+      "Inhibition of calcium channels in myometrial smooth muscle"
     ],
     "correctAnswer": 0,
-    "explanation": "Complete androgen insensitivity syndrome (CAIS) presents in 46,XY individuals as phenotypic females with normal breast development (due to aromatization of testosterone to estrogen), absent uterus, and scant pubic/axillary hair due to androgen resistance. Müllerian agenesis is 46,XX and has normal pubic hair. Turner syndrome is 45,X and lacks breast development. Kallmann and 5-alpha reductase deficiency do not explain this full constellation."
+    "explanation": "Oxytocin induces uterine contractions by activating specific G protein-coupled receptors coupled to Gq and G11 proteins. This activation leads to the stimulation of the PLC-IP3 signaling pathway, increasing intracellular calcium and prostaglandins, enhancing uterine smooth muscle contractions. It does not inhibit prostaglandin synthesis or antagonize progesterone receptors, nor does it affect beta-2 adrenergic receptors or calcium channels directly."
   },
   {
-    "question": "A 26-year-old man presents for infertility evaluation. Semen analysis reveals azoospermia with a volume of 2.5 mL. Physical examination reveals small, firm testes. Labs show: Testosterone 600 ng/dL (normal: 300–1000), FSH 18 mIU/mL (normal: 1–9), LH 7 mIU/mL (normal: 2–9). Which of the following best explains the elevated FSH despite normal testosterone?",
+    "question": "A 29-year-old woman experiences heavy postpartum hemorrhage shortly after delivery. Which uterotonic agent is most effective and commonly used orally for controlling postpartum hemorrhage by inducing forceful uterine contractions?",
     "choices": [
-      "Androgen insensitivity syndrome",
-      "Sertoli cell-only syndrome (germ cell aplasia)",
-      "Leydig cell hyperplasia",
-      "Primary hypothalamic dysfunction",
-      "Androgen-producing adrenal tumor"
+      "Dinoprostone (PGE2)",
+      "Misoprostol (PGE1 analog)",
+      "Methylergonovine (Methergine)",
+      "Mifepristone (RU486)",
+      "Terbutaline"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Methylergonovine (Methergine), an ergot alkaloid, is frequently utilized to induce strong, sustained uterine contractions, especially effective orally in managing postpartum hemorrhage. Dinoprostone and Misoprostol are prostaglandins typically used for cervical ripening and induction or abortion but are less commonly first-line for postpartum hemorrhage. Mifepristone is a progesterone antagonist used primarily for abortion. Terbutaline is a beta-2 agonist used to delay labor, not induce contractions."
+  },
+  {
+    "question": "A 26-year-old pregnant woman at 32 weeks of gestation presents with preterm contractions. Physical exam shows cervical dilation of 2 cm with 30% effacement. A decision is made to administer a medication to inhibit uterine contractions. Which of the following drugs acts as a calcium channel blocker to inhibit uterine contractions?",
+    "choices": [
+      "Terbutaline",
+      "Indomethacin",
+      "Nifedipine",
+      "Magnesium sulfate",
+      "Atosiban"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nifedipine is a calcium channel blocker frequently used to relax myometrial smooth muscle and effectively inhibit preterm labor contractions. Terbutaline is a beta-2 agonist, while Indomethacin is a prostaglandin synthetase inhibitor. Magnesium sulfate also inhibits contractions, but primarily by competing with calcium rather than blocking calcium channels directly. Atosiban is an oxytocin receptor antagonist, not FDA-approved in the US."
+  },
+  {
+    "question": "A 35-year-old woman undergoing induction of labor develops excessive uterine contractions, leading to fetal distress. Which of the following medications could be administered acutely to reduce uterine contraction frequency and intensity?",
+    "choices": [
+      "Oxytocin",
+      "Ergonovine",
+      "Terbutaline",
+      "Mifepristone",
+      "Misoprostol"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Terbutaline, a beta-2 adrenergic receptor agonist, is used acutely to inhibit uterine contractions, reducing contraction frequency and intensity, thus alleviating fetal distress during excessive uterine activity. Oxytocin and Ergonovine increase uterine contractions and would worsen the situation. Mifepristone antagonizes progesterone receptors and Misoprostol stimulates uterine contractions; neither would be suitable in this scenario."
+  },
+  {
+    "question": "A 29-year-old woman presents to her physician with unilateral breast redness and tenderness localized to a specific area without fever. She is two months postpartum and breastfeeding. The physician diagnoses a blocked milk duct. Which of the following is the most appropriate initial treatment?",
+    "choices": [
+      "Initiation of antibiotic therapy",
+      "Immediate cessation of breastfeeding",
+      "Warm compresses and increased breastfeeding frequency",
+      "Referral for mammography",
+      "Surgical drainage of the affected duct"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Blocked milk ducts typically present with localized tenderness and redness but without fever or systemic symptoms. The initial management involves conservative measures such as applying warm compresses and increasing the frequency of breastfeeding or pumping to alleviate the obstruction. Antibiotics are indicated only if infection develops (fever, systemic symptoms). Cessation of breastfeeding is unnecessary and may worsen the condition. Mammography and surgical drainage are not initial interventions for uncomplicated blocked ducts."
+  },
+  {
+    "question": "A newborn develops symptoms of liver failure after breastfeeding. Laboratory investigations confirm galactosemia. Which enzyme deficiency is most likely responsible for this condition?",
+    "choices": [
+      "Lactase",
+      "Phenylalanine hydroxylase",
+      "Galactose-1-phosphate uridyltransferase",
+      "Hexosaminidase A",
+      "Glucose-6-phosphate dehydrogenase"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Galactosemia is an autosomal recessive metabolic disorder most commonly due to deficiency in the enzyme galactose-1-phosphate uridyltransferase. This enzyme deficiency impairs galactose metabolism, leading to toxic accumulation and liver failure after lactose ingestion from breast milk. Lactase deficiency causes lactose intolerance but not liver failure. Phenylalanine hydroxylase deficiency is seen in phenylketonuria (PKU). Hexosaminidase A deficiency is associated with Tay-Sachs disease, and glucose-6-phosphate dehydrogenase deficiency causes hemolytic anemia, not liver failure."
+  },
+  {
+    "question": "A 35-year-old woman who recently started breastfeeding presents with flu-like symptoms, fever, and unilateral breast pain with nipple fissures. Physical examination reveals breast redness and purulent discharge. Which of the following organisms is most likely responsible for her symptoms?",
+    "choices": [
+      "Staphylococcus aureus",
+      "Candida albicans",
+      "Escherichia coli",
+      "Streptococcus pneumoniae",
+      "Herpes simplex virus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Infective mastitis in breastfeeding women typically presents with unilateral breast pain, erythema, fever, and flu-like symptoms, often associated with nipple cracks or fissures. The most common pathogen responsible for mastitis is Staphylococcus aureus. Candida albicans typically causes fungal infections characterized by burning nipple pain and shiny, flaky skin but not fever. E. coli is uncommon in mastitis, Streptococcus pneumoniae typically does not cause mastitis, and Herpes simplex virus presents with painful vesicles rather than mastitis."
+  },
+  {
+    "question": "A 28-year-old woman requests contraception postpartum. She has a history of deep vein thrombosis and is concerned about future thrombosis risk. Which of the following contraceptive methods is most appropriate?",
+    "choices": [
+      "Combined oral contraceptive pills",
+      "Transdermal contraceptive patch",
+      "Progestin-only oral contraceptive pills",
+      "Vaginal contraceptive ring",
+      "Copper intrauterine device (IUD)"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Women with a history of thromboembolic events are contraindicated from using estrogen-containing contraceptive methods due to increased risk of thrombosis. The safest choice for contraception in these patients is typically a copper IUD, which contains no hormones and therefore does not increase thrombosis risk. Progestin-only pills are also a safe alternative, but the copper IUD is preferable due to even lower systemic hormonal exposure. Combined oral contraceptives, the transdermal patch, and the vaginal ring contain estrogen and are contraindicated due to significantly elevated thrombosis risk."
+  },
+  {
+    "question": "A 45-year-old woman presents to her physician with a firm, palpable breast mass that developed after minor breast trauma several months ago. Mammography shows a calcified lesion. Biopsy reveals foamy macrophages, giant cells, and fibrosis. Which of the following is the most likely diagnosis?",
+    "choices": [
+      "Fibroadenoma",
+      "Fat necrosis",
+      "Fibrocystic change",
+      "Ductal carcinoma in situ",
+      "Phyllodes tumor"
     ],
     "correctAnswer": 1,
-    "explanation": "This patient has isolated spermatogenic failure, as indicated by azoospermia with elevated FSH and normal testosterone. Sertoli cells secrete inhibin B, which negatively regulates FSH. In Sertoli cell-only syndrome, germ cells are absent and inhibin B is reduced, leading to compensatory FSH elevation. LH remains normal due to intact Leydig cell function and normal testosterone levels."
+    "explanation": "Fat necrosis often occurs after trauma or surgery, presenting as a firm palpable mass that can mimic malignancy clinically and radiologically due to calcification. Histologically, it features foamy macrophages, multinucleated giant cells, and fibrosis. Fibroadenoma usually occurs in younger women with a well-circumscribed, mobile mass. Fibrocystic change typically shows cysts, fibrosis, and epithelial proliferation without giant cells or macrophages. Ductal carcinoma in situ is characterized by neoplastic ductal cells confined within ducts, and Phyllodes tumors show a leaf-like architecture with cellular stroma."
   },
   {
-    "question": "A 68-year-old man is diagnosed with benign prostatic hyperplasia (BPH). He is started on finasteride. Which of the following best describes the mechanism of action of this medication?",
+    "question": "A 35-year-old lactating woman develops redness, tenderness, swelling, and warmth in her right breast, accompanied by fever and flu-like symptoms. She continues breastfeeding. Fine needle aspiration reveals neutrophils and abundant gram-positive cocci. What is the most likely causative organism?",
     "choices": [
-      "Blocks androgen receptor to reduce testosterone activity",
-      "Inhibits aromatase and decreases estradiol conversion",
-      "Inhibits 5α-reductase to decrease dihydrotestosterone",
-      "Stimulates SHBG synthesis to reduce free testosterone",
-      "Suppresses GnRH secretion via negative feedback"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Finasteride is a 5α-reductase inhibitor that reduces the conversion of testosterone to dihydrotestosterone (DHT). DHT is the primary androgen responsible for prostatic growth. This therapy reduces prostate volume over time. It does not block androgen receptors or affect aromatase. SHBG and GnRH are not directly altered by finasteride."
-  },
-  {
-    "question": "A 17-year-old male presents with delayed puberty and anosmia. Physical exam shows Tanner stage I genitalia and small testes. Labs reveal low FSH, low LH, and low testosterone. MRI shows no pituitary lesion. Which of the following is the most likely diagnosis?",
-    "choices": [
-      "Klinefelter syndrome",
-      "Constitutional growth delay",
-      "Complete androgen insensitivity syndrome",
-      "Kallmann syndrome",
-      "Sertoli-cell-only syndrome"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Kallmann syndrome is a form of idiopathic hypogonadotropic hypogonadism associated with anosmia due to failed migration of GnRH-producing neurons and olfactory bulbs. Labs show low gonadotropins and testosterone. Klinefelter is 47,XXY and shows high FSH/LH. CAIS has high testosterone and female phenotype. Sertoli-cell-only syndrome shows elevated FSH and normal T. Constitutional delay lacks anosmia and resolves with time."
-  },
-  {
-    "question": "A 17-year-old girl presents with primary amenorrhea and no breast development. Her serum FSH is 0.8 mIU/mL (normal 3–10), LH is 0.5 mIU/mL, and estradiol is low. MRI of the brain shows no pituitary mass. Which of the following is the most likely cause of her condition?",
-    "choices": [
-      "Turner syndrome (45,X)",
-      "Idiopathic hypogonadotropic hypogonadism",
-      "Complete androgen insensitivity syndrome",
-      "Müllerian agenesis",
-      "Premature ovarian insufficiency"
+      "Escherichia coli",
+      "Staphylococcus aureus",
+      "Candida albicans",
+      "Herpes simplex virus",
+      "Mycobacterium tuberculosis"
     ],
     "correctAnswer": 1,
-    "explanation": "This patient has delayed puberty with low FSH, LH, and estradiol—indicating hypogonadotropic hypogonadism. The most likely diagnosis is idiopathic hypogonadotropic hypogonadism (IHH), especially since MRI shows no mass. Turner syndrome would show high FSH/LH. CAIS and MRKH present with breast development due to estrogen. POI shows elevated FSH/LH with low estrogen."
+    "explanation": "Acute mastitis in breastfeeding women is most commonly caused by Staphylococcus aureus, presenting with localized inflammation, fever, and systemic symptoms. E. coli typically causes urinary tract infections and rarely mastitis. Candida infections are fungal and usually involve nipple pain and flaky skin rather than purulent discharge. Herpes simplex virus typically causes vesicular lesions, and Mycobacterium tuberculosis would present more chronically without rapid onset of acute inflammation."
   },
   {
-    "question": "A 2-year-old boy presents with early pubic hair, penile enlargement, and accelerated growth. His LH and FSH levels are undetectable, but his serum testosterone is markedly elevated. Which of the following is the most likely etiology of his condition?",
+    "question": "A biopsy of a breast lesion from a 28-year-old woman shows a well-circumscribed, mobile mass with proliferation of both stromal and epithelial components. Histology reveals intralobular stromal cells with corresponding epithelial proliferation. What is the most likely diagnosis?",
     "choices": [
-      "Constitutional delay of puberty",
-      "Central precocious puberty",
-      "McCune-Albright syndrome",
-      "Peripheral precocious puberty",
-      "Kallmann syndrome"
+      "Intraductal papilloma",
+      "Fibroadenoma",
+      "Phyllodes tumor",
+      "Ductal carcinoma in situ",
+      "Gynecomastia"
     ],
-    "correctAnswer": 3,
-    "explanation": "This child has peripheral (gonadotropin-independent) precocious puberty, supported by high testosterone with suppressed LH and FSH. Causes may include adrenal tumors or testicular hCG-producing tumors. Central precocious puberty would show elevated or responsive LH. McCune-Albright involves café-au-lait spots and bone abnormalities. Kallmann syndrome presents with delayed, not early, puberty."
+    "correctAnswer": 1,
+    "explanation": "Fibroadenoma is the most common benign breast tumor in young women, presenting as a well-circumscribed, mobile mass. Histologically, it demonstrates both stromal and epithelial proliferation. Intraductal papilloma presents typically with bloody nipple discharge and shows epithelial and myoepithelial cell proliferation within ducts. Phyllodes tumor also involves fibroepithelial proliferation but with highly cellular stroma and leaf-like architecture. Ductal carcinoma in situ is confined within ducts and shows neoplastic cells without stromal proliferation. Gynecomastia occurs in males with epithelial hyperplasia without significant stromal proliferation."
   },
   {
-    "question": "A 13-year-old boy has not yet entered puberty. Physical exam reveals small testes (<4 mL) and no pubic hair. His labs show FSH 38 mIU/mL, LH 24 mIU/mL, and testosterone <50 ng/dL. Which of the following karyotypes is most likely responsible for his condition?",
+    "question": "A 55-year-old woman presents with redness, edema, and peau d’orange appearance involving most of her left breast. Biopsy reveals tumor emboli within dermal lymphatics. What is the most likely diagnosis?",
     "choices": [
-      "46,XX",
-      "46,XY",
-      "47,XXY",
-      "45,X",
-      "46,XY with SRY deletion"
+      "Paget disease of the nipple",
+      "Inflammatory breast carcinoma",
+      "Invasive ductal carcinoma, no special type",
+      "Fat necrosis",
+      "Acute mastitis"
     ],
-    "correctAnswer": 2,
-    "explanation": "This presentation—delayed puberty, small testes, low testosterone, and elevated FSH/LH—is classic for hypergonadotropic hypogonadism. The most common chromosomal cause in males is Klinefelter syndrome (47,XXY), which leads to seminiferous tubule degeneration and impaired Leydig function. 45,X and SRY deletions typically affect females or result in gonadal dysgenesis."
+    "correctAnswer": 1,
+    "explanation": "Inflammatory breast carcinoma is a clinical-pathological entity characterized by diffuse erythema, edema, and peau d’orange involving at least one-third of the breast skin due to dermal lymphatic tumor emboli causing lymphatic obstruction. Paget disease involves scaling and crusting of the nipple epidermis. Invasive ductal carcinoma typically presents as a discrete mass rather than diffuse inflammation. Fat necrosis often follows trauma without tumor emboli or peau d'orange. Acute mastitis shows infection and inflammatory infiltrate without tumor emboli."
   },
   {
-    "question": "A 16-year-old transgender boy (assigned female at birth) comes to your clinic with his mother to discuss options for gender-affirming care. The patient expresses a strong desire to begin hormone therapy. His mother is concerned and hesitant. The patient appears anxious but well-informed and articulate. What is the most appropriate next step in this clinical encounter?",
+    "question": "A 58-year-old postmenopausal woman presents with abnormal uterine bleeding. Endometrial biopsy demonstrates crowded, irregular glands with loss of intervening stroma and marked cytological atypia, including rounded nuclei with vesicular chromatin and prominent nucleoli. Loss of which tumor suppressor gene is most likely associated with this pathology?",
     "choices": [
-      "Inform the patient that parental consent is required and defer the conversation",
-      "Refer the patient for psychiatric evaluation to assess for underlying mental illness",
-      "Acknowledge the patient’s gender identity and discuss the benefits of multidisciplinary support, including psychological and medical evaluation",
-      "Tell the patient that hormone therapy should only be started after age 18",
-      "Prescribe testosterone to the patient as requested"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The most appropriate next step is to affirm the patient’s identity and engage in a **multidisciplinary, patient-centered approach** that includes mental health professionals and pediatric endocrinologists experienced in gender-affirming care. This supports informed decision-making and addresses the needs of both the adolescent and their guardian. Immediate prescribing without evaluation or dismissing the patient’s concerns violates ethical and professional standards."
-  },
-  {
-    "question": "A 29-year-old transgender woman (assigned male at birth) comes to the clinic for a new patient visit. She has not seen a doctor in over 5 years due to prior negative experiences. During the visit, she expresses concern about discrimination in healthcare and asks whether her identity will be respected. What is the most appropriate response by the physician?",
-    "choices": [
-      "Reassure her that you will refer her to an LGBTQ-specific clinic for her care",
-      "Explain that clinical decisions are based on biological sex, not gender identity",
-      "State your commitment to providing inclusive care, ask for her preferred name and pronouns, and ensure her identity is respected throughout the visit",
-      "Avoid focusing on gender issues and proceed directly with the medical interview",
-      "Ask her to sign a waiver acknowledging that her medical records will still reflect her legal sex"
+      "P53",
+      "BRCA1",
+      "PTEN",
+      "KRAS",
+      "FOXL2"
     ],
     "correctAnswer": 2,
-    "explanation": "Affirming the patient’s identity by asking for **preferred name and pronouns** and stating a commitment to inclusive care builds trust and aligns with trauma-informed and patient-centered care models. Avoiding or minimizing her concerns, misgendering, or unnecessarily referring out may reinforce distrust and is inappropriate. Respectful communication is essential in reducing healthcare disparities in transgender populations."
+    "explanation": "This patient has endometrial atypical hyperplasia/endometrioid intraepithelial neoplasia (EIN), characterized by crowded glands, significant atypia, and loss of stroma. The primary molecular event associated with EIN and endometrioid carcinoma is loss of the PTEN tumor suppressor gene. P53 mutations are typically seen in serous carcinoma of the endometrium, BRCA1 in ovarian/breast carcinoma, KRAS mutations frequently occur in mucinous ovarian tumors, and FOXL2 mutations are specific for adult granulosa cell tumors of the ovary."
+  },
+  {
+    "question": "A 35-year-old woman with obesity presents with oligomenorrhea, hirsutism, and infertility. Ultrasound reveals bilaterally enlarged ovaries with multiple subcapsular cysts. Laboratory evaluation reveals elevated LH and low FSH. This patient is at increased risk for developing which of the following conditions?",
+    "choices": [
+      "Endometrial carcinoma",
+      "Ovarian serous carcinoma",
+      "Ovarian mucinous carcinoma",
+      "Cervical squamous carcinoma",
+      "Endometrial stromal sarcoma"
+    ],
+    "correctAnswer": 0,
+    "explanation": "This patient's clinical presentation and ultrasound findings are consistent with polycystic ovarian syndrome (PCOS). PCOS is associated with unopposed estrogen exposure, significantly increasing the risk of endometrial hyperplasia and subsequent endometrial carcinoma. Ovarian serous and mucinous carcinomas, cervical carcinoma, and endometrial stromal sarcoma are not typically associated with PCOS."
+  },
+  {
+    "question": "A 60-year-old woman presents with postmenopausal bleeding. Pelvic examination reveals an enlarged uterus with a bulky, fleshy mass invading the myometrial wall. Histology demonstrates spindle cells with marked nuclear atypia, numerous mitotic figures, and areas of necrosis. What is the most likely diagnosis?",
+    "choices": [
+      "Leiomyoma",
+      "Endometrial stromal sarcoma",
+      "Leiomyosarcoma",
+      "Adenomyosis",
+      "Endometrial carcinoma"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Leiomyosarcoma is characterized by a bulky, fleshy mass invading the uterine wall, with histology showing spindle cells with significant nuclear atypia, high mitotic activity, and tumor necrosis. Leiomyomas are benign and histologically uniform without significant atypia or necrosis. Endometrial stromal sarcoma has different morphology (low-grade stromal cells). Adenomyosis involves endometrial tissue within myometrium without significant atypia or necrosis, and endometrial carcinoma typically presents as glandular proliferation rather than spindle cells."
+  },
+  {
+    "question": "A 55-year-old woman undergoes surgery for a pelvic mass. Histologic examination of the ovarian mass shows cells arranged in microfollicular patterns (Call-Exner bodies) with scant pale cytoplasm and grooved nuclei. Immunohistochemical testing would most likely reveal elevated levels of which marker?",
+    "choices": [
+      "AFP",
+      "CA-125",
+      "Inhibin",
+      "LDH",
+      "hCG"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The described histological features—Call-Exner bodies, grooved nuclei, and pale cytoplasm—are characteristic of adult granulosa cell tumors, which secrete estrogen and have elevated serum inhibin levels. AFP elevation is associated with yolk sac tumors, CA-125 is typically elevated in epithelial ovarian carcinomas, LDH elevation is common in dysgerminomas, and elevated hCG is characteristic of choriocarcinoma."
   }
-];
+  ];
 
 let currentQuestionIndex = 0;
 let correctAnswers = 0;
