@@ -1,6 +1,65 @@
 // Quiz Data
 const quizData = [
   {
+  "question": "A 24-year-old woman presents to her physician complaining of a deep, aching pain in her lower abdomen for four months. When the pain began, she thought it was her usual menstrual cramps. She has had menstrual cramps since menarche at age 12. On several occasions, they were so severe that she had to miss school. Previously, the pain usually lasted for three to four days and sometimes improved with ibuprofen. She decided to see the doctor because of persistence of pain. What laboratory test should be ordered first?",
+  "choices": [
+    "Rheumatoid Factor",
+    "Pregnancy Test",
+    "Uric Acid",
+    "TSH"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Any fertile female with abnormal uterine bleeding (AUB) or pelvic pain needs a urine pregnancy test (UPT) to rule out pregnancy. Pregnancy-related complications, such as ectopic pregnancy, must be excluded early in the diagnostic workup."
+},
+{
+  "question": "A 26-year-old woman presents with moderate to severe lower abdominal and pelvic pain for two days, along with a fever of 102.4°F. She reports a monogamous relationship and is sexually active. On physical exam, there is bilateral lower abdominal tenderness, purulent cervical discharge, and marked cervical, uterine, and adnexal tenderness. Her WBC count is elevated, and serum pregnancy test is negative. What is the most likely diagnosis?",
+  "choices": [
+    "Ectopic Pregnancy",
+    "Ovarian Torsion",
+    "Pelvic Inflammatory Disease",
+    "Ruptured Appendicitis",
+    "Septic Abortion"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Pelvic Inflammatory Disease (PID) is characterized by fever, elevated WBC count, purulent cervical discharge, and cervical motion tenderness (CMT), often referred to as the 'chandelier sign.' These findings strongly point toward PID, particularly in a sexually active woman. Ectopic pregnancy and septic abortion are unlikely due to the negative serum pregnancy test. Ovarian torsion and ruptured appendicitis are not commonly associated with purulent cervical discharge, although coexisting conditions are always possible and should be considered if clinical status changes."
+},
+{
+  "question": "A 26-year-old woman presents with fever, lower abdominal pain, cervical motion tenderness, and purulent cervical discharge. A serum pregnancy test is negative. Which of the following is the best next step that might yield additional information to help support the suspected diagnosis of pelvic inflammatory disease (PID)?",
+  "choices": [
+    "Blood cultures",
+    "CT scan",
+    "Gonorrhea and Chlamydia Testing",
+    "Pelvic Ultrasound",
+    "Urine pregnancy test"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Gonorrhea and Chlamydia are common causative organisms of PID. Testing for these pathogens is recommended to help support the diagnosis. A positive result supports the diagnosis, while a negative result does not exclude it. Blood cultures are indicated only if the patient is septic (e.g., hypotension, tachycardia). CT scan and pelvic ultrasound are useful for detecting complications such as tubo-ovarian abscess (TOA), but are not the initial next step in a stable patient. Urine pregnancy test is unnecessary as a serum pregnancy test was already negative."
+},
+{
+  "question": "A 30-year-old woman presents to the clinic for follow-up 2 weeks after a spontaneous miscarriage at 10 weeks gestation. She appears quiet and tearful. She shares that she has been having trouble sleeping, has felt guilt about the miscarriage, and is avoiding friends who are pregnant. Her vitals and physical exam are unremarkable. Which of the following is the most appropriate next step in management?",
+  "choices": [
+    "Reassure her that miscarriages are common and suggest trying to conceive again in a few months",
+    "Refer her to psychiatry immediately for possible major depressive disorder",
+    "Acknowledge her loss, validate her emotions, and offer resources for support groups or counseling",
+    "Order serum hCG levels to ensure complete resolution of the pregnancy",
+    "Start her on an SSRI to preempt postpartum depression"
+  ],
+  "correctAnswer": 2,
+  "explanation": "This patient is demonstrating emotional distress following pregnancy loss. The best holistic approach is to acknowledge her grief and validate her emotional experience, which are essential elements of trauma-informed care. Offering support resources such as bereavement counseling or support groups empowers her and respects her experience. While medical follow-up is important, addressing the psychological and emotional impact is the priority in this context."
+},
+{
+  "question": "A 26-year-old woman presents with her newborn for a routine 6-week postpartum checkup. During the visit, she admits to feeling overwhelmed, tearful most days, and disconnected from her baby. She says she feels like a bad mother and hasn’t been eating well or sleeping, even when the baby is sleeping. She has no thoughts of harming herself or the baby. What is the most appropriate next step?",
+  "choices": [
+    "Normalize her symptoms as typical baby blues and encourage more rest",
+    "Acknowledge her feelings, screen for postpartum depression, and discuss a care plan that includes mental health support",
+    "Advise her to stop breastfeeding and start medication immediately",
+    "Reassure her that this will pass and schedule follow-up in 4 weeks",
+    "Encourage her partner to take over more baby duties without addressing her concerns directly"
+  ],
+  "correctAnswer": 1,
+  "explanation": "This patient’s symptoms are consistent with postpartum depression, not just the 'baby blues.' Holistic, patient-centered care involves validating her experience, using formal screening tools (like the Edinburgh Postnatal Depression Scale), and creating a collaborative care plan. Early identification and support—including therapy and possibly pharmacologic treatment—improve outcomes for both mother and child."
+},
+  {
     "question": "A 28-year-old woman at 34 weeks of gestation presents with mild dependent peripheral edema and reports shortness of breath when lying flat. She has no history of cardiovascular disease. Examination reveals a loud third heart sound and a systolic ejection murmur. What is the most likely physiologic explanation for these findings?",
     "choices": [
       "Pathological valvular heart disease",
