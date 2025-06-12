@@ -82,7 +82,7 @@ const quizData = [
       "Thyroid hormone deficiency"
     ],
     "correctAnswer": 1,
-    "explanation": "This patient presents with features of **Laron syndrome**, a condition caused by a mutation in the **growth hormone receptor**, leading to GH resistance. GH levels are elevated due to lack of feedback inhibition, but IGF-1 remains low because GH signaling is impaired. Exogenous GH administration is ineffective. A pituitary macroadenoma would increase GH and possibly IGF-1. Somatostatin overproduction would suppress GH. IGF-1 receptor mutation would not affect IGF-1 levels but would affect its action. Thyroid hormone deficiency can impair growth but usually affects GH secretion indirectly."
+    "explanation": "This patient presents with features of Laron syndrome, a condition caused by a mutation in the growth hormone receptor, leading to GH resistance. GH levels are elevated due to lack of feedback inhibition, but IGF-1 remains low because GH signaling is impaired. Exogenous GH administration is ineffective. A pituitary macroadenoma would increase GH and possibly IGF-1. Somatostatin overproduction would suppress GH. IGF-1 receptor mutation would not affect IGF-1 levels but would affect its action. Thyroid hormone deficiency can impair growth but usually affects GH secretion indirectly."
   },
   {
     "question": "A 45-year-old man presents with weight loss, increased appetite, palpitations, and heat intolerance. Examination reveals a diffusely enlarged thyroid and bilateral exophthalmos. Laboratory findings show low TSH and elevated T3/T4. Which of the following is the primary mechanism responsible for the ocular findings in this patient?",
@@ -94,7 +94,7 @@ const quizData = [
       "Increased conversion of T4 to T3 in the orbit"
     ],
     "correctAnswer": 3,
-    "explanation": "**Graves disease** is characterized by autoantibodies that stimulate the TSH receptor. While this explains the hyperthyroid state (choice C), the **exophthalmos** is due to **TSH receptor activation on orbital fibroblasts**, causing glycosaminoglycan deposition, edema, and inflammation (choice D). Choice A explains the general hyperthyroid state, but not the eye findings. Increased sympathetic tone contributes to lid lag but not exophthalmos. T4-to-T3 conversion in the orbit is not pathophysiologically significant in exophthalmos."
+    "explanation": "Graves disease is characterized by autoantibodies that stimulate the TSH receptor. While this explains the hyperthyroid state (choice C), the exophthalmos is due to TSH receptor activation on orbital fibroblasts, causing glycosaminoglycan deposition, edema, and inflammation (choice D). Choice A explains the general hyperthyroid state, but not the eye findings. Increased sympathetic tone contributes to lid lag but not exophthalmos. T4-to-T3 conversion in the orbit is not pathophysiologically significant in exophthalmos."
   },
   {
     "question": "A researcher studying thyroid physiology administers high-dose iodide to rats. Histologic sections of the thyroid reveal decreased colloid uptake and reduced T3/T4 secretion. Which of the following best explains this effect?",
@@ -106,7 +106,7 @@ const quizData = [
       "Inhibition of thyroid-stimulating hormone (TSH) release"
     ],
     "correctAnswer": 0,
-    "explanation": "High-dose iodide can lead to the **Wolff-Chaikoff effect**, a transient suppression of thyroid hormone synthesis due to inhibition of **iodide organification**. This reduces thyroid hormone production and colloid uptake. This is different from radioactive destruction (choice C). Thyroglobulin synthesis is not directly inhibited. Deiodinase activity primarily regulates peripheral conversion of T4 to T3 (not colloid uptake). TSH suppression occurs in hyperthyroidism, not in this scenario of high iodide exposure."
+    "explanation": "High-dose iodide can lead to the Wolff-Chaikoff effect, a transient suppression of thyroid hormone synthesis due to inhibition of iodide organification. This reduces thyroid hormone production and colloid uptake. This is different from radioactive destruction (choice C). Thyroglobulin synthesis is not directly inhibited. Deiodinase activity primarily regulates peripheral conversion of T4 to T3 (not colloid uptake). TSH suppression occurs in hyperthyroidism, not in this scenario of high iodide exposure."
   },
   {
     "question": "A 9-year-old boy is brought to the ER with vomiting, abdominal pain, and rapid breathing. Physical exam reveals Kussmaul respirations and dry mucous membranes. Labs show hyperglycemia, elevated anion gap metabolic acidosis, and positive serum ketones. Which of the following mechanisms most directly contributes to the metabolic acidosis observed in this patient?",
@@ -143,42 +143,6 @@ const quizData = [
     ],
     "correctAnswer": 2,
     "explanation": "Diabetic nephropathy primarily affects the glomerular basement membrane (GBM) and mesangial matrix, leading to thickening, sclerosis, and albuminuria. This is the first manifestation of renal involvement in long-standing diabetes. Tubular involvement can occur later, but GBM injury is central. The macula densa is involved in tubuloglomerular feedback, not directly damaged in early diabetic nephropathy."
-  },
-  {
-    "question": "A 13-year-old boy is brought to the ER with vomiting, abdominal pain, rapid breathing, and confusion. His serum glucose is 430 mg/dL, pH is 7.15, bicarbonate is 10 mEq/L, and serum ketones are positive. Which of the following mechanisms best explains the development of his acid-base status?",
-    "choices": [
-      "Activation of insulin-dependent GLUT4 receptors",
-      "Overproduction of lactic acid from anaerobic glycolysis",
-      "Beta-oxidation of fatty acids due to insulin deficiency",
-      "Increased hepatic glycogen synthesis",
-      "Inhibition of glucagon secretion"
-    ],
-    "correctAnswer": 2,
-    "explanation": "This patient is in diabetic ketoacidosis (DKA), characterized by anion gap metabolic acidosis and positive serum ketones. In the absence of insulin, hormone-sensitive lipase is activated, leading to lipolysis and release of free fatty acids. These are converted to ketone bodies (acetoacetate, beta-hydroxybutyrate) via beta-oxidation in the liver, causing acidosis. GLUT4 activation occurs in the presence of insulin. Lactic acidosis may occur but is not the main driver in DKA. Glycogen synthesis is insulin-dependent and suppressed here. Glucagon secretion is increased, not inhibited."
-  },
-  {
-    "question": "A 50-year-old man with poorly controlled type 2 diabetes has elevated triglycerides and LDL-C despite statin use. He is obese, with high leptin levels and elevated fasting insulin. Which of the following best explains his persistent dyslipidemia?",
-    "choices": [
-      "Increased insulin-stimulated lipoprotein lipase activity",
-      "Enhanced leptin signaling on hypothalamic neurons",
-      "Leptin resistance and impaired lipid oxidation",
-      "Excess secretion of ketone bodies due to glucagon",
-      "Decreased VLDL production by the liver"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Leptin resistance, often seen in obesity and type 2 diabetes, leads to impaired feedback regulation of appetite and fat metabolism. This contributes to dyslipidemia by reducing fatty acid oxidation and promoting hepatic lipid accumulation. Insulin resistance also impairs suppression of VLDL production. Lipoprotein lipase activity is actually reduced in insulin resistance. Leptin signaling is blunted, not enhanced. Excess ketone production is more associated with type 1 diabetes and DKA, not T2DM. VLDL production is increased, not decreased."
-  },
-  {
-    "question": "A 68-year-old woman presents with new-onset confusion and lethargy. Her blood glucose is 740 mg/dL. Labs reveal normal serum ketones, a pH of 7.38, and a serum osmolality of 330 mOsm/kg. Which of the following best explains the absence of ketone production in this patient?",
-    "choices": [
-      "Excess catecholamine activation of hormone-sensitive lipase",
-      "Persistent hepatic gluconeogenesis from amino acids",
-      "Sufficient insulin to suppress lipolysis and ketogenesis",
-      "Severe inhibition of pyruvate dehydrogenase activity",
-      "Elevated growth hormone stimulating lipolysis"
-    ],
-    "correctAnswer": 2,
-    "explanation": "This patient has hyperosmolar hyperglycemic state (HHS), commonly seen in type 2 diabetes. Although insulin levels are insufficient to suppress hepatic glucose production, they are adequate to inhibit lipolysis and ketogenesis, explaining the absence of ketones. In contrast, DKA occurs when insulin is nearly absent. Catecholamines, GH, and gluconeogenesis may contribute to hyperglycemia but do not directly suppress ketone formation. PDH inhibition is more relevant in lactic acidosis."
   },
   {
     "question": "A 13-year-old boy is brought to the ER with vomiting, abdominal pain, rapid breathing, and confusion. His serum glucose is 430 mg/dL, pH is 7.15, bicarbonate is 10 mEq/L, and serum ketones are positive. Which of the following mechanisms best explains the development of his acid-base status?",
@@ -311,6 +275,42 @@ const quizData = [
     ],
     "correctAnswer": 3,
     "explanation": "Emphysematous cystitis is a rare but serious complication seen almost exclusively in diabetics. It is characterized by gas production in the bladder wall due to glucose-fermenting organisms like E. coli and Klebsiella. Pneumaturia (air in urine) and gas on imaging are hallmark findings. Pyelonephritis involves the kidney. Candida usually doesn't produce gas. Neurogenic bladder and diverticulosis do not explain gas formation."
+  },
+  {
+    "question": "A 12-year-old boy is diagnosed with type 1 diabetes mellitus. His parents are concerned about the genetic risks for their other children. Which of the following most accurately describes the inheritance pattern and associated genetic factors in this condition?",
+    "choices": [
+      "Autosomal dominant inheritance with full penetrance",
+      "Single-gene mutation in the insulin receptor gene",
+      "Strong HLA gene association and moderate concordance in monozygotic twins",
+      "High concordance in dizygotic twins and absence of genetic involvement",
+      "Mitochondrial inheritance pattern affecting both sexes equally"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Type 1 diabetes has a multifactorial inheritance pattern with strong associations to specific HLA genes (notably HLA-DR3 and DR4). It also shows moderate concordance in monozygotic twins (23–61%), indicating a significant but not exclusive genetic contribution. It is not inherited in a classic Mendelian pattern, and it's not due to a single-gene mutation like MODY. Dizygotic twins show much lower concordance (0–27%), and mitochondrial inheritance is not involved."
+  },
+  {
+    "question": "A 34-year-old woman with a strong family history of early-onset diabetes presents with elevated fasting blood glucose. Her BMI is 22 and she does not require insulin. Genetic testing reveals a mutation in the HNF1A gene. Which of the following best describes her condition?",
+    "choices": [
+      "Multifactorial type 2 diabetes mellitus",
+      "Type 1 diabetes mellitus with HLA-DR3 association",
+      "MODY, a monogenic form of diabetes with autosomal dominant inheritance",
+      "Gestational diabetes from placental hormone resistance",
+      "Neonatal diabetes due to 6q24 imprinting abnormalities"
+    ],
+    "correctAnswer": 2,
+    "explanation": "This patient has maturity-onset diabetes of the young (MODY), specifically MODY3, which involves mutations in the HNF1A gene. MODY is inherited in an autosomal dominant fashion and typically presents with early-onset diabetes in non-obese patients who do not require insulin. Type 2 diabetes is polygenic and linked with obesity. Type 1 diabetes is autoimmune and associated with HLA alleles, not HNF1A mutations. Neonatal diabetes appears in infancy and has distinct causes such as 6q24 imprinting defects."
+  },
+  {
+    "question": "Twin studies are conducted to understand the genetic basis of diabetes. Which of the following findings best supports a strong environmental influence in type 2 diabetes development?",
+    "choices": [
+      "Concordance rate of 34% in monozygotic twins and 16% in dizygotic twins",
+      "Concordance rate of 90% in monozygotic twins and 10% in dizygotic twins",
+      "Equal concordance in monozygotic and dizygotic twins",
+      "Lack of concordance in monozygotic twins for type 1 diabetes",
+      "A higher concordance rate for type 1 diabetes than type 2 diabetes in monozygotic twins"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In type 2 diabetes, monozygotic twins have a concordance rate of ~34% and dizygotic twins ~16%. While this supports a genetic component, the relatively modest concordance even among genetically identical twins highlights a strong environmental influence (diet, obesity, physical inactivity). In contrast, a 90% concordance would imply a stronger genetic effect. Type 1 diabetes has higher concordance in MZ twins (23–61%) than in T2D, indicating a different pattern of heritability. Equal concordance in MZ and DZ twins would imply no genetic influence."
   },
   {
     "question": "A 51-year-old man with diabetes and peripheral neuropathy presents with a shallow ulcer beneath his first metatarsal. He reports no pain. The ulcer is moist, non-malodorous, and without signs of surrounding cellulitis. Pedal pulses are present. What is the most appropriate next step in management?",
